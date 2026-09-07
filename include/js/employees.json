@@ -1,0 +1,1422 @@
+[
+  {
+    "id": "240862",
+    "name": "김진호",
+    "dept": "안전혁신실",
+    "deptCode": "DEPT_SAFETY",
+    "pos": "선임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "jinho.kim@dtaq.re.kr",
+    "phone": "055-751-2408",
+    "duties": [
+      "안전보건 관리체계 수립 및 총괄",
+      "기관 안전점검 및 예방조치 계획 수립",
+      "위험성평가 실시 및 개선대책 이행"
+    ],
+    "history": [
+      {
+        "date": "2024.01 ~ 현재",
+        "dept": "안전혁신실",
+        "pos": "선임연구원"
+      },
+      {
+        "date": "2021.01 ~ 2022.12",
+        "dept": "정책기획실",
+        "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2020.12",
+        "dept": "인재개발실",
+        "pos": "연구보조원"
+      },
+      {
+        "date": "2017.01 ~ 2018.12",
+        "dept": "감사실",
+        "pos": "책임연구원"
+      }
+    ]
+  },
+  {
+    "id": "201245",
+    "name": "김진호",
+    "dept": "법무실",
+    "deptCode": "DEPT_LEGAL",
+    "pos": "책임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "jh.kim@dtaq.re.kr",
+    "phone": "055-751-2012",
+    "duties": [
+      "국방품질 관련 법률 검토 및 소송 지원",
+      "기관 제규정 제·개정 심의 및 자문",
+      "지식재산권 관리 및 법률 분쟁 대응"
+    ],
+    "history": [
+      {
+        "date": "2020.01 ~ 현재",
+        "dept": "법무실",
+        "pos": "책임연구원"
+      }
+    ]
+  },
+  {
+    "id": "231467",
+    "name": "김진호",
+    "dept": "정책기획실",
+    "deptCode": "DEPT_POLICY",
+    "pos": "선임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "jinho23@dtaq.re.kr",
+    "phone": "055-751-2314",
+    "duties": [
+      "중장기 국방품질보증 정책 및 전략 수립",
+      "국방기술품질원 발전계획 및 과제 기획",
+      "정부 및 국방부 정책 대응 자료 작성"
+    ],
+    "history": [
+      {
+        "date": "2024.01 ~ 현재",
+        "dept": "감사실",
+        "pos": "선임연구원"
+      },
+      {
+        "date": "2021.01 ~ 2022.12",
+        "dept": "계획예산실",
+        "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2020.12",
+        "dept": "국제협력실",
+        "pos": "연구보조원"
+      }
+    ]
+  },
+  {
+    "id": "261010",
+    "name": "김진호",
+    "dept": "경영지원실",
+    "deptCode": "DEPT_MGMT",
+    "pos": "선임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "honggildong@dtaq.re.kr",
+    "phone": "055-111-1234",
+    "duties": [
+      "품질정책 및 품질기획 수립",
+      "국방품질 관리체계 기획 및 운영",
+      "품질 관련 통계 분석 및 보고서 지원"
+    ],
+    "history": [
+      {
+        "date": "2021.01 ~ 현재",
+        "dept": "품질기획센터",
+        "pos": "선임연구원"
+      },
+      {
+        "date": "2018.07 ~ 2020.12",
+        "dept": "시험평가센터",
+        "pos": "연구원"
+      }
+    ]
+  },
+  {
+    "id": "224567",
+    "name": "김진호",
+    "dept": "정책기획실",
+    "deptCode": "DEPT_POLICY",
+    "pos": "연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "jinho_p@dtaq.re.kr",
+    "phone": "055-751-2245",
+    "duties": [
+      "정책연구 사업 모니터링 및 실적 관리",
+      "부서 성과지표(KPI) 취합 및 제출",
+      "기획회의 운영 지원 및 기록 관리"
+    ],
+    "history": [
+      {
+        "date": "2024.01 ~ 현재",
+        "dept": "정보보안안전부",
+        "pos": "연구원"
+      },
+      {
+        "date": "2021.01 ~ 2022.12",
+        "dept": "시험평가센터",
+        "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2020.12",
+        "dept": "인증지원센터",
+        "pos": "연구보조원"
+      },
+      {
+        "date": "2017.01 ~ 2018.12",
+        "dept": "법무실",
+        "pos": "책임연구원"
+      }
+    ]
+  },
+  {
+    "id": "251233",
+    "name": "김진호",
+    "dept": "인재개발실",
+    "deptCode": "DEPT_HR",
+    "pos": "연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "jinho_hr@dtaq.re.kr",
+    "phone": "055-751-2512",
+    "duties": [
+      "임직원 직무교육 및 역량강화 프로그램 운영",
+      "신입사원 OJT 및 인재육성 체계 구축",
+      "교육훈련 만족도 조사 및 평가 분석"
+    ],
+    "history": [
+      {
+        "date": "2023.01 ~ 현재",
+        "dept": "인재개발실",
+        "pos": "연구원"
+      }
+    ]
+  },
+  {
+    "id": "264123",
+    "name": "김진호",
+    "dept": "첨단미래기술센터",
+    "deptCode": "DEPT_FUTURE",
+    "pos": "책임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "jinho_tech@dtaq.re.kr",
+    "phone": "055-751-2641",
+    "duties": [
+      "무인·AI 첨단 무기체계 품질검증 기술 연구",
+      "미래 국방기술 신뢰성 평가 프레임워크 구축",
+      "산학연 합동 연구과제 총괄 관리"
+    ],
+    "history": [
+      {
+        "date": "2024.01 ~ 현재",
+        "dept": "법무실",
+        "pos": "책임연구원"
+      },
+      {
+        "date": "2021.01 ~ 2022.12",
+        "dept": "경영지원실",
+        "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2020.12",
+        "dept": "첨단미래기술센터",
+        "pos": "연구보조원"
+      }
+    ]
+  },
+  {
+    "id": "270112",
+    "name": "이수민",
+    "dept": "감사실",
+    "deptCode": "DEPT_AUDIT",
+    "pos": "책임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "sm.lee@dtaq.re.kr",
+    "phone": "055-751-2701",
+    "duties": [
+      "기관 종합 감사 및 청렴도 향상 대책 수립",
+      "일상감사 및 계약 검토 업무",
+      "부패방지 경영시스템 운영"
+    ],
+    "history": [
+      {
+        "date": "2018.01 ~ 현재",
+        "dept": "감사실",
+        "pos": "책임연구원"
+      }
+    ]
+  },
+  {
+    "id": "281099",
+    "name": "박성우",
+    "dept": "조직인사실",
+    "deptCode": "DEPT_HR_ORG",
+    "pos": "선임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "sw.park@dtaq.re.kr",
+    "phone": "055-751-2810",
+    "duties": [
+      "채용 및 인사평가 체계 관리",
+      "조직개편 및 정원 관리",
+      "노사관계 및 복리후생 운용"
+    ],
+    "history": [
+      {
+        "date": "2024.01 ~ 현재",
+        "dept": "조직인사실",
+        "pos": "선임연구원"
+      },
+      {
+        "date": "2021.01 ~ 2022.12",
+        "dept": "대외협력기획실",
+        "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2020.12",
+        "dept": "정보화지원실",
+        "pos": "연구보조원"
+      },
+      {
+        "date": "2017.01 ~ 2018.12",
+        "dept": "품질기획센터",
+        "pos": "책임연구원"
+      }
+    ]
+  },
+  {
+    "id": "292301",
+    "name": "최윤정",
+    "dept": "계획예산실",
+    "deptCode": "DEPT_BUDGET",
+    "pos": "선임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "yj.choi@dtaq.re.kr",
+    "phone": "055-751-2923",
+    "duties": [
+      "연간 예산 편성 및 집행 관리",
+      "국회 및 기재부 예산 심의 대응",
+      "재정성과평가 및 예산 이·전용 관리"
+    ],
+    "history": [
+      {
+        "date": "2021.03 ~ 현재",
+        "dept": "계획예산실",
+        "pos": "선임연구원"
+      }
+    ]
+  },
+  {
+    "id": "301455",
+    "name": "정민재",
+    "dept": "대외협력기획실",
+    "deptCode": "DEPT_COOP",
+    "pos": "연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "mj.jung@dtaq.re.kr",
+    "phone": "055-751-3014",
+    "duties": [
+      "국방 유관기관 협력 네트워크 구축",
+      "언론 홍보 및 대외 소통 관리",
+      "기관 홍보물 제작 및 설명회 개최"
+    ],
+    "history": [
+      {
+        "date": "2024.01 ~ 현재",
+        "dept": "품질기획센터",
+        "pos": "연구원"
+      },
+      {
+        "date": "2021.01 ~ 2022.12",
+        "dept": "기술지원센터",
+        "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2020.12",
+        "dept": "안전혁신실",
+        "pos": "연구보조원"
+      }
+    ]
+  },
+  {
+    "id": "312890",
+    "name": "강현우",
+    "dept": "국제협력실",
+    "deptCode": "DEPT_INTL",
+    "pos": "선임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "hw.kang@dtaq.re.kr",
+    "phone": "055-751-3128",
+    "duties": [
+      "해외 군수품 품질보증 상호수락 협정(MOU) 체결",
+      "방산 수출 지원 품질인증 총괄",
+      "국제 방산 품질 회의 참석 및 기술 교류"
+    ],
+    "history": [
+      {
+        "date": "2019.08 ~ 현재",
+        "dept": "국제협력실",
+        "pos": "선임연구원"
+      }
+    ]
+  },
+  {
+    "id": "324102",
+    "name": "조예은",
+    "dept": "정보화지원실",
+    "deptCode": "DEPT_IT",
+    "pos": "선임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "ye.cho@dtaq.re.kr",
+    "phone": "055-751-3241",
+    "duties": [
+      "기관 정보시스템 구축 및 통합 유지보수",
+      "품질보증 정보망(DQMS) 운영 총괄",
+      "클라우드 및 데이터베이스 관리"
+    ],
+    "history": [
+      {
+        "date": "2024.01 ~ 현재",
+        "dept": "정책기획실",
+        "pos": "선임연구원"
+      },
+      {
+        "date": "2021.01 ~ 2022.12",
+        "dept": "인재개발실",
+        "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2020.12",
+        "dept": "감사실",
+        "pos": "연구보조원"
+      },
+      {
+        "date": "2017.01 ~ 2018.12",
+        "dept": "계획예산실",
+        "pos": "책임연구원"
+      }
+    ]
+  },
+  {
+    "id": "335611",
+    "name": "윤도현",
+    "dept": "정보보안안전부",
+    "deptCode": "DEPT_SEC",
+    "pos": "책임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "dh.yoon@dtaq.re.kr",
+    "phone": "055-751-3356",
+    "duties": [
+      "국방 정보보안 체계 관리 및 침해사고 대응",
+      "보안점검 및 개인정보보호 관리체계 수립",
+      "방산업체 보안 진단 및 컨설팅"
+    ],
+    "history": [
+      {
+        "date": "2017.09 ~ 현재",
+        "dept": "정보보안안전부",
+        "pos": "책임연구원"
+      }
+    ]
+  },
+  {
+    "id": "346722",
+    "name": "장서연",
+    "dept": "원장실",
+    "deptCode": "DEPT_DIR",
+    "pos": "선임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "sy.jang@dtaq.re.kr",
+    "phone": "055-751-3467",
+    "duties": [
+      "원장 보좌 및 기관 주요 일정 조정",
+      "VIP 의전 및 대외 주요 행사 관리",
+      "기관장 지시사항 이행 점검"
+    ],
+    "history": [
+      {
+        "date": "2024.01 ~ 현재",
+        "dept": "계획예산실",
+        "pos": "선임연구원"
+      },
+      {
+        "date": "2021.01 ~ 2022.12",
+        "dept": "국제협력실",
+        "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2020.12",
+        "dept": "정보보안안전부",
+        "pos": "연구보조원"
+      }
+    ]
+  },
+  {
+    "id": "351001",
+    "name": "임재범",
+    "dept": "안전혁신실",
+    "deptCode": "DEPT_SAFETY",
+    "pos": "책임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "jb.lim@dtaq.re.kr",
+    "phone": "055-751-3510",
+    "duties": [
+      "화학 및 지상무기 시험장 안전 대책 총괄",
+      "산업재해 예방 진단 및 개선",
+      "안전보건 경영시스템(ISO45001) 운용"
+    ],
+    "history": [
+      {
+        "date": "2016.03 ~ 현재",
+        "dept": "안전혁신실",
+        "pos": "책임연구원"
+      }
+    ]
+  },
+  {
+    "id": "362112",
+    "name": "한소희",
+    "dept": "정책기획실",
+    "deptCode": "DEPT_POLICY",
+    "pos": "선임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "sh.han@dtaq.re.kr",
+    "phone": "055-751-3621",
+    "duties": [
+      "국방 첨단 무기체계 신뢰성 정책 연구",
+      "방위사업청 협조 전략 과제 도출",
+      "품질보증 제도 개선 정책 로드맵 수립"
+    ],
+    "history": [
+      {
+        "date": "2024.01 ~ 현재",
+        "dept": "시험평가센터",
+        "pos": "선임연구원"
+      },
+      {
+        "date": "2021.01 ~ 2022.12",
+        "dept": "인증지원센터",
+        "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2020.12",
+        "dept": "법무실",
+        "pos": "연구보조원"
+      },
+      {
+        "date": "2017.01 ~ 2018.12",
+        "dept": "경영지원실",
+        "pos": "책임연구원"
+      }
+    ]
+  },
+  {
+    "id": "373223",
+    "name": "오지훈",
+    "dept": "경영지원실",
+    "deptCode": "DEPT_MGMT",
+    "pos": "연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "jh.oh@dtaq.re.kr",
+    "phone": "055-751-3732",
+    "duties": [
+      "청사 시설물 관리 및 안전보안 점검",
+      "국유재산 및 인프라 유지보수",
+      "차량 및 관인 관리 업무"
+    ],
+    "history": [
+      {
+        "date": "2022.04 ~ 현재",
+        "dept": "경영지원실",
+        "pos": "연구원"
+      }
+    ]
+  },
+  {
+    "id": "384334",
+    "name": "서동현",
+    "dept": "첨단미래기술센터",
+    "deptCode": "DEPT_FUTURE",
+    "pos": "선임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "dh.seo@dtaq.re.kr",
+    "phone": "055-751-3843",
+    "duties": [
+      "우주·항공 분야 신기술 품질검증",
+      "인공지능 소프트웨어 V&V 시험",
+      "차세대 소재 분석 기술 기획"
+    ],
+    "history": [
+      {
+        "date": "2024.01 ~ 현재",
+        "dept": "경영지원실",
+        "pos": "선임연구원"
+      },
+      {
+        "date": "2021.01 ~ 2022.12",
+        "dept": "첨단미래기술센터",
+        "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2020.12",
+        "dept": "조직인사실",
+        "pos": "연구보조원"
+      }
+    ]
+  },
+  {
+    "id": "395445",
+    "name": "신유진",
+    "dept": "인재개발실",
+    "deptCode": "DEPT_HR",
+    "pos": "선임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "yj.shin@dtaq.re.kr",
+    "phone": "055-751-3954",
+    "duties": [
+      "전문 기술 자격 인증 교육과정 개발",
+      "직급별 핵심역량 모델링 연구",
+      "외부 교수진 관리 및 커리큘럼 개선"
+    ],
+    "history": [
+      {
+        "date": "2019.10 ~ 현재",
+        "dept": "인재개발실",
+        "pos": "선임연구원"
+      }
+    ]
+  },
+  {
+    "id": "406556",
+    "name": "권태양",
+    "dept": "법무실",
+    "deptCode": "DEPT_LEGAL",
+    "pos": "선임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "ty.kwon@dtaq.re.kr",
+    "phone": "055-751-4065",
+    "duties": [
+      "품질보증 관련 분쟁 소송 자문",
+      "방산 물자 품질 하자 법적 자문",
+      "정부 조달 계약 관련 법률 자문"
+    ],
+    "history": [
+      {
+        "date": "2024.01 ~ 현재",
+        "dept": "대외협력기획실",
+        "pos": "선임연구원"
+      },
+      {
+        "date": "2021.01 ~ 2022.12",
+        "dept": "정보화지원실",
+        "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2020.12",
+        "dept": "품질기획센터",
+        "pos": "연구보조원"
+      },
+      {
+        "date": "2017.01 ~ 2018.12",
+        "dept": "기술지원센터",
+        "pos": "책임연구원"
+      }
+    ]
+  },
+  {
+    "id": "417667",
+    "name": "송지민",
+    "dept": "정보화지원실",
+    "deptCode": "DEPT_IT",
+    "pos": "연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "jm.song@dtaq.re.kr",
+    "phone": "055-751-4176",
+    "duties": [
+      "네트워크 모니터링 및 서버 유지보수",
+      "그룹웨어 및 대내 소프트웨어 관리",
+      "사용자 IT 장애 조치 기술지원"
+    ],
+    "history": [
+      {
+        "date": "2023.03 ~ 현재",
+        "dept": "정보화지원실",
+        "pos": "연구원"
+      }
+    ]
+  },
+  {
+    "id": "428778",
+    "name": "백현진",
+    "dept": "계획예산실",
+    "deptCode": "DEPT_BUDGET",
+    "pos": "책임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "hj.baek@dtaq.re.kr",
+    "phone": "055-751-4287",
+    "duties": [
+      "기관 자금 관리 및 결산 보고서 작성",
+      "회계법인 감사 및 재정 집행 총괄",
+      "국방 사업 예산 이월/변경 심의"
+    ],
+    "history": [
+      {
+        "date": "2024.01 ~ 현재",
+        "dept": "기술지원센터",
+        "pos": "책임연구원"
+      },
+      {
+        "date": "2021.01 ~ 2022.12",
+        "dept": "안전혁신실",
+        "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2020.12",
+        "dept": "정책기획실",
+        "pos": "연구보조원"
+      }
+    ]
+  },
+  {
+    "id": "439889",
+    "name": "유아인",
+    "dept": "대외협력기획실",
+    "deptCode": "DEPT_COOP",
+    "pos": "선임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "ai.yoo@dtaq.re.kr",
+    "phone": "055-751-4398",
+    "duties": [
+      "국방기술품질원 간행물 및 소식지 발행",
+      "방산 간담회 및 민군 기술협력 박람회 총괄",
+      "대외 홍보 영상 및 포스터 제작"
+    ],
+    "history": [
+      {
+        "date": "2020.11 ~ 현재",
+        "dept": "대외협력기획실",
+        "pos": "선임연구원"
+      }
+    ]
+  },
+  {
+    "id": "450990",
+    "name": "류덕환",
+    "dept": "조직인사실",
+    "deptCode": "DEPT_HR_ORG",
+    "pos": "연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "dh.ryu@dtaq.re.kr",
+    "phone": "055-751-4509",
+    "duties": [
+      "직원 복지제도 및 유연근무제 관리",
+      "근태 관리 및 연차 승인 운영",
+      "직원 만족도 조사 기획 및 실행"
+    ],
+    "history": [
+      {
+        "date": "2024.01 ~ 현재",
+        "dept": "인재개발실",
+        "pos": "연구원"
+      },
+      {
+        "date": "2021.01 ~ 2022.12",
+        "dept": "감사실",
+        "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2020.12",
+        "dept": "계획예산실",
+        "pos": "연구보조원"
+      },
+      {
+        "date": "2017.01 ~ 2018.12",
+        "dept": "국제협력실",
+        "pos": "책임연구원"
+      }
+    ]
+  },
+  {
+    "id": "462101",
+    "name": "남궁민",
+    "dept": "감사실",
+    "deptCode": "DEPT_AUDIT",
+    "pos": "선임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "m.namkoong@dtaq.re.kr",
+    "phone": "055-751-4621",
+    "duties": [
+      "부패방지 시책평가 자료 작성",
+      "감사 지시사항 조치 이행 점검",
+      "청렴옴부즈만 제도 운용"
+    ],
+    "history": [
+      {
+        "date": "2021.05 ~ 현재",
+        "dept": "감사실",
+        "pos": "선임연구원"
+      }
+    ]
+  },
+  {
+    "id": "473212",
+    "name": "황보라",
+    "dept": "국제협력실",
+    "deptCode": "DEPT_INTL",
+    "pos": "연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "br.hwang@dtaq.re.kr",
+    "phone": "055-751-4732",
+    "duties": [
+      "해외 방산 품질보증 기관 자료 통역 및 번역",
+      "국제 군수품 품질보증 협정 사후관리",
+      "해외 바이어 방문 의전 지원"
+    ],
+    "history": [
+      {
+        "date": "2024.01 ~ 현재",
+        "dept": "국제협력실",
+        "pos": "연구원"
+      },
+      {
+        "date": "2021.01 ~ 2022.12",
+        "dept": "정보보안안전부",
+        "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2020.12",
+        "dept": "시험평가센터",
+        "pos": "연구보조원"
+      }
+    ]
+  },
+  {
+    "id": "484323",
+    "name": "하석진",
+    "dept": "안전혁신실",
+    "deptCode": "DEPT_SAFETY",
+    "pos": "선임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "sj.ha@dtaq.re.kr",
+    "phone": "055-751-4843",
+    "duties": [
+      "지방 센터 시험장 안전시설 진단",
+      "위험물질 안전 보관 및 배출 지침 가이드",
+      "비상대응 훈련 프로그램 개최"
+    ],
+    "history": [
+      {
+        "date": "2019.11 ~ 현재",
+        "dept": "안전혁신실",
+        "pos": "선임연구원"
+      }
+    ]
+  },
+  {
+    "id": "495434",
+    "name": "문가영",
+    "dept": "원장실",
+    "deptCode": "DEPT_DIR",
+    "pos": "연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "ky.moon@dtaq.re.kr",
+    "phone": "055-751-4954",
+    "duties": [
+      "원장 주재 경영간부회의 지시사항 관리",
+      "원장 연설문 및 메시지 작성 보좌",
+      "외빈 접견 수행 및 구내 행사 지원"
+    ],
+    "history": [
+      {
+        "date": "2024.01 ~ 현재",
+        "dept": "인증지원센터",
+        "pos": "연구원"
+      },
+      {
+        "date": "2021.01 ~ 2022.12",
+        "dept": "법무실",
+        "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2020.12",
+        "dept": "경영지원실",
+        "pos": "연구보조원"
+      },
+      {
+        "date": "2017.01 ~ 2018.12",
+        "dept": "첨단미래기술센터",
+        "pos": "책임연구원"
+      }
+    ]
+  },
+  {
+    "id": "506545",
+    "name": "배수지",
+    "dept": "정책기획실",
+    "deptCode": "DEPT_POLICY",
+    "pos": "연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "sj.bae@dtaq.re.kr",
+    "phone": "055-751-5065",
+    "duties": [
+      "국방 통계 데이터베이스 구축 및 데이터 분석",
+      "국방기술품질 백서 발간 지원",
+      "외부 정책연구용역 관리"
+    ],
+    "history": [
+      {
+        "date": "2023.01 ~ 현재",
+        "dept": "정책기획실",
+        "pos": "연구원"
+      }
+    ]
+  },
+  {
+    "id": "517656",
+    "name": "안효섭",
+    "dept": "첨단미래기술센터",
+    "deptCode": "DEPT_FUTURE",
+    "pos": "선임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "hs.ahn@dtaq.re.kr",
+    "phone": "055-751-5176",
+    "duties": [
+      "지능형 로봇 체계 품질검증 기술 기획",
+      "무기체계 사이버보안 진단 기술 연구",
+      "국방 딥테크 시험평가 지원"
+    ],
+    "history": [
+      {
+        "date": "2024.01 ~ 현재",
+        "dept": "첨단미래기술센터",
+        "pos": "선임연구원"
+      },
+      {
+        "date": "2021.01 ~ 2022.12",
+        "dept": "조직인사실",
+        "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2020.12",
+        "dept": "대외협력기획실",
+        "pos": "연구보조원"
+      }
+    ]
+  },
+  {
+    "id": "528767",
+    "name": "곽동연",
+    "dept": "경영지원실",
+    "deptCode": "DEPT_MGMT",
+    "pos": "선임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "dy.kwak@dtaq.re.kr",
+    "phone": "055-751-5287",
+    "duties": [
+      "구매 계약 및 경쟁입찰 집행",
+      "공사 및 용역 계약 관인 심의",
+      "전자조달시스템 운영 총괄"
+    ],
+    "history": [
+      {
+        "date": "2019.05 ~ 현재",
+        "dept": "경영지원실",
+        "pos": "선임연구원"
+      }
+    ]
+  },
+  {
+    "id": "539878",
+    "name": "노윤서",
+    "dept": "인재개발실",
+    "deptCode": "DEPT_HR",
+    "pos": "연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "ys.roh@dtaq.re.kr",
+    "phone": "055-751-5398",
+    "duties": [
+      "이러닝 사이트 운영 및 학습 관리",
+      "국방품질보증 교육 기재부 제출 자료 작성",
+      "외부 교육 이수 현황 등록"
+    ],
+    "history": [
+      {
+        "date": "2024.01 ~ 현재",
+        "dept": "정보화지원실",
+        "pos": "연구원"
+      },
+      {
+        "date": "2021.01 ~ 2022.12",
+        "dept": "품질기획센터",
+        "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2020.12",
+        "dept": "기술지원센터",
+        "pos": "연구보조원"
+      },
+      {
+        "date": "2017.01 ~ 2018.12",
+        "dept": "안전혁신실",
+        "pos": "책임연구원"
+      }
+    ]
+  },
+  {
+    "id": "550989",
+    "name": "변우석",
+    "dept": "정보보안안전부",
+    "deptCode": "DEPT_SEC",
+    "pos": "선임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "ws.byeon@dtaq.re.kr",
+    "phone": "055-751-5509",
+    "duties": [
+      "사이버침해대응센터 24시간 관제 운영",
+      "직원 정보보안 교육 및 모의 훈련",
+      "국방 암호 모듈 안전성 검증"
+    ],
+    "history": [
+      {
+        "date": "2021.01 ~ 현재",
+        "dept": "정보보안안전부",
+        "pos": "선임연구원"
+      }
+    ]
+  },
+  {
+    "id": "562100",
+    "name": "김태리",
+    "dept": "계획예산실",
+    "deptCode": "DEPT_BUDGET",
+    "pos": "선임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "tr.kim@dtaq.re.kr",
+    "phone": "055-751-5621",
+    "duties": [
+      "사업별 예산 집행 현황 주간 점검",
+      "기재부 세출 예산 요구서 검토",
+      "공공기관 재정정보 공개 관리"
+    ],
+    "history": [
+      {
+        "date": "2024.01 ~ 현재",
+        "dept": "안전혁신실",
+        "pos": "선임연구원"
+      },
+      {
+        "date": "2021.01 ~ 2022.12",
+        "dept": "정책기획실",
+        "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2020.12",
+        "dept": "인재개발실",
+        "pos": "연구보조원"
+      }
+    ]
+  },
+  {
+    "id": "573211",
+    "name": "이도현",
+    "dept": "조직인사실",
+    "deptCode": "DEPT_HR_ORG",
+    "pos": "선임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "dh.lee@dtaq.re.kr",
+    "phone": "055-751-5732",
+    "duties": [
+      "직원 정기 인사발령 및 보직 관리",
+      "경력 증명 및 인사 기록 관리",
+      "직원 승진 심사 위원회 운영"
+    ],
+    "history": [
+      {
+        "date": "2019.12 ~ 현재",
+        "dept": "조직인사실",
+        "pos": "선임연구원"
+      }
+    ]
+  },
+  {
+    "id": "584322",
+    "name": "박은빈",
+    "dept": "법무실",
+    "deptCode": "DEPT_LEGAL",
+    "pos": "책임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "eb.park@dtaq.re.kr",
+    "phone": "055-751-5843",
+    "duties": [
+      "국방 관련 법령 개정안 종합 검토",
+      "기관 지식재산권 특허 출원 및 자문",
+      "국방 사업 하자보수 법적 대응"
+    ],
+    "history": [
+      {
+        "date": "2024.01 ~ 현재",
+        "dept": "감사실",
+        "pos": "책임연구원"
+      },
+      {
+        "date": "2021.01 ~ 2022.12",
+        "dept": "계획예산실",
+        "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2020.12",
+        "dept": "국제협력실",
+        "pos": "연구보조원"
+      },
+      {
+        "date": "2017.01 ~ 2018.12",
+        "dept": "정보보안안전부",
+        "pos": "책임연구원"
+      }
+    ]
+  },
+  {
+    "id": "595433",
+    "name": "송강",
+    "dept": "대외협력기획실",
+    "deptCode": "DEPT_COOP",
+    "pos": "연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "k.song@dtaq.re.kr",
+    "phone": "055-751-5954",
+    "duties": [
+      "국방기술품질원 SNS 채널 운영",
+      "보도자료 배포 및 언론 스크랩",
+      "국민 참여 서포터즈 운영"
+    ],
+    "history": [
+      {
+        "date": "2023.05 ~ 현재",
+        "dept": "대외협력기획실",
+        "pos": "연구원"
+      }
+    ]
+  },
+  {
+    "id": "606544",
+    "name": "김선호",
+    "dept": "국제협력실",
+    "deptCode": "DEPT_INTL",
+    "pos": "선임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "sh.kim@dtaq.re.kr",
+    "phone": "055-751-6065",
+    "duties": [
+      "나토(NATO) 군수품 품질보증 위원회 협력",
+      "해외 방산박람회 한국관 운영 지원",
+      "방산 수출 품목 인증 자문"
+    ],
+    "history": [
+      {
+        "date": "2024.01 ~ 현재",
+        "dept": "정보보안안전부",
+        "pos": "선임연구원"
+      },
+      {
+        "date": "2021.01 ~ 2022.12",
+        "dept": "시험평가센터",
+        "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2020.12",
+        "dept": "인증지원센터",
+        "pos": "연구보조원"
+      }
+    ]
+  },
+  {
+    "id": "617655",
+    "name": "신혜선",
+    "dept": "정보화지원실",
+    "deptCode": "DEPT_IT",
+    "pos": "책임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "hs.shin@dtaq.re.kr",
+    "phone": "055-751-6176",
+    "duties": [
+      "국방품질 데이터 통합 플랫폼 구축",
+      "빅데이터 및 AI 분석 기반 조성",
+      "정보화 사업 감리 및 종합 진단"
+    ],
+    "history": [
+      {
+        "date": "2016.08 ~ 현재",
+        "dept": "정보화지원실",
+        "pos": "책임연구원"
+      }
+    ]
+  },
+  {
+    "id": "628766",
+    "name": "최우식",
+    "dept": "안전혁신실",
+    "deptCode": "DEPT_SAFETY",
+    "pos": "연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "ws.choi@dtaq.re.kr",
+    "phone": "055-751-6287",
+    "duties": [
+      "원내 구급약품 및 보건관리 운영",
+      "위험성 평가 수시 점검 및 지원",
+      "재난 대비 대피 훈련 지도"
+    ],
+    "history": [
+      {
+        "date": "2024.01 ~ 현재",
+        "dept": "법무실",
+        "pos": "연구원"
+      },
+      {
+        "date": "2021.01 ~ 2022.12",
+        "dept": "경영지원실",
+        "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2020.12",
+        "dept": "첨단미래기술센터",
+        "pos": "연구보조원"
+      },
+      {
+        "date": "2017.01 ~ 2018.12",
+        "dept": "조직인사실",
+        "pos": "책임연구원"
+      }
+    ]
+  },
+  {
+    "id": "639877",
+    "name": "박보영",
+    "dept": "감사실",
+    "deptCode": "DEPT_AUDIT",
+    "pos": "연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "by.park@dtaq.re.kr",
+    "phone": "055-751-6398",
+    "duties": [
+      "공직기강 점검 및 제보 창구 운영",
+      "감사원 감사 자료 제출 지원",
+      "청렴 이행 서약서 관리"
+    ],
+    "history": [
+      {
+        "date": "2023.02 ~ 현재",
+        "dept": "감사실",
+        "pos": "연구원"
+      }
+    ]
+  },
+  {
+    "id": "650988",
+    "name": "정해인",
+    "dept": "경영지원실",
+    "deptCode": "DEPT_MGMT",
+    "pos": "선임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "hi.jung@dtaq.re.kr",
+    "phone": "055-751-6509",
+    "duties": [
+      "비품 및 기자재 자산 관리",
+      "기관 소유 차량 관리 및 정비",
+      "행정소모품 수급 및 전산 관리"
+    ],
+    "history": [
+      {
+        "date": "2024.01 ~ 현재",
+        "dept": "조직인사실",
+        "pos": "선임연구원"
+      },
+      {
+        "date": "2021.01 ~ 2022.12",
+        "dept": "대외협력기획실",
+        "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2020.12",
+        "dept": "정보화지원실",
+        "pos": "연구보조원"
+      }
+    ]
+  },
+  {
+    "id": "662099",
+    "name": "김지원",
+    "dept": "정책기획실",
+    "deptCode": "DEPT_POLICY",
+    "pos": "선임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "jw.kim@dtaq.re.kr",
+    "phone": "055-751-6620",
+    "duties": [
+      "미래 군수품 정책 변화 대응 수립",
+      "기관 핵심 중장기 KPI 설정",
+      "방위사업청 기획협의체 간사"
+    ],
+    "history": [
+      {
+        "date": "2019.08 ~ 현재",
+        "dept": "정책기획실",
+        "pos": "선임연구원"
+      }
+    ]
+  },
+  {
+    "id": "673210",
+    "name": "박서준",
+    "dept": "첨단미래기술센터",
+    "deptCode": "DEPT_FUTURE",
+    "pos": "책임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "sj.park@dtaq.re.kr",
+    "phone": "055-751-6732",
+    "duties": [
+      "스텔스 및 첨단 시험평가 기술 기획",
+      "양자 기술 방산 적용 품질 가이드",
+      "첨단 연구장비 구축 총괄"
+    ],
+    "history": [
+      {
+        "date": "2024.01 ~ 현재",
+        "dept": "품질기획센터",
+        "pos": "책임연구원"
+      },
+      {
+        "date": "2021.01 ~ 2022.12",
+        "dept": "기술지원센터",
+        "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2020.12",
+        "dept": "안전혁신실",
+        "pos": "연구보조원"
+      },
+      {
+        "date": "2017.01 ~ 2018.12",
+        "dept": "정책기획실",
+        "pos": "책임연구원"
+      }
+    ]
+  },
+  {
+    "id": "684321",
+    "name": "서강준",
+    "dept": "인재개발실",
+    "deptCode": "DEPT_HR",
+    "pos": "선임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "kj.seo@dtaq.re.kr",
+    "phone": "055-751-6843",
+    "duties": [
+      "품질보증 아카데미 전문 교수진 관리",
+      "직원 리더십 역량 강화를 위한 멘토링",
+      "교육 성과분석 보고서 작성"
+    ],
+    "history": [
+      {
+        "date": "2020.06 ~ 현재",
+        "dept": "인재개발실",
+        "pos": "선임연구원"
+      }
+    ]
+  },
+  {
+    "id": "695432",
+    "name": "임시완",
+    "dept": "정보보안안전부",
+    "deptCode": "DEPT_SEC",
+    "pos": "선임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "sw.im@dtaq.re.kr",
+    "phone": "055-751-6954",
+    "duties": [
+      "원내 물리보안 및 출입통제 시스템 관리",
+      "중요 문서 취급 보안점검",
+      "외주업체 보안 서약 및 실태 점검"
+    ],
+    "history": [
+      {
+        "date": "2024.01 ~ 현재",
+        "dept": "정책기획실",
+        "pos": "선임연구원"
+      },
+      {
+        "date": "2021.01 ~ 2022.12",
+        "dept": "인재개발실",
+        "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2020.12",
+        "dept": "감사실",
+        "pos": "연구보조원"
+      }
+    ]
+  },
+  {
+    "id": "706543",
+    "name": "강하늘",
+    "dept": "계획예산실",
+    "deptCode": "DEPT_BUDGET",
+    "pos": "선임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "hn.kang@dtaq.re.kr",
+    "phone": "055-751-7065",
+    "duties": [
+      "정부 지원금 수입/지출 관리",
+      "기관 예산집행 실적 현황 기획재정부 제출",
+      "예산 관리 절차 개선"
+    ],
+    "history": [
+      {
+        "date": "2021.01 ~ 현재",
+        "dept": "계획예산실",
+        "pos": "선임연구원"
+      }
+    ]
+  },
+  {
+    "id": "717654",
+    "name": "이종석",
+    "dept": "조직인사실",
+    "deptCode": "DEPT_HR_ORG",
+    "pos": "선임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "js.lee@dtaq.re.kr",
+    "phone": "055-751-7176",
+    "duties": [
+      "신규 채용 전형 기획 및 필기/면접 관리",
+      "직원 성과급 지급 기준 마련",
+      "노동조합 안건 협의"
+    ],
+    "history": [
+      {
+        "date": "2024.01 ~ 현재",
+        "dept": "계획예산실",
+        "pos": "선임연구원"
+      },
+      {
+        "date": "2021.01 ~ 2022.12",
+        "dept": "국제협력실",
+        "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2020.12",
+        "dept": "정보보안안전부",
+        "pos": "연구보조원"
+      },
+      {
+        "date": "2017.01 ~ 2018.12",
+        "dept": "시험평가센터",
+        "pos": "책임연구원"
+      }
+    ]
+  },
+  {
+    "id": "728765",
+    "name": "차은우",
+    "dept": "원장실",
+    "deptCode": "DEPT_DIR",
+    "pos": "선임연구원",
+    "photo": "include/images/emp_jinho.jpg",
+    "email": "ew.cha@dtaq.re.kr",
+    "phone": "055-751-7287",
+    "duties": [
+      "원장 일정 종합 조정 및 대외 수행",
+      "기관 브랜드 이미지 관리 총괄",
+      "주요 기획 행사 총괄 의전"
+    ],
+    "history": [
+      {
+        "date": "2021.09 ~ 현재",
+        "dept": "원장실",
+        "pos": "선임연구원"
+      }
+    ]
+  }
+]
