@@ -709,17 +709,21 @@ function initEventListeners() {
         if (g_swiper) g_swiper.slideNext();
     });
 
+// Function stub for LED Screen WebSocket / PC Transmission
+function showLedScreen(empId) {
+    console.log("showLedScreen called for employee ID:", empId);
+    // TODO: Send data via WebSocket to external PC LED display later
+    // Example: setCallWebToAppSock("SHOW_LED", empId);
+}
+
     // Detail Action Buttons
     $('#btn-back-to-list').on('click', function () {
         showPage('page-list');
     });
 
+    // LED Screen Button: Only calls showLedScreen stub without UI action
     $('#btn-led-enlarge').on('click', function () {
-        $('#led-modal').addClass('active');
-    });
-
-    $('#btn-close-led').on('click', function () {
-        $('#led-modal').removeClass('active');
+        showLedScreen(g_selectedEmpId);
     });
 
     // Keyboard Close Button
@@ -727,8 +731,19 @@ function initEventListeners() {
         showPage('page-list');
     });
 
-    // Department Select Box Change
-    $('#dept-select').on('change', function () {
+    // Department Select Box Change & Container Click
+    $('.dept-select-wrap').on('click', function (e) {
+        var selectEl = $(this).find('select')[0];
+        if (selectEl && e.target !== selectEl) {
+            if (typeof selectEl.showPicker === 'function') {
+                selectEl.showPicker();
+            } else {
+                selectEl.focus();
+            }
+        }
+    });
+
+    $('#dept-select, .dept-select-wrap select').on('change', function () {
         var selectedVal = $(this).val();
         g_activeDeptFilter = selectedVal;
         $('#list-dept-heading').text(selectedVal === 'ALL' ? '국방기술품질원' : selectedVal);
