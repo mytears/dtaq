@@ -395,10 +395,14 @@ body {
     gap: 8px;
     padding: 0 14px;
     border-radius: 7px;
-    background: #eff6fe;
+    background: transparent;
     cursor: pointer;
     transition: background 0.15s ease;
     margin-bottom: 8px;
+}
+
+.tree-root-item:hover {
+    background: #f0f6ff;
 }
 
 .tree-root-item.active {

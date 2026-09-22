@@ -13,251 +13,7 @@ var g_searchMode = 'employee';
 var g_isEnglish = false;
 
 // Sample Employee Database (Matches XD designs)
-var g_employeeData = [
-    {
-        id: "240862",
-        name: "김진호",
-        dept: "안전혁신실",
-        deptCode: "DEPT_SAFETY",
-        pos: "선임연구원",
-        jobDesc: "안전보건 관리체계 수립 및 총괄",
-        photo: "images/img_photo.png",
-        email: "jinho.kim@dtaq.re.kr",
-        phone: "055-751-2408",
-        duties: [
-            "안전보건 관리체계 수립 및 총괄",
-            "기관 안전점검 및 예방조치 계획 수립",
-            "위험성평가 실시 및 개선대책 이행"
-        ],
-        history: [
-            { date: "2022.03 ~ 현재", dept: "안전혁신실", pos: "선임연구원" },
-            { date: "2019.01 ~ 2022.02", dept: "품질기획센터", pos: "연구원" },
-            { date: "2016.05 ~ 2018.12", dept: "시험평가센터", pos: "연구보조원" }
-        ]
-    },
-    {
-        id: "201245",
-        name: "김진호",
-        dept: "법무실",
-        deptCode: "DEPT_LEGAL",
-        pos: "책임연구원",
-        jobDesc: "국방품질 관련 법률 검토 및 계약 소송 지원",
-        photo: "images/img_photo.png",
-        email: "jh.kim@dtaq.re.kr",
-        phone: "055-751-2012",
-        duties: [
-            "국방품질 관련 법률 검토 및 소송 지원",
-            "기관 제규정 제·개정 심의 및 자문",
-            "지식재산권 관리 및 법률 분쟁 대응"
-        ],
-        history: [
-            { date: "2020.01 ~ 현재", dept: "법무실", pos: "책임연구원" },
-            { date: "2015.07 ~ 2019.12", dept: "기획조정실", pos: "선임연구원" }
-        ]
-    },
-    {
-        id: "231467",
-        name: "김진호",
-        dept: "정책기획실",
-        deptCode: "DEPT_POLICY",
-        pos: "선임연구원",
-        jobDesc: "중장기 국방품질보증 정책 및 전략 수립",
-        photo: "images/img_photo.png",
-        email: "jinho23@dtaq.re.kr",
-        phone: "055-751-2314",
-        duties: [
-            "중장기 국방품질보증 정책 및 전략 수립",
-            "국방기술품질원 발전계획 및 과제 기획",
-            "정부 및 국방부 정책 대응 자료 작성"
-        ],
-        history: [
-            { date: "2021.06 ~ 현재", dept: "정책기획실", pos: "선임연구원" },
-            { date: "2018.02 ~ 2021.05", dept: "계획예산실", pos: "연구원" }
-        ]
-    },
-    {
-        id: "261010",
-        name: "김진호",
-        dept: "경영지원실",
-        deptCode: "DEPT_MGMT",
-        pos: "선임연구원",
-        jobDesc: "품질정책 및 품질기획 수립",
-        photo: "images/img_photo.png",
-        email: "honggildong@dtaq.re.kr",
-        phone: "055-111-1234",
-        duties: [
-            "품질정책 및 품질기획 수립",
-            "국방품질 관리체계 기획 및 운영",
-            "품질 관련 통계 분석 및 보고서 지원"
-        ],
-        history: [
-            { date: "2021.01 ~ 현재", dept: "품질기획센터", pos: "선임연구원" },
-            { date: "2018.07 ~ 2020.12", dept: "시험평가센터", pos: "연구원" },
-            { date: "2016.01 ~ 2018.06", dept: "기술지원센터", pos: "연구원" },
-            { date: "2014.01 ~ 2015.12", dept: "인증지원센터", pos: "연구보조원" },
-            { date: "2012.03 ~ 2013.12", dept: "품질정보센터", pos: "인턴" }
-        ]
-    },
-    {
-        id: "224567",
-        name: "김진호",
-        dept: "정책기획실",
-        deptCode: "DEPT_POLICY",
-        pos: "연구원",
-        jobDesc: "정책연구 사업 모니터링 및 실적 관리",
-        photo: "images/img_photo.png",
-        email: "jinho_p@dtaq.re.kr",
-        phone: "055-751-2245",
-        duties: [
-            "정책연구 사업 모니터링 및 실적 관리",
-            "부서 성과지표(KPI) 취합 및 제출"
-        ],
-        history: [
-            { date: "2022.09 ~ 현재", dept: "정책기획실", pos: "연구원" }
-        ]
-    },
-    {
-        id: "251233",
-        name: "김진호",
-        dept: "인재개발실",
-        deptCode: "DEPT_HR",
-        pos: "연구원",
-        jobDesc: "임직원 직무교육 및 역량강화 프로그램 운영",
-        photo: "images/img_photo.png",
-        email: "jinho_hr@dtaq.re.kr",
-        phone: "055-751-2512",
-        duties: [
-            "임직원 직무교육 및 역량강화 프로그램 운영",
-            "신입사원 OJT 및 인재육성 체계 구축"
-        ],
-        history: [
-            { date: "2023.01 ~ 현재", dept: "인재개발실", pos: "연구원" }
-        ]
-    },
-    {
-        id: "264123",
-        name: "김진호",
-        dept: "첨단미래기술센터",
-        deptCode: "DEPT_FUTURE",
-        pos: "책임연구원",
-        jobDesc: "무인·AI 첨단 무기체계 품질검증 기술 연구",
-        photo: "images/img_photo.png",
-        email: "jinho_tech@dtaq.re.kr",
-        phone: "055-751-2641",
-        duties: [
-            "무인·AI 첨단 무기체계 품질검증 기술 연구",
-            "미래 국방기술 신뢰성 평가 프레임워크 구축"
-        ],
-        history: [
-            { date: "2019.04 ~ 현재", dept: "첨단미래기술센터", pos: "책임연구원" },
-            { date: "2014.03 ~ 2019.03", dept: "기술연구소", pos: "선임연구원" }
-        ]
-    },
-    {
-        id: "201234",
-        name: "김민준",
-        dept: "정책기획실",
-        deptCode: "DEPT_POLICY",
-        pos: "수석연구원",
-        jobDesc: "국방품질 발전전략 기획 총괄",
-        photo: "images/img_photo.png",
-        email: "mj.kim@dtaq.re.kr",
-        phone: "055-751-2012",
-        duties: ["국방품질 발전전략 기획 총괄"],
-        history: [{ date: "2015.01 ~ 현재", dept: "정책기획실", pos: "수석연구원" }]
-    },
-    {
-        id: "214556",
-        name: "이서연",
-        dept: "정책기획실",
-        deptCode: "DEPT_POLICY",
-        pos: "책임연구원",
-        jobDesc: "대외 정책협력 및 국방 규정 분석",
-        photo: "images/img_photo.png",
-        email: "sy.lee@dtaq.re.kr",
-        phone: "055-751-2145",
-        duties: ["대외 정책협력 및 국방 규정 분석"],
-        history: [{ date: "2017.03 ~ 현재", dept: "정책기획실", pos: "책임연구원" }]
-    },
-    {
-        id: "220124",
-        name: "박도윤",
-        dept: "정책기획실",
-        deptCode: "DEPT_POLICY",
-        pos: "선임연구원",
-        jobDesc: "국방품질 중장기 계획 수립",
-        photo: "images/img_photo.png",
-        email: "dy.park@dtaq.re.kr",
-        phone: "055-751-2201",
-        duties: ["국방품질 중장기 계획 수립"],
-        history: [{ date: "2019.05 ~ 현재", dept: "정책기획실", pos: "선임연구원" }]
-    },
-    {
-        id: "254212",
-        name: "정하은",
-        dept: "정책기획실",
-        deptCode: "DEPT_POLICY",
-        pos: "연구원",
-        jobDesc: "품질정책 지표 분석 및 연구",
-        photo: "images/img_photo.png",
-        email: "he.jung@dtaq.re.kr",
-        phone: "055-751-2542",
-        duties: ["품질정책 지표 분석 및 연구"],
-        history: [{ date: "2023.02 ~ 현재", dept: "정책기획실", pos: "연구원" }]
-    },
-    {
-        id: "256478",
-        name: "강서준",
-        dept: "정책기획실",
-        deptCode: "DEPT_POLICY",
-        pos: "연구원",
-        jobDesc: "연구사업 관리 및 성과 지원",
-        photo: "images/img_photo.png",
-        email: "sj.kang@dtaq.re.kr",
-        phone: "055-751-2564",
-        duties: ["연구사업 관리 및 성과 지원"],
-        history: [{ date: "2023.07 ~ 현재", dept: "정책기획실", pos: "연구원" }]
-    },
-    {
-        id: "265512",
-        name: "한우진",
-        dept: "정책기획실",
-        deptCode: "DEPT_POLICY",
-        pos: "연구원",
-        jobDesc: "기획자료 편찬 및 운영 지원",
-        photo: "images/img_photo.png",
-        email: "wj.han@dtaq.re.kr",
-        phone: "055-751-2655",
-        duties: ["기획자료 편찬 및 운영 지원"],
-        history: [{ date: "2024.01 ~ 현재", dept: "정책기획실", pos: "연구원" }]
-    },
-    {
-        id: "270112",
-        name: "이수민",
-        dept: "감사실",
-        deptCode: "DEPT_AUDIT",
-        pos: "책임연구원",
-        jobDesc: "기관 종합 감사 및 청렴도 향상 대책 수립",
-        photo: "images/img_photo.png",
-        email: "sm.lee@dtaq.re.kr",
-        phone: "055-751-2701",
-        duties: ["기관 종합 감사 및 청렴도 향상 대책 수립"],
-        history: [{ date: "2018.01 ~ 현재", dept: "감사실", pos: "책임연구원" }]
-    },
-    {
-        id: "281099",
-        name: "박성우",
-        dept: "조직인사실",
-        deptCode: "DEPT_HR_ORG",
-        pos: "선임연구원",
-        jobDesc: "채용 및 인사평가 체계 관리",
-        photo: "images/img_photo.png",
-        email: "sw.park@dtaq.re.kr",
-        phone: "055-751-2810",
-        duties: ["채용 및 인사평가 체계 관리"],
-        history: [{ date: "2020.05 ~ 현재", dept: "조직인사실", pos: "선임연구원" }]
-    }
-];
+var g_employeeData = [];
 
 // Project Data Database
 var g_projectData = [
@@ -755,6 +511,51 @@ function isKoreanMatch(text, query) {
     return false;
 }
 
+// Organization Hierarchy Mapping for Tree & Dropdown filtering
+var DEPT_HIERARCHY = {
+    "정책기획부": ["정책기획실", "조직인사실", "계획예산실", "대외협력실", "대외협력기획실", "국제협력실", "정책기획부"],
+    "경영관리부": ["총무복지팀", "재무회계팀", "건설자산팀", "시설관리팀", "경영지원실", "인재개발실", "정보화지원실", "경영관리부"],
+    "정보보안안전부": ["정보체계팀", "정보보안팀", "안전보건팀", "정보보호센터", "정보화지원실", "정보보안안전부"],
+    "기술연구본부": [
+        "기술연구본부", "기술기획실", "표준연구실",
+        "첨단미래기술센터", "우주위성팀", "지능SW팀", "첨단기술팀",
+        "방위산업기술보호센터", "기술통제연구팀", "기술침해분석팀", "기술보호조사팀",
+        "국방신뢰성연구센터", "RAM분석팀", "신뢰성시험분석팀", "유도탄수명분석팀", "이화학시험분석팀",
+        "국방종합시험센터", "안전기획팀", "시험평가1팀", "시험평가2팀", "시험평가3팀"
+    ],
+    "첨단미래기술센터": ["첨단미래기술센터", "우주위성팀", "지능SW팀", "첨단기술팀"],
+    "방위산업기술보호센터": ["방위산업기술보호센터", "기술통제연구팀", "기술침해분석팀", "기술보호조사팀"],
+    "국방신뢰성연구센터": ["국방신뢰성연구센터", "RAM분석팀", "신뢰성시험분석팀", "유도탄수명분석팀", "이화학시험분석팀"],
+    "국방종합시험센터": ["국방종합시험센터", "안전기획팀", "시험평가1팀", "시험평가2팀", "시험평가3팀"],
+    "품질연구본부": [
+        "품질연구본부", "품질기획실", "대군기술지원실", "성능개량연구실", "공급망관리연구실", "체계지원단",
+        "지휘정찰센터", "우주지휘통신팀", "감시정찰팀", "전자광학팀", "통합전자팀", "첨단전력팀",
+        "기동화력센터", "전차팀", "장갑차팀", "화력장비팀", "지상장비팀", "지상장비부품팀",
+        "유도탄약센터", "지상유도무기팀", "해상유도무기팀", "공중유도무기팀",
+        "함정센터", "전투함팀", "잠수함팀", "지원함팀", "무인고속함팀",
+        "항공센터", "고정익팀", "회전익팀", "드론무인기팀",
+        "감항인증연구센터", "감항인증기획팀", "감항인증연구팀"
+    ],
+    "지휘정찰센터": ["지휘정찰센터", "우주지휘통신팀", "감시정찰팀", "전자광학팀", "통합전자팀", "첨단전력팀"],
+    "기동화력센터": ["기동화력센터", "전차팀", "장갑차팀", "화력장비팀", "지상장비팀", "지상장비부품팀"],
+    "유도탄약센터": ["유도탄약센터", "지상유도무기팀", "해상유도무기팀", "공중유도무기팀"],
+    "함정센터": ["함정센터", "전투함팀", "잠수함팀", "지원함팀", "무인고속함팀"],
+    "항공센터": ["항공센터", "고정익팀", "회전익팀", "드론무인기팀"],
+    "감항인증연구센터": ["감항인증연구센터", "감항인증기획팀", "감항인증연구팀"]
+};
+
+function isDeptMatch(itemDept, targetDept) {
+    if (!targetDept || targetDept === 'ALL') return true;
+    if (!itemDept) return false;
+    if (itemDept === targetDept || itemDept.includes(targetDept)) return true;
+    if (DEPT_HIERARCHY[targetDept]) {
+        return DEPT_HIERARCHY[targetDept].some(function (sub) {
+            return itemDept === sub || itemDept.includes(sub);
+        });
+    }
+    return false;
+}
+
 function clearSearchInput() {
     g_jamoList = [];
     syncSearchQuery('');
@@ -763,7 +564,7 @@ function clearSearchInput() {
     // Filter by department if active
     if (g_activeDeptFilter !== 'ALL') {
         sourceData = sourceData.filter(function(item) {
-            return item.dept.includes(g_activeDeptFilter);
+            return isDeptMatch(item.dept, g_activeDeptFilter);
         });
     }
     renderEmployeeList(sourceData);
@@ -781,7 +582,7 @@ function executeSearch() {
             isKoreanMatch(item.pos, query) ||
             isKoreanMatch(item.email, query);
 
-        var matchDept = (g_activeDeptFilter === 'ALL') || (item.dept.includes(g_activeDeptFilter));
+        var matchDept = isDeptMatch(item.dept, g_activeDeptFilter);
         return matchQuery && matchDept;
     });
 
