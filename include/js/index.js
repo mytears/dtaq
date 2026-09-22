@@ -237,6 +237,12 @@ function selectEmployee(empId) {
         { date: "2016.01 ~ 2018.06", dept: "기술지원센터", pos: "연구원" }
     ];
 
+    if (historyItems.length <= 1) {
+        $timeline.addClass('no-line');
+    } else {
+        $timeline.removeClass('no-line');
+    }
+
     historyItems.forEach(function(item) {
         $timeline.append(
             '<div class="timeline-item">' +
@@ -259,6 +265,11 @@ function selectEmployee(empId) {
     
     var $ledTimeline = $('#led-timeline');
     $ledTimeline.empty();
+    if (historyItems.length <= 1) {
+        $ledTimeline.addClass('no-line');
+    } else {
+        $ledTimeline.removeClass('no-line');
+    }
     historyItems.forEach(function(item) {
         $ledTimeline.append(
             '<div class="timeline-item">' +

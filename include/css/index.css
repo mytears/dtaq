@@ -1390,6 +1390,11 @@ body {
     z-index: 1;
 }
 
+.career-timeline.no-line::before,
+.career-timeline:has(.timeline-item:only-child)::before {
+    display: none;
+}
+
 .timeline-item {
     position: relative;
     display: flex;
@@ -1403,10 +1408,6 @@ body {
     color: #212121;
     padding: 0 0 0 33px;
     box-sizing: border-box;
-}
-
-.timeline-item:last-child {
-    border-bottom: none;
 }
 
 .timeline-dot {
