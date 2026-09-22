@@ -447,13 +447,37 @@ function selectEmployee(empId) {
         $('#led-photo').attr('src', emp.photo);
     }
 
+    // Sync Right Sidebar (Search input & Department selection) to match A-8 -1
+    if (emp.name) {
+        $('.sync-search-input').val(emp.name);
+        $('.btn-search-clear').addClass('visible');
+    }
+    if (emp.dept) {
+        $('.dept-dropdown-selected').text(emp.dept);
+        $('.dept-dropdown-item').removeClass('active');
+        $('.dept-dropdown-item[data-dept="' + emp.dept + '"]').addClass('active');
+
+        $('.tree-root-item, .tree-folder-header, .tree-leaf-item').removeClass('active');
+        var $leaf = $('.tree-leaf-item[data-dept="' + emp.dept + '"]');
+        if ($leaf.length) {
+            $leaf.addClass('active');
+            $leaf.closest('.tree-folder-node').addClass('expanded');
+        } else {
+            var $folder = $('.tree-folder-header[data-dept="' + emp.dept + '"]');
+            if ($folder.length) {
+                $folder.addClass('active');
+                $folder.closest('.tree-folder-node').addClass('expanded');
+            }
+        }
+    }
+
     // Populate Timeline List
     var $timeline = $('#detail-timeline');
     $timeline.empty();
     
     var historyItems = (emp.history && emp.history.length > 0) ? emp.history : [
-        { date: "2021.01 ~ 현재", dept: emp.dept, pos: emp.pos },
-        { date: "2018.07 ~ 2020.12", dept: "품질기획센터", pos: "연구원" },
+        { date: "2021.01 ~ 현재", dept: "품질기획센터", pos: "선임연구원" },
+        { date: "2018.07 ~ 2020.12", dept: "시험평가센터", pos: "연구원" },
         { date: "2016.01 ~ 2018.06", dept: "기술지원센터", pos: "연구원" }
     ];
 

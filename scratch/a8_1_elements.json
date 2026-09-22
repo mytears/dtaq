@@ -1,0 +1,770 @@
+[
+  {
+    "type": "shape",
+    "name": "사각형 34",
+    "w": 1920,
+    "h": 990,
+    "r": null,
+    "x": 0,
+    "y": 90,
+    "style": {
+      "fill": "#edf2fb"
+    }
+  },
+  {
+    "type": "shape",
+    "name": "사각형 7",
+    "w": 1920,
+    "h": 90,
+    "r": null,
+    "x": 0,
+    "y": 0,
+    "style": {
+      "fill": "#ffffff"
+    }
+  },
+  {
+    "type": "shape",
+    "name": "사각형 35",
+    "w": 160,
+    "h": 50,
+    "r": [
+      7,
+      7,
+      7,
+      7
+    ],
+    "x": 1744,
+    "y": 20,
+    "style": {
+      "fill": "#d8e0f3",
+      "stroke": "#b3c3e8 (Nonepx)"
+    }
+  },
+  {
+    "type": "shape",
+    "name": "사각형 75",
+    "w": 1100,
+    "h": 382,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "x": 80,
+    "y": 127,
+    "style": {
+      "fill": "#ffffff",
+      "stroke": "#91b7ff (Nonepx)"
+    }
+  },
+  {
+    "type": "text",
+    "name": "직원 정보 검색",
+    "text": "직원 정보 검색",
+    "x": 862,
+    "y": 58,
+    "style": {
+      "fill": "#283860",
+      "font": "34px S-Core Dream 6 Bold"
+    }
+  },
+  {
+    "type": "text",
+    "name": "처음으로",
+    "text": "처음으로",
+    "x": 1803,
+    "y": 52,
+    "style": {
+      "fill": "#283860",
+      "font": "18px S-Core Dream 6 Bold"
+    }
+  },
+  {
+    "type": "shape",
+    "name": "사각형 37",
+    "w": 16.565441131591797,
+    "h": 16.56544303894043,
+    "r": null,
+    "x": 67.3,
+    "y": 31.5,
+    "style": {}
+  },
+  {
+    "type": "shape",
+    "name": "사각형 39",
+    "w": 11.197015762329102,
+    "h": 2.0927278995513916,
+    "r": null,
+    "x": 70.0,
+    "y": 49.7,
+    "style": {}
+  },
+  {
+    "type": "shape",
+    "name": "사각형 40",
+    "w": 0.9385204315185547,
+    "h": 1.250077247619629,
+    "r": null,
+    "x": 263.1,
+    "y": 58.4,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "type": "shape",
+    "name": "사각형 61",
+    "w": 1100,
+    "h": 387,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "x": 80,
+    "y": 540,
+    "style": {
+      "fill": "#ffffff",
+      "stroke": "#91b7ff (Nonepx)"
+    }
+  },
+  {
+    "type": "text",
+    "name": "근무이력",
+    "text": "근무이력",
+    "x": 198,
+    "y": 598,
+    "style": {
+      "fill": "#212121",
+      "font": "23px S-Core Dream 6 Bold"
+    }
+  },
+  {
+    "type": "text",
+    "name": "품질정책 및 품질기획 수립",
+    "text": "품질정책 및 품질기획 수립",
+    "x": 605.4,
+    "y": 366.5,
+    "style": {
+      "fill": "#212121",
+      "font": "16px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "type": "shape",
+    "name": "사각형 72",
+    "w": 310,
+    "h": 35,
+    "r": [
+      7,
+      7,
+      7,
+      7
+    ],
+    "x": 1258,
+    "y": 463,
+    "style": {
+      "fill": "#eff6fe"
+    }
+  },
+  {
+    "type": "shape",
+    "name": "이미지 40",
+    "w": 1510,
+    "h": 1007,
+    "r": null,
+    "x": -379.8,
+    "y": 37.5,
+    "style": {}
+  },
+  {
+    "type": "text",
+    "name": "성명\n사번\n근무지\n직급(직책)",
+    "text": "성명 \\n 사번 \\n 근무지 \\n 직급(직책)",
+    "x": 473.9,
+    "y": 202.2,
+    "style": {
+      "fill": "#3d7aef",
+      "font": "16px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "type": "text",
+    "name": "이메일\n연락처",
+    "text": "이메일 \\n 연락처",
+    "x": 473.9,
+    "y": 411.8,
+    "style": {
+      "fill": "#3d7aef",
+      "font": "16px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "type": "text",
+    "name": "261010\n정책기획실\n선임연구원",
+    "text": "261010 \\n 정책기획실 \\n 선임연구원",
+    "x": 604.9,
+    "y": 246.3,
+    "style": {
+      "fill": "#212121",
+      "font": "16px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "type": "text",
+    "name": "honggildong@dtaq.re.kr\n055-111-1234",
+    "text": "honggildong@dtaq.re.kr \\n 055-111-1234",
+    "x": 604.9,
+    "y": 412.8,
+    "style": {
+      "fill": "#212121",
+      "font": "16px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "type": "text",
+    "name": "김진호",
+    "text": "김진호",
+    "x": 604.5,
+    "y": 201.5,
+    "style": {
+      "fill": "#212121",
+      "font": "21px S-Core Dream 6 Bold"
+    }
+  },
+  {
+    "type": "circle",
+    "name": "타원 8",
+    "r": 11.5,
+    "x": 162.0,
+    "y": 579.0,
+    "style": {
+      "stroke": "#444444 (Nonepx)"
+    }
+  },
+  {
+    "type": "shape",
+    "name": "사각형 76",
+    "w": 186,
+    "h": 72,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "x": 994,
+    "y": 960,
+    "style": {
+      "fill": "#dae2f5",
+      "stroke": "#a0b6de (Nonepx)"
+    }
+  },
+  {
+    "type": "shape",
+    "name": "사각형 77",
+    "w": 299,
+    "h": 72,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "x": 451,
+    "y": 960,
+    "style": {
+      "fill": "#3d7aef",
+      "stroke": "#061633 (Nonepx)"
+    }
+  },
+  {
+    "type": "text",
+    "name": "LED 화면으로 크게 보기",
+    "text": "LED 화면으로 크게 보기",
+    "x": 497,
+    "y": 1004.7,
+    "style": {
+      "fill": "#ffffff",
+      "font": "20px S-Core Dream 6 Bold"
+    }
+  },
+  {
+    "type": "text",
+    "name": "목록으로",
+    "text": "목록으로",
+    "x": 1059.7,
+    "y": 1004.7,
+    "style": {
+      "fill": "#283860",
+      "font": "20px S-Core Dream 6 Bold"
+    }
+  },
+  {
+    "type": "circle",
+    "name": "타원 19",
+    "r": 20,
+    "x": 1015,
+    "y": 977,
+    "style": {}
+  },
+  {
+    "type": "shape",
+    "name": "사각형 43",
+    "w": 550,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "x": 1298,
+    "y": 127,
+    "style": {
+      "fill": "#ffffff",
+      "stroke": "#1059e4 (Nonepx)"
+    }
+  },
+  {
+    "type": "shape",
+    "name": "사각형 63",
+    "w": 550,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "x": 1298,
+    "y": 205,
+    "style": {
+      "fill": "#ffffff",
+      "stroke": "#91b7ff (Nonepx)"
+    }
+  },
+  {
+    "type": "shape",
+    "name": "사각형 62",
+    "w": 550,
+    "h": 760,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "x": 1297,
+    "y": 286,
+    "style": {
+      "fill": "#ffffff",
+      "stroke": "#91b7ff (Nonepx)"
+    }
+  },
+  {
+    "type": "shape",
+    "name": "사각형 58",
+    "w": 55,
+    "h": 55,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "x": 1786,
+    "y": 134,
+    "style": {
+      "fill": "#3d7aef"
+    }
+  },
+  {
+    "type": "shape",
+    "name": "사각형 64",
+    "w": 55,
+    "h": 55,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "x": 1786,
+    "y": 212,
+    "style": {
+      "fill": "#3d7aef"
+    }
+  },
+  {
+    "type": "text",
+    "name": "조직도",
+    "text": "조직도",
+    "x": 1329,
+    "y": 332,
+    "style": {
+      "fill": "#000000",
+      "font": "25px S-Core Dream 7 ExtraBold"
+    }
+  },
+  {
+    "type": "shape",
+    "name": "사각형 69",
+    "w": 448,
+    "h": 35,
+    "r": [
+      7,
+      7,
+      7,
+      7
+    ],
+    "x": 1313,
+    "y": 580,
+    "style": {
+      "fill": "#eff6fe"
+    }
+  },
+  {
+    "type": "text",
+    "name": "국방기술품질원",
+    "text": "국방기술품질원",
+    "x": 1355,
+    "y": 379,
+    "style": {
+      "fill": "#1c4aa2",
+      "font": "18px S-Core Dream 6 Bold"
+    }
+  },
+  {
+    "type": "text",
+    "name": "원장실\n감사실\n안전혁신실\n법무실",
+    "text": "원장실 \\n 감사실 \\n 안전혁신실 \\n 법무실",
+    "x": 1394.0,
+    "y": 420,
+    "style": {
+      "fill": "#212121",
+      "font": "18px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "type": "circle",
+    "name": "타원 2",
+    "r": 15,
+    "x": 1321,
+    "y": 357,
+    "style": {
+      "fill": "#e2efff"
+    }
+  },
+  {
+    "type": "shape",
+    "name": "사각형 65",
+    "w": 1.6815993785858154,
+    "h": 1.6815996170043945,
+    "r": null,
+    "x": 1332.4,
+    "y": 367.1,
+    "style": {
+      "fill": "#1c4aa1"
+    }
+  },
+  {
+    "type": "shape",
+    "name": "사각형 66",
+    "w": 1.682198166847229,
+    "h": 1.6815996170043945,
+    "r": null,
+    "x": 1335.3,
+    "y": 367.1,
+    "style": {
+      "fill": "#1c4aa1"
+    }
+  },
+  {
+    "type": "shape",
+    "name": "사각형 67",
+    "w": 1.6815993785858154,
+    "h": 1.6815990209579468,
+    "r": null,
+    "x": 1332.4,
+    "y": 370.9,
+    "style": {
+      "fill": "#1c4aa1"
+    }
+  },
+  {
+    "type": "shape",
+    "name": "사각형 68",
+    "w": 1.682198166847229,
+    "h": 1.6815990209579468,
+    "r": null,
+    "x": 1335.3,
+    "y": 370.9,
+    "style": {
+      "fill": "#1c4aa1"
+    }
+  },
+  {
+    "type": "text",
+    "name": "정책기획부",
+    "text": "정책기획부",
+    "x": 1381.2,
+    "y": 569.1,
+    "style": {
+      "fill": "#1c4aa2",
+      "font": "18px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "type": "text",
+    "name": "정책기획실\n조직인사실\n계획예산실",
+    "text": "정책기획실 \\n 조직인사실 \\n 계획예산실",
+    "x": 1399.4,
+    "y": 604.1,
+    "style": {
+      "fill": "#212121",
+      "font": "18px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "type": "circle",
+    "name": "타원 3",
+    "r": 12.5,
+    "x": 1351.0,
+    "y": 550.1,
+    "style": {
+      "fill": "#e5f0ff"
+    }
+  },
+  {
+    "type": "text",
+    "name": "경영관리부",
+    "text": "경영관리부",
+    "x": 1381.2,
+    "y": 855.1,
+    "style": {
+      "fill": "#1c4aa2",
+      "font": "18px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "type": "text",
+    "name": "경영지원실\n인재개발실\n정보화지원실",
+    "text": "경영지원실 \\n 인재개발실 \\n 정보화지원실",
+    "x": 1399.4,
+    "y": 890.1,
+    "style": {
+      "fill": "#212121",
+      "font": "18px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "type": "circle",
+    "name": "타원 3",
+    "r": 12.5,
+    "x": 1351.0,
+    "y": 838.1,
+    "style": {
+      "fill": "#e5f0ff"
+    }
+  },
+  {
+    "type": "text",
+    "name": "대외협력실",
+    "text": "대외협력실",
+    "x": 1381.2,
+    "y": 729.1,
+    "style": {
+      "fill": "#1c4aa2",
+      "font": "18px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "type": "text",
+    "name": "대회협력기획실\n국제협력실",
+    "text": "대회협력기획실 \\n 국제협력실",
+    "x": 1399.4,
+    "y": 764.1,
+    "style": {
+      "fill": "#212121",
+      "font": "18px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "type": "circle",
+    "name": "타원 3",
+    "r": 12.5,
+    "x": 1351.0,
+    "y": 712.1,
+    "style": {
+      "fill": "#e5f0ff"
+    }
+  },
+  {
+    "type": "text",
+    "name": "정보보완안전부",
+    "text": "정보보완안전부",
+    "x": 1381.2,
+    "y": 1016.2,
+    "style": {
+      "fill": "#1c4aa2",
+      "font": "18px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "type": "text",
+    "name": "정보체계팀",
+    "text": "정보체계팀",
+    "x": 1399.4,
+    "y": 1051.2,
+    "style": {
+      "fill": "#212121",
+      "font": "18px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "type": "circle",
+    "name": "타원 3",
+    "r": 12.5,
+    "x": 1351.0,
+    "y": 999.2,
+    "style": {
+      "fill": "#e5f0ff"
+    }
+  },
+  {
+    "type": "text",
+    "name": "김진호",
+    "text": "김진호",
+    "x": 1329,
+    "y": 174,
+    "style": {
+      "fill": "#3253a7",
+      "font": "28px S-Core Dream 7 ExtraBold"
+    }
+  },
+  {
+    "type": "circle",
+    "name": "타원 13",
+    "r": 17.5,
+    "x": 1735,
+    "y": 144,
+    "style": {
+      "fill": "#d8e0f3"
+    }
+  },
+  {
+    "type": "text",
+    "name": "2021.01 ~ 현재\n2018.07 ~ 2020.12\n2016.01 ~ 2018.06",
+    "text": "2021.01 ~ 현재 \\n 2018.07 ~ 2020.12 \\n 2016.01 ~ 2018.06",
+    "x": 198.7,
+    "y": 660,
+    "style": {
+      "fill": "#212121",
+      "font": "18px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "type": "text",
+    "name": "품질기획센터\n시험평가센터\n기술지원센터",
+    "text": "품질기획센터 \\n 시험평가센터 \\n 기술지원센터",
+    "x": 542.4,
+    "y": 660,
+    "style": {
+      "fill": "#212121",
+      "font": "18px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "type": "text",
+    "name": "선임연구원\n연구원\n연구원\n",
+    "text": "선임연구원 \\n 연구원 \\n 연구원 \\n ",
+    "x": 853.3,
+    "y": 660,
+    "style": {
+      "fill": "#212121",
+      "font": "18px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "type": "circle",
+    "name": "ico_career_dot",
+    "r": 7.5,
+    "x": 165.9,
+    "y": 647,
+    "style": {
+      "fill": "#ffffff",
+      "stroke": "#3d7aef (Nonepx)"
+    }
+  },
+  {
+    "type": "circle",
+    "name": "ico_career_dot",
+    "r": 7.5,
+    "x": 165.9,
+    "y": 701,
+    "style": {
+      "fill": "#ffffff",
+      "stroke": "#3d7aef (Nonepx)"
+    }
+  },
+  {
+    "type": "circle",
+    "name": "ico_career_dot",
+    "r": 7.5,
+    "x": 165.9,
+    "y": 756,
+    "style": {
+      "fill": "#ffffff",
+      "stroke": "#3d7aef (Nonepx)"
+    }
+  },
+  {
+    "type": "text",
+    "name": "정책기획실",
+    "text": "정책기획실",
+    "x": 1329,
+    "y": 248,
+    "style": {
+      "fill": "#212121",
+      "font": "22px S-Core Dream 6 Bold"
+    }
+  },
+  {
+    "type": "shape",
+    "name": "사각형 213",
+    "w": 20,
+    "h": 672,
+    "r": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "x": 1803,
+    "y": 354,
+    "style": {
+      "fill": "#eaf0fc"
+    }
+  },
+  {
+    "type": "shape",
+    "name": "사각형 71",
+    "w": 20,
+    "h": 150,
+    "r": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "x": 1803,
+    "y": 354,
+    "style": {
+      "fill": "#3d7aef"
+    }
+  }
+]
