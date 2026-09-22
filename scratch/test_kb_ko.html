@@ -15,6 +15,10 @@
     <script src="include/js/lib/swiper-bundle.min.js"></script>
     <script src="include/js/comm.js"></script>
     <script src="include/js/index.js"></script>
+
+<style>
+.page-container { transition: none !important; }
+</style>
 </head>
 <body>
 
@@ -400,7 +404,6 @@
                             <div class="col-id" id="th-col-2">사번</div>
                             <div class="col-dept" id="th-col-3">부서명</div>
                             <div class="col-pos" id="th-col-4">직책</div>
-                            <div class="col-arrow"></div>
                         </div>
 
                         <!-- Swiper List Container (7 fixed slots) -->
@@ -1017,5 +1020,13 @@
         </div>
     </div>
 
+
+<script>
+window.addEventListener('load', function() {
+    setTimeout(function() {
+        showPage('page-search');
+    }, 300);
+});
+</script>
 </body>
 </html>

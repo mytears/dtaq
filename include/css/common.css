@@ -3,12 +3,20 @@
     src: url(fonts/SCDream3.otf) format('truetype');
     font-weight: 300;
     font-style: normal;
-}@font-face {
+}
+@font-face {
     font-family: scdream;
     src: url(fonts/SCDream4.otf) format('truetype');
     font-weight: 400;
     font-style: normal;
-}@font-face {
+}
+@font-face {
+    font-family: scdream;
+    src: url(fonts/SCDream5.otf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
     font-family: scdream;
     src: url(fonts/SCDream6.otf) format('truetype');
     font-weight: 600;
@@ -318,30 +326,29 @@ input:focus {
 /* 스크롤바 설정*/
 ::-webkit-scrollbar {
     background-color: transparent;
-    width: 16px;
+    width: 14px;
 }
 
 /* 스크롤바 막대 설정*/
 ::-webkit-scrollbar-thumb {
-    background-color: #6698cb;
+    background-color: #2b7fff;
     border-radius: 16px;
     cursor: default;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #6698cb;
-    cursor: default;
+    background-color: #1a66ff;
 }
 
 /* 스크롤바 뒷 배경 설정*/
 ::-webkit-scrollbar-track {
     border-radius: 10px;
-    background-color: lightgray;
+    background-color: #e5edf7;
     cursor: default;
 }
 
 ::-webkit-scrollbar-track:hover {
-    background-color: lightgray;
+    background-color: #e5edf7;
     cursor: default;
 }
 

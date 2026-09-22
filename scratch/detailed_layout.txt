@@ -1,0 +1,294 @@
+x=-1491.0, y=-9566.0 | w=None  , h=None   | r=None           | name=keyboard_search_clear     | {} | 
+x=-1529.0, y=-9559.0 | w=None  , h=None   | r=None           | name=그룹 58                     | {} | 
+x=3313.4, y=-7653.9 | w=None  , h=None   | r=None           | name=패스 93                     | {'stroke': '#1c4aa0 (Nonepx)'} | 
+x=3313.4, y=-7490.8 | w=None  , h=None   | r=None           | name=패스 93                     | {'stroke': '#1c4aa0 (Nonepx)'} | 
+x=3313.4, y=-7364.8 | w=None  , h=None   | r=None           | name=패스 93                     | {'stroke': '#1c4aa0 (Nonepx)'} | 
+x=3313.4, y=-7203.7 | w=None  , h=None   | r=None           | name=패스 93                     | {'stroke': '#1c4aa0 (Nonepx)'} | 
+x=-3092.6, y=-6832.0 | w=None  , h=None   | r=None           | name=패스 94                     | {'stroke': '#1c4aa0 (Nonepx)'} | 
+x=-3092.6, y=-6798.0 | w=None  , h=None   | r=None           | name=패스 95                     | {'stroke': '#1c4aa0 (Nonepx)'} | 
+x=-3092.6, y=-6763.0 | w=None  , h=None   | r=None           | name=패스 96                     | {'stroke': '#1c4aa0 (Nonepx)'} | 
+x=-3092.6, y=-6729.0 | w=None  , h=None   | r=None           | name=패스 97                     | {'stroke': '#1c4aa0 (Nonepx)'} | 
+x=-3078.5, y=-6647.4 | w=None  , h=None   | r=None           | name=패스 95                     | {'stroke': '#1c4aa0 (Nonepx)'} | 
+x=-3078.5, y=-6614.7 | w=None  , h=None   | r=None           | name=패스 96                     | {'stroke': '#1c4aa0 (Nonepx)'} | 
+x=-3078.5, y=-6580.9 | w=None  , h=None   | r=None           | name=패스 97                     | {'stroke': '#1c4aa0 (Nonepx)'} | 
+x=-3078.5, y=-6487.4 | w=None  , h=None   | r=None           | name=패스 95                     | {'stroke': '#1c4aa0 (Nonepx)'} | 
+x=-3078.5, y=-6454.7 | w=None  , h=None   | r=None           | name=패스 96                     | {'stroke': '#1c4aa0 (Nonepx)'} | 
+x=-3078.5, y=-6361.4 | w=None  , h=None   | r=None           | name=패스 95                     | {'stroke': '#1c4aa0 (Nonepx)'} | 
+x=-3078.5, y=-6328.6 | w=None  , h=None   | r=None           | name=패스 96                     | {'stroke': '#1c4aa0 (Nonepx)'} | 
+x=-3078.5, y=-6294.9 | w=None  , h=None   | r=None           | name=패스 97                     | {'stroke': '#1c4aa0 (Nonepx)'} | 
+x=-3078.5, y=-6200.3 | w=None  , h=None   | r=None           | name=패스 95                     | {'stroke': '#1c4aa0 (Nonepx)'} | 
+x=-3078.5, y=-6167.6 | w=None  , h=None   | r=None           | name=패스 96                     | {'stroke': '#1c4aa0 (Nonepx)'} | 
+x=-3078.5, y=-6133.8 | w=None  , h=None   | r=None           | name=패스 97                     | {'stroke': '#1c4aa0 (Nonepx)'} | 
+x=-6745.2, y=-1265.4 | w=None  , h=None   | r=None           | name=ico_chevron_down          | {'stroke': '#ffffff (Nonepx)'} | 
+x= 116.0, y=  -7.0 | w=None  , h=None   | r=None           | name=마스크 그룹 8                  | {} | 
+x=  96.0, y=  -5.0 | w=None  , h=None   | r=None           | name=ico_org_1                 | {} | 
+x=   0.0, y=   0.0 | w=1920  , h=90     | r=None           | name=사각형 7                     | {'fill': '#ffffff'} | 
+x=   0.0, y=   0.0 | w=None  , h=None   | r=None           | name=ico_home                  | {} | 
+x=   0.0, y=   0.0 | w=None  , h=None   | r=None           | name=img_logo                  | {} | 
+x=   0.0, y=   0.0 | w=None  , h=None   | r=None           | name=ico_org_3                 | {} | 
+x=   0.0, y=   0.0 | w=None  , h=None   | r=None           | name=그룹 116                    | {} | 
+x=   2.0, y=   0.0 | w=None  , h=None   | r=None           | name=ico_chevron_down          | {} | 
+x= 107.4, y=   0.0 | w=None  , h=None   | r=None           | name=그룹 33                     | {} | 
+x= 116.0, y=  18.1 | w=None  , h=None   | r=None           | name=ico_org_2                 | {} | 
+x=1744.0, y=  20.0 | w=160   , h=50     | r=[7, 7, 7, 7]   | name=bt_home                   | {'fill': '#d8e0f3', 'stroke': '#b3c3e8 (Nonepx)'} | 
+x=  26.0, y=  21.6 | w=None  , h=None   | r=None           | name=패스 86                     | {'fill': '#1a1311'} | 
+x=  26.2, y=  21.6 | w=None  , h=None   | r=None           | name=패스 82                     | {'fill': '#1a1311'} | 
+x=  26.5, y=  21.6 | w=None  , h=None   | r=None           | name=패스 80                     | {'fill': '#1a1311'} | 
+x=  26.8, y=  21.6 | w=None  , h=None   | r=None           | name=패스 79                     | {'fill': '#1a1311'} | 
+x=  27.6, y=  21.6 | w=None  , h=None   | r=None           | name=패스 77                     | {'fill': '#1a1311'} | 
+x=  27.8, y=  21.6 | w=None  , h=None   | r=None           | name=패스 76                     | {'fill': '#1a1311'} | 
+x=  28.1, y=  21.6 | w=None  , h=None   | r=None           | name=패스 87                     | {'fill': '#1a1311'} | 
+x=  28.3, y=  21.6 | w=None  , h=None   | r=None           | name=패스 85                     | {'fill': '#1a1311'} | 
+x=  28.5, y=  21.6 | w=None  , h=None   | r=None           | name=패스 75                     | {'fill': '#1a1311'} | 
+x=  28.8, y=  21.6 | w=None  , h=None   | r=None           | name=패스 73                     | {'fill': '#1a1311'} | 
+x=  29.0, y=  21.6 | w=None  , h=None   | r=None           | name=패스 72                     | {'fill': '#1a1311'} | 
+x=  29.4, y=  21.6 | w=None  , h=None   | r=None           | name=패스 70                     | {'fill': '#1a1311'} | 
+x=  29.6, y=  21.6 | w=None  , h=None   | r=None           | name=패스 69                     | {'fill': '#1a1311'} | 
+x=  30.1, y=  21.6 | w=None  , h=None   | r=None           | name=패스 65                     | {'fill': '#1a1311'} | 
+x=  30.3, y=  21.6 | w=None  , h=None   | r=None           | name=패스 64                     | {'fill': '#1a1311'} | 
+x=  30.7, y=  21.6 | w=None  , h=None   | r=None           | name=패스 67                     | {'fill': '#1a1311'} | 
+x=  30.9, y=  21.6 | w=None  , h=None   | r=None           | name=패스 63                     | {'fill': '#1a1311'} | 
+x=  31.1, y=  21.6 | w=None  , h=None   | r=None           | name=패스 62                     | {'fill': '#1a1311'} | 
+x=  31.3, y=  21.6 | w=None  , h=None   | r=None           | name=패스 61                     | {'fill': '#1a1311'} | 
+x=  31.6, y=  21.6 | w=None  , h=None   | r=None           | name=패스 66                     | {'fill': '#1a1311'} | 
+x=  32.1, y=  21.6 | w=None  , h=None   | r=None           | name=패스 59                     | {'fill': '#1a1311'} | 
+x=  32.3, y=  21.6 | w=None  , h=None   | r=None           | name=패스 58                     | {'fill': '#1a1311'} | 
+x=  32.5, y=  21.6 | w=None  , h=None   | r=None           | name=패스 57                     | {'fill': '#1a1311'} | 
+x=  32.7, y=  21.6 | w=None  , h=None   | r=None           | name=패스 56                     | {'fill': '#1a1311'} | 
+x=  33.0, y=  21.6 | w=None  , h=None   | r=None           | name=패스 53                     | {'fill': '#1a1311'} | 
+x=  34.7, y=  21.6 | w=None  , h=None   | r=None           | name=패스 49                     | {'fill': '#1a1311'} | 
+x=  26.1, y=  21.7 | w=None  , h=None   | r=None           | name=패스 83                     | {'fill': '#1a1311'} | 
+x=  26.3, y=  21.7 | w=None  , h=None   | r=None           | name=패스 81                     | {'fill': '#1a1311'} | 
+x=  27.0, y=  21.7 | w=None  , h=None   | r=None           | name=패스 84                     | {'fill': '#1a1311'} | 
+x=  27.4, y=  21.7 | w=None  , h=None   | r=None           | name=패스 78                     | {'fill': '#1a1311'} | 
+x=  28.6, y=  21.7 | w=None  , h=None   | r=None           | name=패스 74                     | {'fill': '#1a1311'} | 
+x=  29.3, y=  21.7 | w=None  , h=None   | r=None           | name=패스 71                     | {'fill': '#1a1311'} | 
+x=  29.9, y=  21.7 | w=None  , h=None   | r=None           | name=패스 68                     | {'fill': '#1a1311'} | 
+x=  30.4, y=  21.7 | w=None  , h=None   | r=None           | name=패스 55                     | {'fill': '#1a1311'} | 
+x=  31.8, y=  21.7 | w=None  , h=None   | r=None           | name=패스 60                     | {'fill': '#1a1311'} | 
+x=  32.8, y=  21.7 | w=None  , h=None   | r=None           | name=패스 54                     | {'fill': '#1a1311'} | 
+x=  33.3, y=  21.7 | w=None  , h=None   | r=None           | name=패스 52                     | {'fill': '#1a1311'} | 
+x=  34.3, y=  21.7 | w=None  , h=None   | r=None           | name=패스 50                     | {'fill': '#1a1311'} | 
+x=  35.1, y=  21.7 | w=None  , h=None   | r=None           | name=패스 48                     | {'fill': '#1a1311'} | 
+x=  35.6, y=  21.7 | w=None  , h=None   | r=None           | name=패스 47                     | {'fill': '#1a1311'} | 
+x=  26.6, y=  22.2 | w=None  , h=None   | r=None           | name=패스 40                     | {'fill': '#1a1311'} | 
+x=  27.6, y=  22.4 | w=None  , h=None   | r=None           | name=패스 41                     | {'fill': '#1a1311'} | 
+x=  31.9, y=  22.4 | w=None  , h=None   | r=None           | name=패스 27                     | {'fill': '#1a1311'} | 
+x=  26.7, y=  22.5 | w=None  , h=None   | r=None           | name=패스 37                     | {'fill': '#1a1311'} | 
+x=  29.0, y=  22.5 | w=None  , h=None   | r=None           | name=패스 42                     | {'fill': '#1a1311'} | 
+x=  30.1, y=  22.5 | w=None  , h=None   | r=None           | name=패스 43                     | {'fill': '#1a1311'} | 
+x= 139.8, y=  22.7 | w=None  , h=None   | r=None           | name=그룹 30                     | {} | 
+x=  26.2, y=  23.0 | w=None  , h=None   | r=None           | name=패스 36                     | {'fill': '#1a1311'} | 
+x=  26.7, y=  23.0 | w=None  , h=None   | r=None           | name=패스 35                     | {'fill': '#1a1311'} | 
+x=  27.1, y=  23.0 | w=None  , h=None   | r=None           | name=패스 34                     | {'fill': '#1a1311'} | 
+x=  27.8, y=  23.0 | w=None  , h=None   | r=None           | name=패스 33                     | {'fill': '#1a1311'} | 
+x=  28.9, y=  23.0 | w=None  , h=None   | r=None           | name=패스 32                     | {'fill': '#1a1311'} | 
+x=  30.0, y=  23.0 | w=None  , h=None   | r=None           | name=패스 31                     | {'fill': '#1a1311'} | 
+x=  30.4, y=  23.0 | w=None  , h=None   | r=None           | name=패스 29                     | {'fill': '#1a1311'} | 
+x=  31.1, y=  23.0 | w=None  , h=None   | r=None           | name=패스 30                     | {'fill': '#1a1311'} | 
+x=  31.5, y=  23.0 | w=None  , h=None   | r=None           | name=패스 28                     | {'fill': '#1a1311'} | 
+x=  32.2, y=  23.0 | w=None  , h=None   | r=None           | name=패스 39                     | {'fill': '#1a1311'} | 
+x=  33.3, y=  23.0 | w=None  , h=None   | r=None           | name=패스 38                     | {'fill': '#1a1311'} | 
+x=  35.0, y=  23.2 | w=None  , h=None   | r=None           | name=패스 45                     | {'fill': '#001976'} | 
+x=  36.0, y=  23.2 | w=None  , h=None   | r=None           | name=그룹 25                     | {} | 
+x=  36.0, y=  23.2 | w=None  , h=None   | r=None           | name=그룹 16                     | {} | 
+x=  36.0, y=  23.2 | w=None  , h=None   | r=None           | name=그룹 15                     | {} | 
+x=  36.0, y=  23.2 | w=None  , h=None   | r=None           | name=패스 44                     | {'fill': '#dc000c'} | 
+x=  36.0, y=  23.2 | w=None  , h=None   | r=None           | name=그룹 20                     | {} | 
+x=  36.0, y=  23.2 | w=None  , h=None   | r=None           | name=그룹 19                     | {} | 
+x=  36.0, y=  23.2 | w=None  , h=None   | r=None           | name=그룹 24                     | {} | 
+x=  36.0, y=  23.2 | w=None  , h=None   | r=None           | name=그룹 23                     | {} | 
+x=  67.3, y=  31.5 | w=None  , h=None   | r=None           | name=그룹 18                     | {} | 
+x=  67.3, y=  31.5 | w=None  , h=None   | r=None           | name=그룹 17                     | {} | 
+x=  67.3, y=  31.5 | w=16.565441131591797, h=16.56544303894043 | r=None           | name=사각형 37                    | {} | 
+x=1766.5, y=  33.6 | w=None  , h=None   | r=None           | name=ico_home                  | {'fill': '#283860'} | 
+x=  70.0, y=  49.7 | w=None  , h=None   | r=None           | name=그룹 22                     | {} | 
+x=  70.0, y=  49.7 | w=None  , h=None   | r=None           | name=그룹 21                     | {} | 
+x=  70.0, y=  49.7 | w=11.197015762329102, h=2.0927278995513916 | r=None           | name=사각형 39                    | {} | 
+x=1803.0, y=  52.0 | w=None  , h=None   | r=None           | name=처음으로                      | {'fill': '#283860', 'font': '18px S-Core Dream 6 Bold'} | 처음으로
+x= 862.0, y=  58.0 | w=None  , h=None   | r=None           | name=직원 정보 검색                  | {'fill': '#283860', 'font': '34px S-Core Dream 6 Bold'} | 직원 정보 검색
+x= 263.1, y=  58.4 | w=0.9385204315185547, h=1.250077247619629 | r=None           | name=사각형 40                    | {'fill': '#1a1311'} | 
+x=   0.0, y=  90.0 | w=1920  , h=990    | r=None           | name=사각형 34                    | {'fill': '#edf2fb'} | 
+x=1298.0, y= 127.0 | w=550   , h=70     | r=[8, 8, 8, 8]   | name=사각형 43                    | {'fill': '#ffffff', 'stroke': '#1059e4 (Nonepx)'} | 
+x=1786.0, y= 134.0 | w=55    , h=55     | r=[8, 8, 8, 8]   | name=사각형 58                    | {'fill': '#3d7aef'} | 
+x=1799.0, y= 146.0 | w=32    , h=32     | r=None           | name=사각형 206                   | {} | 
+x=1800.9, y= 149.4 | w=None  , h=None   | r=None           | name=패스 88                     | {'fill': '#ffffff'} | 
+x=1739.9, y= 151.4 | w=None  , h=None   | r=None           | name=ico_search                | {} | 
+x= 121.5, y= 151.6 | w=None  , h=None   | r=None           | name=그룹 34                     | {} | 
+x=1329.0, y= 169.0 | w=None  , h=None   | r=None           | name=성명, 사번, 부서명으로 검색하세요       | {'fill': '#3d7aef', 'font': '20px S-Core Dream 5 Medium'} | 성명, 사번, 부서명으로 검색하세요
+x= 116.0, y= 181.1 | w=None  , h=None   | r=None           | name=ico_list_2                | {} | 
+x= 139.8, y= 185.8 | w=None  , h=None   | r=None           | name=그룹 30                     | {} | 
+x=1298.0, y= 205.0 | w=550   , h=70     | r=[8, 8, 8, 8]   | name=사각형 63                    | {'fill': '#ffffff', 'stroke': '#91b7ff (Nonepx)'} | 
+x=1787.0, y= 212.0 | w=55    , h=55     | r=[8, 8, 8, 8]   | name=사각형 64                    | {'fill': '#3d7aef'} | 
+x=-207.0, y= 217.0 | w=None  , h=None   | r=None           | name=keyboard_bt_search        | {} | 
+x=-207.0, y= 217.0 | w=None  , h=None   | r=None           | name=keyboard_search_icon      | {} | 
+x=1799.0, y= 224.0 | w=32    , h=32     | r=None           | name=사각형 207                   | {} | 
+x=  95.0, y= 229.0 | w=1060  , h=250    | r=None           | name=사각형 6                     | {'fill': '#ffffff', 'stroke': '#ffffff (Nonepx)'} | 
+x=1329.0, y= 248.0 | w=None  , h=None   | r=None           | name=전체부서                      | {'fill': '#212121', 'font': '22px S-Core Dream 6 Bold'} | 전체부서
+x=1297.0, y= 285.0 | w=550   , h=760    | r=[8, 8, 8, 8]   | name=사각형 62                    | {'fill': '#ffffff', 'stroke': '#91b7ff (Nonepx)'} | 
+x= 116.0, y= 307.1 | w=None  , h=None   | r=None           | name=ico_list_2                | {} | 
+x= 121.5, y= 311.6 | w=None  , h=None   | r=None           | name=그룹 34                     | {} | 
+x= 139.8, y= 311.8 | w=None  , h=None   | r=None           | name=그룹 30                     | {} | 
+x=1329.0, y= 332.0 | w=None  , h=None   | r=None           | name=조직도                       | {'fill': '#212121', 'font': '25px S-Core Dream 7 ExtraBold'} | 조직도
+x= 394.0, y= 340.0 | w=None  , h=None   | r=None           | name=성명, 사번, 부서명으로 검색하세요       | {'fill': '#373737', 'font': '31px S-Core Dream 5 Medium'} | 성명, 사번, 부서명으로 검색하세요
+x=1313.0, y= 352.0 | w=450   , h=38     | r=[7, 7, 7, 7]   | name=사각형 69                    | {'fill': '#eff6fe'} | 
+x=1803.0, y= 354.0 | w=20    , h=672    | r=[10, 10, 10, 10] | name=사각형 213                   | {'fill': '#eaf0fc'} | 
+x=1803.0, y= 354.0 | w=20    , h=150    | r=[10, 10, 10, 10] | name=사각형 71                    | {'fill': '#3d7aef'} | 
+x=1320.0, y= 356.0 | w=None  , h=None   | r=16             | name=타원 2                      | {'fill': '#e2efff'} | 
+x=1328.0, y= 363.3 | w=None  , h=None   | r=None           | name=그룹 28                     | {} | 
+x=1328.0, y= 363.3 | w=None  , h=None   | r=None           | name=패스 90                     | {'fill': '#1c4aa1'} | 
+x=1332.4, y= 367.1 | w=1.6815993785858154, h=1.6815996170043945 | r=None           | name=사각형 65                    | {'fill': '#1c4aa1'} | 
+x=1335.3, y= 367.1 | w=1.682198166847229, h=1.6815996170043945 | r=None           | name=사각형 66                    | {'fill': '#1c4aa1'} | 
+x=1332.4, y= 370.9 | w=1.6815993785858154, h=1.6815990209579468 | r=None           | name=사각형 67                    | {'fill': '#1c4aa1'} | 
+x=1335.3, y= 370.9 | w=1.682198166847229, h=1.6815990209579468 | r=None           | name=사각형 68                    | {'fill': '#1c4aa1'} | 
+x=1355.0, y= 379.0 | w=None  , h=None   | r=None           | name=국방기술품질원                   | {'fill': '#1c4aa2', 'font': '18px S-Core Dream 6 Bold'} | 국방기술품질원
+x= 276.0, y= 392.0 | w=None  , h=None   | r=None           | name=부서를 선택하시면 부서별 검색을 하실 수 있습 | {'fill': '#373737', 'font': '31px S-Core Dream 5 Medium'} | 부서를 선택하시면 부서별 검색을 하실 수 있습니다. 
+x=1373.0, y= 403.0 | w=None  , h=None   | r=10.5           | name=타원 18                     | {} | 
+x=1349.4, y= 404.5 | w=None  , h=None   | r=None           | name=선 1                       | {'stroke': '#1c4aa0 (Nonepx)'} | 
+x=1394.0, y= 420.0 | w=None  , h=None   | r=None           | name=원장실
+감사실
+안전혁신실
+법무실         | {'fill': '#212121', 'font': '18px S-Core Dream 5 Medium'} | 원장실\n감사실\n안전혁신실\n법무실
+x= 121.5, y= 437.6 | w=None  , h=None   | r=None           | name=그룹 34                     | {} | 
+x=1258.0, y= 463.0 | w=310   , h=35     | r=[7, 7, 7, 7]   | name=사각형 72                    | {'fill': '#eff6fe'} | 
+x= 116.0, y= 468.2 | w=None  , h=None   | r=None           | name=그룹 40                     | {} | 
+x= 139.8, y= 472.9 | w=None  , h=None   | r=None           | name=그룹 30                     | {} | 
+x=1351.0, y= 549.1 | w=None  , h=None   | r=12.5           | name=타원 3                      | {'fill': '#e5f0ff'} | 
+x=1356.3, y= 555.8 | w=None  , h=None   | r=None           | name=패스 99                     | {'fill': '#1c4aa0'} | 
+x=  42.0, y= 565.0 | w=1165  , h=515    | r=[30, 30, 0, 0] | name=keyboard_bg               | {'fill': '#000000'} | 
+x=1381.2, y= 569.1 | w=None  , h=None   | r=None           | name=정책기획부                     | {'fill': '#1c4aa2', 'font': '18px S-Core Dream 5 Medium'} | 정책기획부
+x=1363.5, y= 584.1 | w=None  , h=None   | r=None           | name=선 1                       | {'stroke': '#1c4aa0 (Nonepx)'} | 
+x= 121.5, y= 598.7 | w=None  , h=None   | r=None           | name=그룹 34                     | {} | 
+x=1399.4, y= 604.1 | w=None  , h=None   | r=None           | name=정책기획실
+조직인사실
+계획예산실         | {'fill': '#212121', 'font': '18px S-Core Dream 5 Medium'} | 정책기획실\n조직인사실\n계획예산실
+x= 197.0, y= 619.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 282.0, y= 619.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 367.0, y= 619.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 452.0, y= 619.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 537.0, y= 619.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 622.0, y= 619.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 707.0, y= 619.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 792.0, y= 619.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 877.0, y= 619.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 962.0, y= 619.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 224.0, y= 663.0 | w=None  , h=None   | r=None           | name=1                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | 1
+x= 309.0, y= 663.0 | w=None  , h=None   | r=None           | name=2                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | 2
+x= 394.0, y= 663.0 | w=None  , h=None   | r=None           | name=3                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | 3
+x= 479.0, y= 663.0 | w=None  , h=None   | r=None           | name=4                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | 4
+x= 564.0, y= 663.0 | w=None  , h=None   | r=None           | name=5                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | 5
+x= 649.0, y= 663.0 | w=None  , h=None   | r=None           | name=6                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | 6
+x= 734.0, y= 663.0 | w=None  , h=None   | r=None           | name=7                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | 7
+x= 819.0, y= 663.0 | w=None  , h=None   | r=None           | name=8                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | 8
+x= 904.0, y= 663.0 | w=None  , h=None   | r=None           | name=9                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | 9
+x= 989.0, y= 663.0 | w=None  , h=None   | r=None           | name=0                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | 0
+x= 197.0, y= 704.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 282.0, y= 704.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 367.0, y= 704.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 452.0, y= 704.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 537.0, y= 704.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 622.0, y= 704.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 707.0, y= 704.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 792.0, y= 704.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 877.0, y= 704.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 962.0, y= 704.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x=1351.0, y= 712.1 | w=None  , h=None   | r=12.5           | name=타원 3                      | {'fill': '#e5f0ff'} | 
+x=1356.3, y= 718.9 | w=None  , h=None   | r=None           | name=패스 99                     | {'fill': '#1c4aa0'} | 
+x=1381.2, y= 729.1 | w=None  , h=None   | r=None           | name=대외협력실                     | {'fill': '#1c4aa2', 'font': '18px S-Core Dream 5 Medium'} | 대외협력실
+x=1363.5, y= 744.1 | w=None  , h=None   | r=None           | name=선 1                       | {'stroke': '#1c4aa0 (Nonepx)'} | 
+x= 219.0, y= 750.0 | w=None  , h=None   | r=None           | name=ㅂ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㅂ
+x= 304.0, y= 750.0 | w=None  , h=None   | r=None           | name=ㅈ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㅈ
+x= 389.0, y= 750.0 | w=None  , h=None   | r=None           | name=ㄷ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㄷ
+x= 474.0, y= 750.0 | w=None  , h=None   | r=None           | name=ㄱ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㄱ
+x= 559.0, y= 750.0 | w=None  , h=None   | r=None           | name=ㅅ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㅅ
+x= 645.0, y= 750.0 | w=None  , h=None   | r=None           | name=ㅛ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㅛ
+x= 730.0, y= 750.0 | w=None  , h=None   | r=None           | name=ㅕ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㅕ
+x= 815.0, y= 750.0 | w=None  , h=None   | r=None           | name=ㅑ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㅑ
+x= 900.0, y= 750.0 | w=None  , h=None   | r=None           | name=ㅐ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㅐ
+x= 985.0, y= 750.0 | w=None  , h=None   | r=None           | name=ㅔ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㅔ
+x=1399.4, y= 764.1 | w=None  , h=None   | r=None           | name=대회협력기획실
+국제협력실             | {'fill': '#212121', 'font': '18px S-Core Dream 5 Medium'} | 대회협력기획실\n국제협력실
+x= 240.0, y= 789.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 325.0, y= 789.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 410.0, y= 789.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 495.0, y= 789.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 580.0, y= 789.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 665.0, y= 789.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 750.0, y= 789.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 835.0, y= 789.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 920.0, y= 789.0 | w=None  , h=None   | r=None           | name=keyboard_bt               | {} | 
+x= 920.0, y= 789.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 263.0, y= 835.0 | w=None  , h=None   | r=None           | name=ㅁ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㅁ
+x= 348.0, y= 835.0 | w=None  , h=None   | r=None           | name=ㄴ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㄴ
+x= 433.0, y= 835.0 | w=None  , h=None   | r=None           | name=ㅇ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㅇ
+x= 518.0, y= 835.0 | w=None  , h=None   | r=None           | name=ㄹ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㄹ
+x= 603.0, y= 835.0 | w=None  , h=None   | r=None           | name=ㅎ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㅎ
+x= 687.0, y= 835.0 | w=None  , h=None   | r=None           | name=ㅗ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㅗ
+x= 772.0, y= 835.0 | w=None  , h=None   | r=None           | name=ㅓ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㅓ
+x= 857.0, y= 835.0 | w=None  , h=None   | r=None           | name=ㅏ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㅏ
+x= 942.0, y= 835.0 | w=None  , h=None   | r=None           | name=ㅣ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㅣ
+x=1351.0, y= 838.1 | w=None  , h=None   | r=12.5           | name=타원 3                      | {'fill': '#e5f0ff'} | 
+x=1356.3, y= 844.9 | w=None  , h=None   | r=None           | name=패스 99                     | {'fill': '#1c4aa0'} | 
+x=1381.2, y= 855.1 | w=None  , h=None   | r=None           | name=경영관리부                     | {'fill': '#1c4aa2', 'font': '18px S-Core Dream 5 Medium'} | 경영관리부
+x=1363.5, y= 870.1 | w=None  , h=None   | r=None           | name=선 1                       | {'stroke': '#1c4aa0 (Nonepx)'} | 
+x= 282.0, y= 874.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 367.0, y= 874.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 452.0, y= 874.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 537.0, y= 874.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 622.0, y= 874.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 707.0, y= 874.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 792.0, y= 874.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 877.0, y= 874.0 | w=None  , h=None   | r=None           | name=keyboard_bt_clear         | {} | 
+x= 877.0, y= 874.0 | w=113   , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt_clear         | {'fill': '#4a494b'} | 
+x=1399.4, y= 890.1 | w=None  , h=None   | r=None           | name=경영지원실
+인재개발실
+정보화지원실        | {'fill': '#212121', 'font': '18px S-Core Dream 5 Medium'} | 경영지원실\n인재개발실\n정보화지원실
+x= 895.5, y= 909.0 | w=None  , h=None   | r=None           | name=선 19                      | {'stroke': '#ffffff (Nonepx)'} | 
+x= 887.0, y= 913.5 | w=None  , h=None   | r=None           | name=다각형 3                     | {'fill': '#ffffff'} | 
+x= 645.0, y= 917.0 | w=None  , h=None   | r=None           | name=ㅠ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㅠ
+x= 730.0, y= 917.0 | w=None  , h=None   | r=None           | name=ㅜ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㅜ
+x= 922.0, y= 917.0 | w=None  , h=None   | r=None           | name=지우기                       | {'fill': '#ffffff', 'font': '18px S-Core Dream 6 Bold'} | 지우기
+x= 304.0, y= 919.0 | w=None  , h=None   | r=None           | name=ㅋ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㅋ
+x= 389.0, y= 919.0 | w=None  , h=None   | r=None           | name=ㅌ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㅌ
+x= 474.0, y= 919.0 | w=None  , h=None   | r=None           | name=ㅊ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㅊ
+x= 560.0, y= 919.0 | w=None  , h=None   | r=None           | name=ㅍ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㅍ
+x= 815.0, y= 919.0 | w=None  , h=None   | r=None           | name=ㅡ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㅡ
+x= 197.0, y= 959.0 | w=113   , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt_clear         | {'fill': '#4a494b'} | 
+x= 325.0, y= 959.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 410.0, y= 959.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 495.0, y= 959.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 580.0, y= 959.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 665.0, y= 959.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 750.0, y= 959.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 835.0, y= 959.0 | w=70    , h=70     | r=[8, 8, 8, 8]   | name=keyboard_bt               | {'fill': '#656567'} | 
+x= 920.0, y= 959.0 | w=None  , h=None   | r=None           | name=패스 432                    | {'fill': '#3d7aef'} | 
+x= 932.3, y= 985.3 | w=None  , h=None   | r=None           | name=keyboard_search_icon      | {'fill': '#ffffff', 'stroke': '#ffffff (Nonepx)'} | 
+x=1351.0, y= 999.2 | w=None  , h=None   | r=12.5           | name=타원 3                      | {'fill': '#e5f0ff'} | 
+x= 231.0, y=1002.0 | w=None  , h=None   | r=None           | name=한/영                       | {'fill': '#ffffff', 'font': '18px S-Core Dream 6 Bold'} | 한/영
+x= 976.0, y=1004.5 | w=None  , h=None   | r=None           | name=검색                        | {'fill': '#ffffff', 'font': '20px S-Core Dream 6 Bold'} | 검색
+x= 347.0, y=1005.0 | w=None  , h=None   | r=None           | name=ㅃ                         | {'fill': '#dbdadb', 'font': '26px S-Core Dream 5 Medium'} | ㅃ
+x= 432.0, y=1005.0 | w=None  , h=None   | r=None           | name=ㅉ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㅉ
+x= 517.0, y=1005.0 | w=None  , h=None   | r=None           | name=ㄸ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㄸ
+x= 603.0, y=1005.0 | w=None  , h=None   | r=None           | name=ㄲ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㄲ
+x= 688.0, y=1005.0 | w=None  , h=None   | r=None           | name=ㅆ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㅆ
+x= 773.0, y=1005.0 | w=None  , h=None   | r=None           | name=ㅒ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㅒ
+x= 858.0, y=1005.0 | w=None  , h=None   | r=None           | name=ㅖ                         | {'fill': '#ffffff', 'font': '26px S-Core Dream 5 Medium'} | ㅖ
+x=1356.3, y=1006.0 | w=None  , h=None   | r=None           | name=패스 99                     | {'fill': '#1c4aa0'} | 
+x=1381.2, y=1016.2 | w=None  , h=None   | r=None           | name=정보보완안전부                   | {'fill': '#1c4aa2', 'font': '18px S-Core Dream 5 Medium'} | 정보보완안전부
+x=1363.5, y=1031.2 | w=None  , h=None   | r=None           | name=선 1                       | {'stroke': '#1c4aa0 (Nonepx)'} | 
+x=1399.4, y=1051.2 | w=None  , h=None   | r=None           | name=정보체계팀                     | {'fill': '#212121', 'font': '18px S-Core Dream 5 Medium'} | 정보체계팀
+x=4578.0, y=7236.1 | w=None  , h=None   | r=None           | name=합치기 1                     | {'fill': '#1c4aa0'} | 
+x=4578.0, y=7268.1 | w=None  , h=None   | r=None           | name=합치기 2                     | {'fill': '#1c4aa0'} | 
+x=4578.0, y=7303.1 | w=None  , h=None   | r=None           | name=합치기 3                     | {'fill': '#1c4aa0'} | 
+x=4578.0, y=7337.1 | w=None  , h=None   | r=None           | name=합치기 4                     | {'fill': '#1c4aa0'} | 
+x=4581.2, y=7420.1 | w=None  , h=None   | r=None           | name=합치기 5                     | {'fill': '#1c4aa0'} | 
+x=4581.2, y=7452.1 | w=None  , h=None   | r=None           | name=합치기 6                     | {'fill': '#1c4aa0'} | 
+x=4581.2, y=7487.1 | w=None  , h=None   | r=None           | name=합치기 7                     | {'fill': '#1c4aa0'} | 
+x=4581.2, y=7580.1 | w=None  , h=None   | r=None           | name=합치기 5                     | {'fill': '#1c4aa0'} | 
+x=4581.2, y=7612.1 | w=None  , h=None   | r=None           | name=합치기 6                     | {'fill': '#1c4aa0'} | 
+x=4581.2, y=7706.2 | w=None  , h=None   | r=None           | name=합치기 5                     | {'fill': '#1c4aa0'} | 
+x=4581.2, y=7738.2 | w=None  , h=None   | r=None           | name=합치기 6                     | {'fill': '#1c4aa0'} | 
+x=4581.2, y=7773.2 | w=None  , h=None   | r=None           | name=합치기 7                     | {'fill': '#1c4aa0'} | 
+x=4581.2, y=7867.2 | w=None  , h=None   | r=None           | name=합치기 5                     | {'fill': '#1c4aa0'} | 
+x=4581.2, y=7899.2 | w=None  , h=None   | r=None           | name=합치기 6                     | {'fill': '#1c4aa0'} | 
+x=4581.2, y=7934.2 | w=None  , h=None   | r=None           | name=합치기 7                     | {'fill': '#1c4aa0'} | 

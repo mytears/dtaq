@@ -1,0 +1,3981 @@
+[
+  {
+    "name": "사각형 34",
+    "type": "shape",
+    "screen_x": 0,
+    "screen_y": 90,
+    "w": 1920,
+    "h": 990,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#edf2fb"
+    }
+  },
+  {
+    "name": "사각형 7",
+    "type": "shape",
+    "screen_x": 0,
+    "screen_y": 0,
+    "w": 1920,
+    "h": 90,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#ffffff"
+    }
+  },
+  {
+    "name": "bt_home",
+    "type": "shape",
+    "screen_x": 1744,
+    "screen_y": 20,
+    "w": 160,
+    "h": 50,
+    "r": [
+      7,
+      7,
+      7,
+      7
+    ],
+    "text": null,
+    "style": {
+      "fill": "#d8e0f3",
+      "stroke": "#b3c3e8 (Nonepx)"
+    }
+  },
+  {
+    "name": "직원 정보 검색",
+    "type": "text",
+    "screen_x": 862,
+    "screen_y": 58,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "직원 정보 검색",
+    "style": {
+      "fill": "#283860",
+      "font": "34px S-Core Dream 6 Bold"
+    }
+  },
+  {
+    "name": "처음으로",
+    "type": "text",
+    "screen_x": 1803,
+    "screen_y": 52,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "처음으로",
+    "style": {
+      "fill": "#283860",
+      "font": "18px S-Core Dream 6 Bold"
+    }
+  },
+  {
+    "name": "사각형 43",
+    "type": "shape",
+    "screen_x": 1298,
+    "screen_y": 127,
+    "w": 550,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#ffffff",
+      "stroke": "#1059e4 (Nonepx)"
+    }
+  },
+  {
+    "name": "사각형 63",
+    "type": "shape",
+    "screen_x": 1298,
+    "screen_y": 205,
+    "w": 550,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#ffffff",
+      "stroke": "#91b7ff (Nonepx)"
+    }
+  },
+  {
+    "name": "사각형 62",
+    "type": "shape",
+    "screen_x": 1297,
+    "screen_y": 285,
+    "w": 550,
+    "h": 760,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#ffffff",
+      "stroke": "#91b7ff (Nonepx)"
+    }
+  },
+  {
+    "name": "사각형 58",
+    "type": "shape",
+    "screen_x": 1786,
+    "screen_y": 134,
+    "w": 55,
+    "h": 55,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#3d7aef"
+    }
+  },
+  {
+    "name": "사각형 64",
+    "type": "shape",
+    "screen_x": 1787,
+    "screen_y": 212,
+    "w": 55,
+    "h": 55,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#3d7aef"
+    }
+  },
+  {
+    "name": "성명, 사번, 부서명으로 검색하세요",
+    "type": "text",
+    "screen_x": 1329,
+    "screen_y": 169,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "성명, 사번, 부서명으로 검색하세요",
+    "style": {
+      "fill": "#3d7aef",
+      "font": "20px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "전체부서",
+    "type": "text",
+    "screen_x": 1329,
+    "screen_y": 248,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "전체부서",
+    "style": {
+      "fill": "#212121",
+      "font": "22px S-Core Dream 6 Bold"
+    }
+  },
+  {
+    "name": "조직도",
+    "type": "text",
+    "screen_x": 1329,
+    "screen_y": 332,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "조직도",
+    "style": {
+      "fill": "#212121",
+      "font": "25px S-Core Dream 7 ExtraBold"
+    }
+  },
+  {
+    "name": "사각형 69",
+    "type": "shape",
+    "screen_x": 1313,
+    "screen_y": 352,
+    "w": 450,
+    "h": 38,
+    "r": [
+      7,
+      7,
+      7,
+      7
+    ],
+    "text": null,
+    "style": {
+      "fill": "#eff6fe"
+    }
+  },
+  {
+    "name": "사각형 72",
+    "type": "shape",
+    "screen_x": 1258,
+    "screen_y": 463,
+    "w": 310,
+    "h": 35,
+    "r": [
+      7,
+      7,
+      7,
+      7
+    ],
+    "text": null,
+    "style": {
+      "fill": "#eff6fe"
+    }
+  },
+  {
+    "name": "국방기술품질원",
+    "type": "text",
+    "screen_x": 1355,
+    "screen_y": 379,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "국방기술품질원",
+    "style": {
+      "fill": "#1c4aa2",
+      "font": "18px S-Core Dream 6 Bold"
+    }
+  },
+  {
+    "name": "원장실\n감사실\n안전혁신실\n법무실",
+    "type": "text",
+    "screen_x": 1394.0,
+    "screen_y": 420,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "원장실\\n감사실\\n안전혁신실\\n법무실",
+    "style": {
+      "fill": "#212121",
+      "font": "18px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ico_search",
+    "type": "group",
+    "screen_x": 1739.9,
+    "screen_y": 151.4,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "패스 88",
+    "type": "shape",
+    "screen_x": 1800.9,
+    "screen_y": 149.4,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#ffffff"
+    }
+  },
+  {
+    "name": "사각형 206",
+    "type": "shape",
+    "screen_x": 1799.0,
+    "screen_y": 146.0,
+    "w": 32,
+    "h": 32,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "ico_org_1",
+    "type": "group",
+    "screen_x": 96,
+    "screen_y": -5,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "타원 2",
+    "type": "shape",
+    "screen_x": 1320,
+    "screen_y": 356,
+    "w": null,
+    "h": null,
+    "r": 16,
+    "text": null,
+    "style": {
+      "fill": "#e2efff"
+    }
+  },
+  {
+    "name": "그룹 28",
+    "type": "group",
+    "screen_x": 1328.0,
+    "screen_y": 363.3,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "패스 90",
+    "type": "shape",
+    "screen_x": 1328.0,
+    "screen_y": 363.3,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1c4aa1"
+    }
+  },
+  {
+    "name": "사각형 65",
+    "type": "shape",
+    "screen_x": 1332.4,
+    "screen_y": 367.1,
+    "w": 1.6815993785858154,
+    "h": 1.6815996170043945,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1c4aa1"
+    }
+  },
+  {
+    "name": "사각형 66",
+    "type": "shape",
+    "screen_x": 1335.3,
+    "screen_y": 367.1,
+    "w": 1.682198166847229,
+    "h": 1.6815996170043945,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1c4aa1"
+    }
+  },
+  {
+    "name": "사각형 67",
+    "type": "shape",
+    "screen_x": 1332.4,
+    "screen_y": 370.9,
+    "w": 1.6815993785858154,
+    "h": 1.6815990209579468,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1c4aa1"
+    }
+  },
+  {
+    "name": "사각형 68",
+    "type": "shape",
+    "screen_x": 1335.3,
+    "screen_y": 370.9,
+    "w": 1.682198166847229,
+    "h": 1.6815990209579468,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1c4aa1"
+    }
+  },
+  {
+    "name": "그룹 33",
+    "type": "group",
+    "screen_x": 107.4,
+    "screen_y": 0,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "선 1",
+    "type": "shape",
+    "screen_x": 1349.4,
+    "screen_y": 404.5,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "stroke": "#1c4aa0 (Nonepx)"
+    }
+  },
+  {
+    "name": "패스 94",
+    "type": "shape",
+    "screen_x": -3092.6,
+    "screen_y": -6832,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "stroke": "#1c4aa0 (Nonepx)"
+    }
+  },
+  {
+    "name": "패스 95",
+    "type": "shape",
+    "screen_x": -3092.6,
+    "screen_y": -6798,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "stroke": "#1c4aa0 (Nonepx)"
+    }
+  },
+  {
+    "name": "패스 96",
+    "type": "shape",
+    "screen_x": -3092.6,
+    "screen_y": -6763,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "stroke": "#1c4aa0 (Nonepx)"
+    }
+  },
+  {
+    "name": "패스 97",
+    "type": "shape",
+    "screen_x": -3092.6,
+    "screen_y": -6729,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "stroke": "#1c4aa0 (Nonepx)"
+    }
+  },
+  {
+    "name": "합치기 2",
+    "type": "shape",
+    "screen_x": 4578.0,
+    "screen_y": 7268.1,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1c4aa0"
+    }
+  },
+  {
+    "name": "합치기 3",
+    "type": "shape",
+    "screen_x": 4578.0,
+    "screen_y": 7303.1,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1c4aa0"
+    }
+  },
+  {
+    "name": "합치기 4",
+    "type": "shape",
+    "screen_x": 4578.0,
+    "screen_y": 7337.1,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1c4aa0"
+    }
+  },
+  {
+    "name": "정책기획부",
+    "type": "text",
+    "screen_x": 1381.2,
+    "screen_y": 569.1,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "정책기획부",
+    "style": {
+      "fill": "#1c4aa2",
+      "font": "18px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "정책기획실\n조직인사실\n계획예산실",
+    "type": "text",
+    "screen_x": 1399.4,
+    "screen_y": 604.1,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "정책기획실\\n조직인사실\\n계획예산실",
+    "style": {
+      "fill": "#212121",
+      "font": "18px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "패스 93",
+    "type": "shape",
+    "screen_x": 3313.4,
+    "screen_y": -7653.9,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "stroke": "#1c4aa0 (Nonepx)"
+    }
+  },
+  {
+    "name": "그룹 34",
+    "type": "group",
+    "screen_x": 121.5,
+    "screen_y": 151.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "선 1",
+    "type": "shape",
+    "screen_x": 1363.5,
+    "screen_y": 584.1,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "stroke": "#1c4aa0 (Nonepx)"
+    }
+  },
+  {
+    "name": "패스 95",
+    "type": "shape",
+    "screen_x": -3078.5,
+    "screen_y": -6647.4,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "stroke": "#1c4aa0 (Nonepx)"
+    }
+  },
+  {
+    "name": "패스 96",
+    "type": "shape",
+    "screen_x": -3078.5,
+    "screen_y": -6614.7,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "stroke": "#1c4aa0 (Nonepx)"
+    }
+  },
+  {
+    "name": "패스 97",
+    "type": "shape",
+    "screen_x": -3078.5,
+    "screen_y": -6580.9,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "stroke": "#1c4aa0 (Nonepx)"
+    }
+  },
+  {
+    "name": "합치기 5",
+    "type": "shape",
+    "screen_x": 4581.2,
+    "screen_y": 7420.1,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1c4aa0"
+    }
+  },
+  {
+    "name": "합치기 6",
+    "type": "shape",
+    "screen_x": 4581.2,
+    "screen_y": 7452.1,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1c4aa0"
+    }
+  },
+  {
+    "name": "합치기 7",
+    "type": "shape",
+    "screen_x": 4581.2,
+    "screen_y": 7487.1,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1c4aa0"
+    }
+  },
+  {
+    "name": "ico_org_2",
+    "type": "group",
+    "screen_x": 116.0,
+    "screen_y": 18.1,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "그룹 30",
+    "type": "group",
+    "screen_x": 139.8,
+    "screen_y": 22.7,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "타원 3",
+    "type": "shape",
+    "screen_x": 1351.0,
+    "screen_y": 549.1,
+    "w": null,
+    "h": null,
+    "r": 12.5,
+    "text": null,
+    "style": {
+      "fill": "#e5f0ff"
+    }
+  },
+  {
+    "name": "패스 99",
+    "type": "shape",
+    "screen_x": 1356.3,
+    "screen_y": 555.8,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1c4aa0"
+    }
+  },
+  {
+    "name": "경영관리부",
+    "type": "text",
+    "screen_x": 1381.2,
+    "screen_y": 855.1,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "경영관리부",
+    "style": {
+      "fill": "#1c4aa2",
+      "font": "18px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "경영지원실\n인재개발실\n정보화지원실",
+    "type": "text",
+    "screen_x": 1399.4,
+    "screen_y": 890.1,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "경영지원실\\n인재개발실\\n정보화지원실",
+    "style": {
+      "fill": "#212121",
+      "font": "18px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "패스 93",
+    "type": "shape",
+    "screen_x": 3313.4,
+    "screen_y": -7364.8,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "stroke": "#1c4aa0 (Nonepx)"
+    }
+  },
+  {
+    "name": "그룹 34",
+    "type": "group",
+    "screen_x": 121.5,
+    "screen_y": 437.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "선 1",
+    "type": "shape",
+    "screen_x": 1363.5,
+    "screen_y": 870.1,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "stroke": "#1c4aa0 (Nonepx)"
+    }
+  },
+  {
+    "name": "패스 95",
+    "type": "shape",
+    "screen_x": -3078.5,
+    "screen_y": -6361.4,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "stroke": "#1c4aa0 (Nonepx)"
+    }
+  },
+  {
+    "name": "패스 96",
+    "type": "shape",
+    "screen_x": -3078.5,
+    "screen_y": -6328.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "stroke": "#1c4aa0 (Nonepx)"
+    }
+  },
+  {
+    "name": "패스 97",
+    "type": "shape",
+    "screen_x": -3078.5,
+    "screen_y": -6294.9,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "stroke": "#1c4aa0 (Nonepx)"
+    }
+  },
+  {
+    "name": "ico_list_2",
+    "type": "group",
+    "screen_x": 116,
+    "screen_y": 307.1,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "그룹 30",
+    "type": "group",
+    "screen_x": 139.8,
+    "screen_y": 311.8,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "타원 3",
+    "type": "shape",
+    "screen_x": 1351.0,
+    "screen_y": 838.1,
+    "w": null,
+    "h": null,
+    "r": 12.5,
+    "text": null,
+    "style": {
+      "fill": "#e5f0ff"
+    }
+  },
+  {
+    "name": "패스 99",
+    "type": "shape",
+    "screen_x": 1356.3,
+    "screen_y": 844.9,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1c4aa0"
+    }
+  },
+  {
+    "name": "합치기 5",
+    "type": "shape",
+    "screen_x": 4581.2,
+    "screen_y": 7706.2,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1c4aa0"
+    }
+  },
+  {
+    "name": "합치기 6",
+    "type": "shape",
+    "screen_x": 4581.2,
+    "screen_y": 7738.2,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1c4aa0"
+    }
+  },
+  {
+    "name": "합치기 7",
+    "type": "shape",
+    "screen_x": 4581.2,
+    "screen_y": 7773.2,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1c4aa0"
+    }
+  },
+  {
+    "name": "대외협력실",
+    "type": "text",
+    "screen_x": 1381.2,
+    "screen_y": 729.1,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "대외협력실",
+    "style": {
+      "fill": "#1c4aa2",
+      "font": "18px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "대회협력기획실\n국제협력실",
+    "type": "text",
+    "screen_x": 1399.4,
+    "screen_y": 764.1,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "대회협력기획실\\n국제협력실",
+    "style": {
+      "fill": "#212121",
+      "font": "18px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "패스 93",
+    "type": "shape",
+    "screen_x": 3313.4,
+    "screen_y": -7490.8,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "stroke": "#1c4aa0 (Nonepx)"
+    }
+  },
+  {
+    "name": "그룹 34",
+    "type": "group",
+    "screen_x": 121.5,
+    "screen_y": 311.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "선 1",
+    "type": "shape",
+    "screen_x": 1363.5,
+    "screen_y": 744.1,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "stroke": "#1c4aa0 (Nonepx)"
+    }
+  },
+  {
+    "name": "패스 95",
+    "type": "shape",
+    "screen_x": -3078.5,
+    "screen_y": -6487.4,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "stroke": "#1c4aa0 (Nonepx)"
+    }
+  },
+  {
+    "name": "패스 96",
+    "type": "shape",
+    "screen_x": -3078.5,
+    "screen_y": -6454.7,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "stroke": "#1c4aa0 (Nonepx)"
+    }
+  },
+  {
+    "name": "ico_list_2",
+    "type": "group",
+    "screen_x": 116,
+    "screen_y": 181.1,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "그룹 30",
+    "type": "group",
+    "screen_x": 139.8,
+    "screen_y": 185.8,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "타원 3",
+    "type": "shape",
+    "screen_x": 1351.0,
+    "screen_y": 712.1,
+    "w": null,
+    "h": null,
+    "r": 12.5,
+    "text": null,
+    "style": {
+      "fill": "#e5f0ff"
+    }
+  },
+  {
+    "name": "패스 99",
+    "type": "shape",
+    "screen_x": 1356.3,
+    "screen_y": 718.9,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1c4aa0"
+    }
+  },
+  {
+    "name": "합치기 5",
+    "type": "shape",
+    "screen_x": 4581.2,
+    "screen_y": 7580.1,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1c4aa0"
+    }
+  },
+  {
+    "name": "합치기 6",
+    "type": "shape",
+    "screen_x": 4581.2,
+    "screen_y": 7612.1,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1c4aa0"
+    }
+  },
+  {
+    "name": "마스크 그룹 8",
+    "type": "group",
+    "screen_x": 116,
+    "screen_y": -7,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "그룹 40",
+    "type": "group",
+    "screen_x": 116,
+    "screen_y": 468.2,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "정보보완안전부",
+    "type": "text",
+    "screen_x": 1381.2,
+    "screen_y": 1016.2,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "정보보완안전부",
+    "style": {
+      "fill": "#1c4aa2",
+      "font": "18px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "정보체계팀",
+    "type": "text",
+    "screen_x": 1399.4,
+    "screen_y": 1051.2,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "정보체계팀",
+    "style": {
+      "fill": "#212121",
+      "font": "18px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "그룹 30",
+    "type": "group",
+    "screen_x": 139.8,
+    "screen_y": 472.9,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "타원 3",
+    "type": "shape",
+    "screen_x": 1351.0,
+    "screen_y": 999.2,
+    "w": null,
+    "h": null,
+    "r": 12.5,
+    "text": null,
+    "style": {
+      "fill": "#e5f0ff"
+    }
+  },
+  {
+    "name": "패스 93",
+    "type": "shape",
+    "screen_x": 3313.4,
+    "screen_y": -7203.7,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "stroke": "#1c4aa0 (Nonepx)"
+    }
+  },
+  {
+    "name": "그룹 34",
+    "type": "group",
+    "screen_x": 121.5,
+    "screen_y": 598.7,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "선 1",
+    "type": "shape",
+    "screen_x": 1363.5,
+    "screen_y": 1031.2,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "stroke": "#1c4aa0 (Nonepx)"
+    }
+  },
+  {
+    "name": "패스 95",
+    "type": "shape",
+    "screen_x": -3078.5,
+    "screen_y": -6200.3,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "stroke": "#1c4aa0 (Nonepx)"
+    }
+  },
+  {
+    "name": "패스 96",
+    "type": "shape",
+    "screen_x": -3078.5,
+    "screen_y": -6167.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "stroke": "#1c4aa0 (Nonepx)"
+    }
+  },
+  {
+    "name": "패스 97",
+    "type": "shape",
+    "screen_x": -3078.5,
+    "screen_y": -6133.8,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "stroke": "#1c4aa0 (Nonepx)"
+    }
+  },
+  {
+    "name": "패스 99",
+    "type": "shape",
+    "screen_x": 1356.3,
+    "screen_y": 1006.0,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1c4aa0"
+    }
+  },
+  {
+    "name": "합치기 5",
+    "type": "shape",
+    "screen_x": 4581.2,
+    "screen_y": 7867.2,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1c4aa0"
+    }
+  },
+  {
+    "name": "합치기 6",
+    "type": "shape",
+    "screen_x": 4581.2,
+    "screen_y": 7899.2,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1c4aa0"
+    }
+  },
+  {
+    "name": "합치기 7",
+    "type": "shape",
+    "screen_x": 4581.2,
+    "screen_y": 7934.2,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1c4aa0"
+    }
+  },
+  {
+    "name": "사각형 6",
+    "type": "shape",
+    "screen_x": 95,
+    "screen_y": 229,
+    "w": 1060,
+    "h": 250,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#ffffff",
+      "stroke": "#ffffff (Nonepx)"
+    }
+  },
+  {
+    "name": "성명, 사번, 부서명으로 검색하세요",
+    "type": "text",
+    "screen_x": 394,
+    "screen_y": 340,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "성명, 사번, 부서명으로 검색하세요",
+    "style": {
+      "fill": "#373737",
+      "font": "31px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "부서를 선택하시면 부서별 검색을 하실 수 있습니다. ",
+    "type": "text",
+    "screen_x": 276,
+    "screen_y": 392,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "부서를 선택하시면 부서별 검색을 하실 수 있습니다. ",
+    "style": {
+      "fill": "#373737",
+      "font": "31px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "keyboard_bg",
+    "type": "shape",
+    "screen_x": 42,
+    "screen_y": 565,
+    "w": 1165,
+    "h": 515,
+    "r": [
+      30,
+      30,
+      0,
+      0
+    ],
+    "text": null,
+    "style": {
+      "fill": "#000000"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 197,
+    "screen_y": 619,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 197,
+    "screen_y": 704,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 240,
+    "screen_y": 789,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 282,
+    "screen_y": 874,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 325,
+    "screen_y": 959,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 537,
+    "screen_y": 619,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 537,
+    "screen_y": 704,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 580,
+    "screen_y": 789,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 622,
+    "screen_y": 874,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 665,
+    "screen_y": 959,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 877,
+    "screen_y": 619,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 877,
+    "screen_y": 704,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "group",
+    "screen_x": 920,
+    "screen_y": 789,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 920,
+    "screen_y": 789,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 367,
+    "screen_y": 619,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 367,
+    "screen_y": 704,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 410,
+    "screen_y": 789,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 452,
+    "screen_y": 874,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 495,
+    "screen_y": 959,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 707,
+    "screen_y": 619,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 707,
+    "screen_y": 704,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 750,
+    "screen_y": 789,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 792,
+    "screen_y": 874,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 835,
+    "screen_y": 959,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 282,
+    "screen_y": 619,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 282,
+    "screen_y": 704,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 325,
+    "screen_y": 789,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 367,
+    "screen_y": 874,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 410,
+    "screen_y": 959,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 622,
+    "screen_y": 619,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 622,
+    "screen_y": 704,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 665,
+    "screen_y": 789,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 707,
+    "screen_y": 874,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 750,
+    "screen_y": 959,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 962,
+    "screen_y": 619,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 962,
+    "screen_y": 704,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 452,
+    "screen_y": 619,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 452,
+    "screen_y": 704,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 495,
+    "screen_y": 789,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 537,
+    "screen_y": 874,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 580,
+    "screen_y": 959,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 792,
+    "screen_y": 619,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 792,
+    "screen_y": 704,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "keyboard_bt",
+    "type": "shape",
+    "screen_x": 835,
+    "screen_y": 789,
+    "w": 70,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#656567"
+    }
+  },
+  {
+    "name": "1",
+    "type": "text",
+    "screen_x": 224,
+    "screen_y": 663,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "1",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "4",
+    "type": "text",
+    "screen_x": 479,
+    "screen_y": 663,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "4",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "7",
+    "type": "text",
+    "screen_x": 734,
+    "screen_y": 663,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "7",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "2",
+    "type": "text",
+    "screen_x": 309,
+    "screen_y": 663,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "2",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "5",
+    "type": "text",
+    "screen_x": 564,
+    "screen_y": 663,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "5",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "8",
+    "type": "text",
+    "screen_x": 819,
+    "screen_y": 663,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "8",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "3",
+    "type": "text",
+    "screen_x": 394,
+    "screen_y": 663,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "3",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "6",
+    "type": "text",
+    "screen_x": 649,
+    "screen_y": 663,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "6",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "9",
+    "type": "text",
+    "screen_x": 904,
+    "screen_y": 663,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "9",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "0",
+    "type": "text",
+    "screen_x": 989,
+    "screen_y": 663,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "0",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㅂ",
+    "type": "text",
+    "screen_x": 219,
+    "screen_y": 750,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㅂ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㄱ",
+    "type": "text",
+    "screen_x": 474.0,
+    "screen_y": 750,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㄱ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㅕ",
+    "type": "text",
+    "screen_x": 730.0,
+    "screen_y": 750,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㅕ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㅈ",
+    "type": "text",
+    "screen_x": 304,
+    "screen_y": 750,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㅈ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㅅ",
+    "type": "text",
+    "screen_x": 559,
+    "screen_y": 750,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㅅ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㅑ",
+    "type": "text",
+    "screen_x": 815,
+    "screen_y": 750,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㅑ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㄷ",
+    "type": "text",
+    "screen_x": 389,
+    "screen_y": 750,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㄷ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㅛ",
+    "type": "text",
+    "screen_x": 645,
+    "screen_y": 750,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㅛ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㅐ",
+    "type": "text",
+    "screen_x": 900.0,
+    "screen_y": 750,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㅐ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㅔ",
+    "type": "text",
+    "screen_x": 985,
+    "screen_y": 750,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㅔ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "keyboard_bt_clear",
+    "type": "group",
+    "screen_x": 877,
+    "screen_y": 874,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "keyboard_bt_clear",
+    "type": "shape",
+    "screen_x": 877,
+    "screen_y": 874,
+    "w": 113,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#4a494b"
+    }
+  },
+  {
+    "name": "keyboard_bt_clear",
+    "type": "shape",
+    "screen_x": 197,
+    "screen_y": 959,
+    "w": 113,
+    "h": 70,
+    "r": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "text": null,
+    "style": {
+      "fill": "#4a494b"
+    }
+  },
+  {
+    "name": "지우기",
+    "type": "text",
+    "screen_x": 922,
+    "screen_y": 917,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "지우기",
+    "style": {
+      "fill": "#ffffff",
+      "font": "18px S-Core Dream 6 Bold"
+    }
+  },
+  {
+    "name": "한/영",
+    "type": "text",
+    "screen_x": 231,
+    "screen_y": 1002,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "한/영",
+    "style": {
+      "fill": "#ffffff",
+      "font": "18px S-Core Dream 6 Bold"
+    }
+  },
+  {
+    "name": "ㅃ",
+    "type": "text",
+    "screen_x": 347,
+    "screen_y": 1005,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㅃ",
+    "style": {
+      "fill": "#dbdadb",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㄲ",
+    "type": "text",
+    "screen_x": 603,
+    "screen_y": 1005,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㄲ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㅉ",
+    "type": "text",
+    "screen_x": 432.0,
+    "screen_y": 1005,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㅉ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㅆ",
+    "type": "text",
+    "screen_x": 688.0,
+    "screen_y": 1005,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㅆ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㄸ",
+    "type": "text",
+    "screen_x": 517.0,
+    "screen_y": 1005,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㄸ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㅒ",
+    "type": "text",
+    "screen_x": 773.0,
+    "screen_y": 1005,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㅒ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㅖ",
+    "type": "text",
+    "screen_x": 858,
+    "screen_y": 1005,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㅖ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "keyboard_bt_search",
+    "type": "group",
+    "screen_x": -207,
+    "screen_y": 217,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "패스 432",
+    "type": "shape",
+    "screen_x": 920,
+    "screen_y": 959,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#3d7aef"
+    }
+  },
+  {
+    "name": "검색",
+    "type": "text",
+    "screen_x": 976,
+    "screen_y": 1004.5,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "검색",
+    "style": {
+      "fill": "#ffffff",
+      "font": "20px S-Core Dream 6 Bold"
+    }
+  },
+  {
+    "name": "ㅁ",
+    "type": "text",
+    "screen_x": 263,
+    "screen_y": 835,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㅁ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㄹ",
+    "type": "text",
+    "screen_x": 518,
+    "screen_y": 835,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㄹ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㅓ",
+    "type": "text",
+    "screen_x": 772,
+    "screen_y": 835,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㅓ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㄴ",
+    "type": "text",
+    "screen_x": 348,
+    "screen_y": 835,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㄴ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㅎ",
+    "type": "text",
+    "screen_x": 603,
+    "screen_y": 835,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㅎ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㅏ",
+    "type": "text",
+    "screen_x": 857,
+    "screen_y": 835,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㅏ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㅇ",
+    "type": "text",
+    "screen_x": 433,
+    "screen_y": 835,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㅇ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㅗ",
+    "type": "text",
+    "screen_x": 687,
+    "screen_y": 835,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㅗ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㅣ",
+    "type": "text",
+    "screen_x": 942,
+    "screen_y": 835,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㅣ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㅋ",
+    "type": "text",
+    "screen_x": 304,
+    "screen_y": 919,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㅋ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㅍ",
+    "type": "text",
+    "screen_x": 560,
+    "screen_y": 919,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㅍ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㅡ",
+    "type": "text",
+    "screen_x": 815,
+    "screen_y": 919,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㅡ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㅌ",
+    "type": "text",
+    "screen_x": 389,
+    "screen_y": 919,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㅌ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㅠ",
+    "type": "text",
+    "screen_x": 645,
+    "screen_y": 917,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㅠ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㅊ",
+    "type": "text",
+    "screen_x": 474,
+    "screen_y": 919,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㅊ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "ㅜ",
+    "type": "text",
+    "screen_x": 730,
+    "screen_y": 917,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": "ㅜ",
+    "style": {
+      "fill": "#ffffff",
+      "font": "26px S-Core Dream 5 Medium"
+    }
+  },
+  {
+    "name": "keyboard_search_icon",
+    "type": "group",
+    "screen_x": -207,
+    "screen_y": 217,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "keyboard_search_icon",
+    "type": "shape",
+    "screen_x": 932.3,
+    "screen_y": 985.3,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#ffffff",
+      "stroke": "#ffffff (Nonepx)"
+    }
+  },
+  {
+    "name": "keyboard_search_clear",
+    "type": "group",
+    "screen_x": -1491,
+    "screen_y": -9566,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "그룹 58",
+    "type": "group",
+    "screen_x": -1529,
+    "screen_y": -9559,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "다각형 3",
+    "type": "shape",
+    "screen_x": 887,
+    "screen_y": 913.5,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#ffffff"
+    }
+  },
+  {
+    "name": "선 19",
+    "type": "shape",
+    "screen_x": 895.5,
+    "screen_y": 909,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "stroke": "#ffffff (Nonepx)"
+    }
+  },
+  {
+    "name": "ico_home",
+    "type": "group",
+    "screen_x": 0,
+    "screen_y": 0,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "ico_home",
+    "type": "shape",
+    "screen_x": 1766.5,
+    "screen_y": 33.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#283860"
+    }
+  },
+  {
+    "name": "img_logo",
+    "type": "group",
+    "screen_x": 0,
+    "screen_y": 0,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "그룹 25",
+    "type": "group",
+    "screen_x": 36,
+    "screen_y": 23.2,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "그룹 16",
+    "type": "group",
+    "screen_x": 36,
+    "screen_y": 23.2,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "그룹 15",
+    "type": "group",
+    "screen_x": 36,
+    "screen_y": 23.2,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "패스 27",
+    "type": "shape",
+    "screen_x": 31.9,
+    "screen_y": 22.4,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 28",
+    "type": "shape",
+    "screen_x": 31.5,
+    "screen_y": 23.0,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 29",
+    "type": "shape",
+    "screen_x": 30.4,
+    "screen_y": 23.0,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 30",
+    "type": "shape",
+    "screen_x": 31.1,
+    "screen_y": 23.0,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 31",
+    "type": "shape",
+    "screen_x": 30.0,
+    "screen_y": 23.0,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 32",
+    "type": "shape",
+    "screen_x": 28.9,
+    "screen_y": 23.0,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 33",
+    "type": "shape",
+    "screen_x": 27.8,
+    "screen_y": 23.0,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 34",
+    "type": "shape",
+    "screen_x": 27.1,
+    "screen_y": 23.0,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 35",
+    "type": "shape",
+    "screen_x": 26.7,
+    "screen_y": 23.0,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 36",
+    "type": "shape",
+    "screen_x": 26.2,
+    "screen_y": 23.0,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 37",
+    "type": "shape",
+    "screen_x": 26.7,
+    "screen_y": 22.5,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 38",
+    "type": "shape",
+    "screen_x": 33.3,
+    "screen_y": 23.0,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 39",
+    "type": "shape",
+    "screen_x": 32.2,
+    "screen_y": 23.0,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 40",
+    "type": "shape",
+    "screen_x": 26.6,
+    "screen_y": 22.2,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 41",
+    "type": "shape",
+    "screen_x": 27.6,
+    "screen_y": 22.4,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 42",
+    "type": "shape",
+    "screen_x": 29.0,
+    "screen_y": 22.5,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 43",
+    "type": "shape",
+    "screen_x": 30.1,
+    "screen_y": 22.5,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 44",
+    "type": "shape",
+    "screen_x": 36,
+    "screen_y": 23.2,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#dc000c"
+    }
+  },
+  {
+    "name": "패스 45",
+    "type": "shape",
+    "screen_x": 35.0,
+    "screen_y": 23.2,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#001976"
+    }
+  },
+  {
+    "name": "그룹 18",
+    "type": "group",
+    "screen_x": 67.3,
+    "screen_y": 31.5,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "그룹 17",
+    "type": "group",
+    "screen_x": 67.3,
+    "screen_y": 31.5,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "사각형 37",
+    "type": "shape",
+    "screen_x": 67.3,
+    "screen_y": 31.5,
+    "w": 16.565441131591797,
+    "h": 16.56544303894043,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "그룹 20",
+    "type": "group",
+    "screen_x": 36,
+    "screen_y": 23.2,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "그룹 19",
+    "type": "group",
+    "screen_x": 36,
+    "screen_y": 23.2,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "패스 47",
+    "type": "shape",
+    "screen_x": 35.6,
+    "screen_y": 21.7,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 48",
+    "type": "shape",
+    "screen_x": 35.1,
+    "screen_y": 21.7,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 49",
+    "type": "shape",
+    "screen_x": 34.7,
+    "screen_y": 21.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 50",
+    "type": "shape",
+    "screen_x": 34.3,
+    "screen_y": 21.7,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "그룹 22",
+    "type": "group",
+    "screen_x": 70.0,
+    "screen_y": 49.7,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "그룹 21",
+    "type": "group",
+    "screen_x": 70.0,
+    "screen_y": 49.7,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "사각형 39",
+    "type": "shape",
+    "screen_x": 70.0,
+    "screen_y": 49.7,
+    "w": 11.197015762329102,
+    "h": 2.0927278995513916,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "그룹 24",
+    "type": "group",
+    "screen_x": 36,
+    "screen_y": 23.2,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "그룹 23",
+    "type": "group",
+    "screen_x": 36,
+    "screen_y": 23.2,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "패스 52",
+    "type": "shape",
+    "screen_x": 33.3,
+    "screen_y": 21.7,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 53",
+    "type": "shape",
+    "screen_x": 33.0,
+    "screen_y": 21.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 54",
+    "type": "shape",
+    "screen_x": 32.8,
+    "screen_y": 21.7,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 55",
+    "type": "shape",
+    "screen_x": 30.4,
+    "screen_y": 21.7,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 56",
+    "type": "shape",
+    "screen_x": 32.7,
+    "screen_y": 21.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 57",
+    "type": "shape",
+    "screen_x": 32.5,
+    "screen_y": 21.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 58",
+    "type": "shape",
+    "screen_x": 32.3,
+    "screen_y": 21.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 59",
+    "type": "shape",
+    "screen_x": 32.1,
+    "screen_y": 21.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 60",
+    "type": "shape",
+    "screen_x": 31.8,
+    "screen_y": 21.7,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 61",
+    "type": "shape",
+    "screen_x": 31.3,
+    "screen_y": 21.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 62",
+    "type": "shape",
+    "screen_x": 31.1,
+    "screen_y": 21.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 63",
+    "type": "shape",
+    "screen_x": 30.9,
+    "screen_y": 21.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 64",
+    "type": "shape",
+    "screen_x": 30.3,
+    "screen_y": 21.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 65",
+    "type": "shape",
+    "screen_x": 30.1,
+    "screen_y": 21.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 66",
+    "type": "shape",
+    "screen_x": 31.6,
+    "screen_y": 21.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 67",
+    "type": "shape",
+    "screen_x": 30.7,
+    "screen_y": 21.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "사각형 40",
+    "type": "shape",
+    "screen_x": 263.1,
+    "screen_y": 58.4,
+    "w": 0.9385204315185547,
+    "h": 1.250077247619629,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 68",
+    "type": "shape",
+    "screen_x": 29.9,
+    "screen_y": 21.7,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 69",
+    "type": "shape",
+    "screen_x": 29.6,
+    "screen_y": 21.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 70",
+    "type": "shape",
+    "screen_x": 29.4,
+    "screen_y": 21.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 71",
+    "type": "shape",
+    "screen_x": 29.3,
+    "screen_y": 21.7,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 72",
+    "type": "shape",
+    "screen_x": 29.0,
+    "screen_y": 21.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 73",
+    "type": "shape",
+    "screen_x": 28.8,
+    "screen_y": 21.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 74",
+    "type": "shape",
+    "screen_x": 28.6,
+    "screen_y": 21.7,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 75",
+    "type": "shape",
+    "screen_x": 28.5,
+    "screen_y": 21.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 76",
+    "type": "shape",
+    "screen_x": 27.8,
+    "screen_y": 21.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 77",
+    "type": "shape",
+    "screen_x": 27.6,
+    "screen_y": 21.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 78",
+    "type": "shape",
+    "screen_x": 27.4,
+    "screen_y": 21.7,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 79",
+    "type": "shape",
+    "screen_x": 26.8,
+    "screen_y": 21.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 80",
+    "type": "shape",
+    "screen_x": 26.5,
+    "screen_y": 21.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 81",
+    "type": "shape",
+    "screen_x": 26.3,
+    "screen_y": 21.7,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 82",
+    "type": "shape",
+    "screen_x": 26.2,
+    "screen_y": 21.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 83",
+    "type": "shape",
+    "screen_x": 26.1,
+    "screen_y": 21.7,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 84",
+    "type": "shape",
+    "screen_x": 27.0,
+    "screen_y": 21.7,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 85",
+    "type": "shape",
+    "screen_x": 28.3,
+    "screen_y": 21.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 86",
+    "type": "shape",
+    "screen_x": 26.0,
+    "screen_y": 21.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "패스 87",
+    "type": "shape",
+    "screen_x": 28.1,
+    "screen_y": 21.6,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1a1311"
+    }
+  },
+  {
+    "name": "ico_chevron_down",
+    "type": "group",
+    "screen_x": 2,
+    "screen_y": 0,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "ico_chevron_down",
+    "type": "shape",
+    "screen_x": -6745.2,
+    "screen_y": -1265.4,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "stroke": "#ffffff (Nonepx)"
+    }
+  },
+  {
+    "name": "사각형 207",
+    "type": "shape",
+    "screen_x": 1799,
+    "screen_y": 224,
+    "w": 32,
+    "h": 32,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "ico_org_3",
+    "type": "group",
+    "screen_x": 0,
+    "screen_y": 0,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "타원 18",
+    "type": "shape",
+    "screen_x": 1373,
+    "screen_y": 403,
+    "w": null,
+    "h": null,
+    "r": 10.5,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "그룹 116",
+    "type": "group",
+    "screen_x": 0,
+    "screen_y": 0,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {}
+  },
+  {
+    "name": "합치기 1",
+    "type": "shape",
+    "screen_x": 4578.0,
+    "screen_y": 7236.1,
+    "w": null,
+    "h": null,
+    "r": null,
+    "text": null,
+    "style": {
+      "fill": "#1c4aa0"
+    }
+  },
+  {
+    "name": "사각형 213",
+    "type": "shape",
+    "screen_x": 1803,
+    "screen_y": 354,
+    "w": 20,
+    "h": 672,
+    "r": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "text": null,
+    "style": {
+      "fill": "#eaf0fc"
+    }
+  },
+  {
+    "name": "사각형 71",
+    "type": "shape",
+    "screen_x": 1803,
+    "screen_y": 354,
+    "w": 20,
+    "h": 150,
+    "r": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "text": null,
+    "style": {
+      "fill": "#3d7aef"
+    }
+  }
+]
