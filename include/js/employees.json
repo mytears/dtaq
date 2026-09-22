@@ -5,7 +5,7 @@
     "dept": "안전혁신실",
     "deptCode": "DEPT_SAFETY",
     "pos": "선임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "jinho.kim@dtaq.re.kr",
     "phone": "055-751-2408",
     "duties": [
@@ -42,7 +42,7 @@
     "dept": "법무실",
     "deptCode": "DEPT_LEGAL",
     "pos": "책임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "jh.kim@dtaq.re.kr",
     "phone": "055-751-2012",
     "duties": [
@@ -64,7 +64,7 @@
     "dept": "정책기획실",
     "deptCode": "DEPT_POLICY",
     "pos": "선임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "jinho23@dtaq.re.kr",
     "phone": "055-751-2314",
     "duties": [
@@ -96,7 +96,7 @@
     "dept": "경영지원실",
     "deptCode": "DEPT_MGMT",
     "pos": "선임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "honggildong@dtaq.re.kr",
     "phone": "055-111-1234",
     "duties": [
@@ -123,7 +123,7 @@
     "dept": "정책기획실",
     "deptCode": "DEPT_POLICY",
     "pos": "연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "jinho_p@dtaq.re.kr",
     "phone": "055-751-2245",
     "duties": [
@@ -160,7 +160,7 @@
     "dept": "인재개발실",
     "deptCode": "DEPT_HR",
     "pos": "연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "jinho_hr@dtaq.re.kr",
     "phone": "055-751-2512",
     "duties": [
@@ -182,7 +182,7 @@
     "dept": "첨단미래기술센터",
     "deptCode": "DEPT_FUTURE",
     "pos": "책임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "jinho_tech@dtaq.re.kr",
     "phone": "055-751-2641",
     "duties": [
@@ -214,7 +214,7 @@
     "dept": "감사실",
     "deptCode": "DEPT_AUDIT",
     "pos": "책임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "sm.lee@dtaq.re.kr",
     "phone": "055-751-2701",
     "duties": [
@@ -236,7 +236,7 @@
     "dept": "조직인사실",
     "deptCode": "DEPT_HR_ORG",
     "pos": "선임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "sw.park@dtaq.re.kr",
     "phone": "055-751-2810",
     "duties": [
@@ -273,7 +273,7 @@
     "dept": "계획예산실",
     "deptCode": "DEPT_BUDGET",
     "pos": "선임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "yj.choi@dtaq.re.kr",
     "phone": "055-751-2923",
     "duties": [
@@ -295,7 +295,7 @@
     "dept": "대외협력기획실",
     "deptCode": "DEPT_COOP",
     "pos": "연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "mj.jung@dtaq.re.kr",
     "phone": "055-751-3014",
     "duties": [
@@ -327,7 +327,7 @@
     "dept": "국제협력실",
     "deptCode": "DEPT_INTL",
     "pos": "선임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "hw.kang@dtaq.re.kr",
     "phone": "055-751-3128",
     "duties": [
@@ -349,7 +349,7 @@
     "dept": "정보화지원실",
     "deptCode": "DEPT_IT",
     "pos": "선임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "ye.cho@dtaq.re.kr",
     "phone": "055-751-3241",
     "duties": [
@@ -386,7 +386,7 @@
     "dept": "정보보안안전부",
     "deptCode": "DEPT_SEC",
     "pos": "책임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "dh.yoon@dtaq.re.kr",
     "phone": "055-751-3356",
     "duties": [
@@ -408,7 +408,7 @@
     "dept": "원장실",
     "deptCode": "DEPT_DIR",
     "pos": "선임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "sy.jang@dtaq.re.kr",
     "phone": "055-751-3467",
     "duties": [
@@ -440,7 +440,7 @@
     "dept": "안전혁신실",
     "deptCode": "DEPT_SAFETY",
     "pos": "책임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "jb.lim@dtaq.re.kr",
     "phone": "055-751-3510",
     "duties": [
@@ -462,7 +462,7 @@
     "dept": "정책기획실",
     "deptCode": "DEPT_POLICY",
     "pos": "선임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "sh.han@dtaq.re.kr",
     "phone": "055-751-3621",
     "duties": [
@@ -499,7 +499,7 @@
     "dept": "경영지원실",
     "deptCode": "DEPT_MGMT",
     "pos": "연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "jh.oh@dtaq.re.kr",
     "phone": "055-751-3732",
     "duties": [
@@ -521,7 +521,7 @@
     "dept": "첨단미래기술센터",
     "deptCode": "DEPT_FUTURE",
     "pos": "선임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "dh.seo@dtaq.re.kr",
     "phone": "055-751-3843",
     "duties": [
@@ -553,7 +553,7 @@
     "dept": "인재개발실",
     "deptCode": "DEPT_HR",
     "pos": "선임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "yj.shin@dtaq.re.kr",
     "phone": "055-751-3954",
     "duties": [
@@ -575,7 +575,7 @@
     "dept": "법무실",
     "deptCode": "DEPT_LEGAL",
     "pos": "선임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "ty.kwon@dtaq.re.kr",
     "phone": "055-751-4065",
     "duties": [
@@ -612,7 +612,7 @@
     "dept": "정보화지원실",
     "deptCode": "DEPT_IT",
     "pos": "연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "jm.song@dtaq.re.kr",
     "phone": "055-751-4176",
     "duties": [
@@ -634,7 +634,7 @@
     "dept": "계획예산실",
     "deptCode": "DEPT_BUDGET",
     "pos": "책임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "hj.baek@dtaq.re.kr",
     "phone": "055-751-4287",
     "duties": [
@@ -666,7 +666,7 @@
     "dept": "대외협력기획실",
     "deptCode": "DEPT_COOP",
     "pos": "선임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "ai.yoo@dtaq.re.kr",
     "phone": "055-751-4398",
     "duties": [
@@ -688,7 +688,7 @@
     "dept": "조직인사실",
     "deptCode": "DEPT_HR_ORG",
     "pos": "연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "dh.ryu@dtaq.re.kr",
     "phone": "055-751-4509",
     "duties": [
@@ -725,7 +725,7 @@
     "dept": "감사실",
     "deptCode": "DEPT_AUDIT",
     "pos": "선임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "m.namkoong@dtaq.re.kr",
     "phone": "055-751-4621",
     "duties": [
@@ -747,7 +747,7 @@
     "dept": "국제협력실",
     "deptCode": "DEPT_INTL",
     "pos": "연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "br.hwang@dtaq.re.kr",
     "phone": "055-751-4732",
     "duties": [
@@ -779,7 +779,7 @@
     "dept": "안전혁신실",
     "deptCode": "DEPT_SAFETY",
     "pos": "선임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "sj.ha@dtaq.re.kr",
     "phone": "055-751-4843",
     "duties": [
@@ -801,7 +801,7 @@
     "dept": "원장실",
     "deptCode": "DEPT_DIR",
     "pos": "연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "ky.moon@dtaq.re.kr",
     "phone": "055-751-4954",
     "duties": [
@@ -838,7 +838,7 @@
     "dept": "정책기획실",
     "deptCode": "DEPT_POLICY",
     "pos": "연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "sj.bae@dtaq.re.kr",
     "phone": "055-751-5065",
     "duties": [
@@ -860,7 +860,7 @@
     "dept": "첨단미래기술센터",
     "deptCode": "DEPT_FUTURE",
     "pos": "선임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "hs.ahn@dtaq.re.kr",
     "phone": "055-751-5176",
     "duties": [
@@ -892,7 +892,7 @@
     "dept": "경영지원실",
     "deptCode": "DEPT_MGMT",
     "pos": "선임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "dy.kwak@dtaq.re.kr",
     "phone": "055-751-5287",
     "duties": [
@@ -914,7 +914,7 @@
     "dept": "인재개발실",
     "deptCode": "DEPT_HR",
     "pos": "연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "ys.roh@dtaq.re.kr",
     "phone": "055-751-5398",
     "duties": [
@@ -951,7 +951,7 @@
     "dept": "정보보안안전부",
     "deptCode": "DEPT_SEC",
     "pos": "선임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "ws.byeon@dtaq.re.kr",
     "phone": "055-751-5509",
     "duties": [
@@ -973,7 +973,7 @@
     "dept": "계획예산실",
     "deptCode": "DEPT_BUDGET",
     "pos": "선임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "tr.kim@dtaq.re.kr",
     "phone": "055-751-5621",
     "duties": [
@@ -1005,7 +1005,7 @@
     "dept": "조직인사실",
     "deptCode": "DEPT_HR_ORG",
     "pos": "선임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "dh.lee@dtaq.re.kr",
     "phone": "055-751-5732",
     "duties": [
@@ -1027,7 +1027,7 @@
     "dept": "법무실",
     "deptCode": "DEPT_LEGAL",
     "pos": "책임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "eb.park@dtaq.re.kr",
     "phone": "055-751-5843",
     "duties": [
@@ -1064,7 +1064,7 @@
     "dept": "대외협력기획실",
     "deptCode": "DEPT_COOP",
     "pos": "연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "k.song@dtaq.re.kr",
     "phone": "055-751-5954",
     "duties": [
@@ -1086,7 +1086,7 @@
     "dept": "국제협력실",
     "deptCode": "DEPT_INTL",
     "pos": "선임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "sh.kim@dtaq.re.kr",
     "phone": "055-751-6065",
     "duties": [
@@ -1118,7 +1118,7 @@
     "dept": "정보화지원실",
     "deptCode": "DEPT_IT",
     "pos": "책임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "hs.shin@dtaq.re.kr",
     "phone": "055-751-6176",
     "duties": [
@@ -1140,7 +1140,7 @@
     "dept": "안전혁신실",
     "deptCode": "DEPT_SAFETY",
     "pos": "연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "ws.choi@dtaq.re.kr",
     "phone": "055-751-6287",
     "duties": [
@@ -1177,7 +1177,7 @@
     "dept": "감사실",
     "deptCode": "DEPT_AUDIT",
     "pos": "연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "by.park@dtaq.re.kr",
     "phone": "055-751-6398",
     "duties": [
@@ -1199,7 +1199,7 @@
     "dept": "경영지원실",
     "deptCode": "DEPT_MGMT",
     "pos": "선임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "hi.jung@dtaq.re.kr",
     "phone": "055-751-6509",
     "duties": [
@@ -1231,7 +1231,7 @@
     "dept": "정책기획실",
     "deptCode": "DEPT_POLICY",
     "pos": "선임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "jw.kim@dtaq.re.kr",
     "phone": "055-751-6620",
     "duties": [
@@ -1253,7 +1253,7 @@
     "dept": "첨단미래기술센터",
     "deptCode": "DEPT_FUTURE",
     "pos": "책임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "sj.park@dtaq.re.kr",
     "phone": "055-751-6732",
     "duties": [
@@ -1290,7 +1290,7 @@
     "dept": "인재개발실",
     "deptCode": "DEPT_HR",
     "pos": "선임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "kj.seo@dtaq.re.kr",
     "phone": "055-751-6843",
     "duties": [
@@ -1312,7 +1312,7 @@
     "dept": "정보보안안전부",
     "deptCode": "DEPT_SEC",
     "pos": "선임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "sw.im@dtaq.re.kr",
     "phone": "055-751-6954",
     "duties": [
@@ -1344,7 +1344,7 @@
     "dept": "계획예산실",
     "deptCode": "DEPT_BUDGET",
     "pos": "선임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "hn.kang@dtaq.re.kr",
     "phone": "055-751-7065",
     "duties": [
@@ -1366,7 +1366,7 @@
     "dept": "조직인사실",
     "deptCode": "DEPT_HR_ORG",
     "pos": "선임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "js.lee@dtaq.re.kr",
     "phone": "055-751-7176",
     "duties": [
@@ -1403,7 +1403,7 @@
     "dept": "원장실",
     "deptCode": "DEPT_DIR",
     "pos": "선임연구원",
-    "photo": "include/images/emp_jinho.jpg",
+    "photo": "images/img_photo.png",
     "email": "ew.cha@dtaq.re.kr",
     "phone": "055-751-7287",
     "duties": [
