@@ -150,6 +150,7 @@ function renderEmployeeList(dataList) {
         direction: 'horizontal',
         loop: false,
         speed: 300,
+        spaceBetween: 100,
         observer: true,
         observeParents: true,
         on: {
@@ -650,6 +651,12 @@ function syncDeptFilter(deptName, deptText) {
     g_activeDeptFilter = deptName;
     var heading = (deptName === 'ALL') ? '국방기술품질원' : deptText;
     $('#list-dept-heading').text(heading);
+
+    // Sync dropdown selection
+    var dropdownText = (deptName === 'ALL') ? '전체부서' : deptText;
+    $('.dept-dropdown-selected').text(dropdownText);
+    $('.dept-dropdown-item').removeClass('active');
+    $('.dept-dropdown-item[data-dept="' + deptName + '"]').addClass('active');
 
     // Sync tree selection
     $('.tree-root-item, .tree-leaf-item, .tree-folder-header').removeClass('active');
