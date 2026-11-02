@@ -1,0 +1,91 @@
+/* Values read from Adobe XD development specs: business screens 1–4_led. */
+#page-business { flex-direction:column; background:#edf2fb; }
+#page-business .header-title { top:21px; left:862px; transform:none; font:600 34px/47px scdream,sans-serif; letter-spacing:0; }
+#page-business .app-header { padding-left:24px; }
+#page-business .brand-logo-img { width:270px; height:60px; }
+#page-business .header-brand { position:absolute; left:24px; top:16px; }
+#page-business .btn-home { margin-left:auto; font:600 18px/25px scdream,sans-serif; }
+#business-main { position:absolute; left:80px; top:154px; width:1100px; height:790px; }
+.business-guide { position:absolute; left:15px; top:75px; width:1060px; height:250px; padding-top:72px; background:#fff; outline:5px solid #ffffff78; box-shadow:inset 2px 2px #fff; color:#373737; text-align:center; font:500 31px/52px scdream,sans-serif; letter-spacing:0; }
+.business-guide span { color:#3d7aef; font-weight:600; }
+.business-sidebar { position:absolute; left:1298px; top:154px; width:550px; }
+.business-search { display:flex; height:70px; border:3px solid #1059e4; border-radius:8px; background:#fff; padding:4px; margin-bottom:30px; }
+.business-search input { width:100%; min-width:0; padding:0 24px; border:0; outline:0; color:#3d7aef; font:500 20px/28px scdream,sans-serif; letter-spacing:0; }
+.business-search input::placeholder { color:#3d7aef; opacity:1; }
+.business-search button { flex-shrink:0; width:55px; background:#3d7aef; border:0; border-radius:7px; cursor:pointer; }
+.business-search button img { width:30px; filter:brightness(0) invert(1); }
+#weapon-list { height:690px; display:flex; flex-direction:column; gap:10px; color:#283860; font:600 22px/30px scdream,sans-serif; }
+.weapon-row { height:60px; min-height:60px; display:flex; align-items:center; justify-content:space-between; padding:0 16px 0 30px; background:#fff; border:1px solid #9eb7e6; border-radius:8px; color:#283860; text-align:left; font:600 22px/30px scdream,sans-serif; letter-spacing:0; cursor:pointer; }
+.weapon-row.selected { background:#eef6ff; border-color:#3d7aef; }
+.weapon-row img { width:32px; height:32px; filter:grayscale(1) brightness(.7); }
+.weapon-row.selected img { filter:none; }
+.weapon-pager { display:flex; justify-content:center; align-items:center; gap:52px; margin-top:29px; height:52px; font:500 25px/34px scdream,sans-serif; color:#212121; }
+#weapon-pagination { min-width:43px; text-align:center; }
+.weapon-page-current { color:#316ad8; }
+.weapon-pager button { display:flex; align-items:center; justify-content:center; width:52px; height:52px; border:1px solid #a0b6de; border-radius:6px; background:#dae2f5; box-shadow:0 3px 6px #00000029; cursor:pointer; }
+.weapon-pager button img { width:15px; height:18px; }
+.weapon-pager button:disabled { opacity:.4; cursor:default; box-shadow:none; }
+.weapon-detail { position:relative; width:100%; height:100%; background:#fff; border:1px solid #91b7ff; border-radius:8px; }
+.weapon-detail h1 { position:absolute; left:65px; top:37px; margin:0; color:#1c4aa2; font:600 45px/63px scdream,sans-serif; letter-spacing:0; }
+.weapon-branch { position:absolute; right:56px; top:56px; width:118px; height:39px; display:flex; align-items:center; gap:14px; background:#e8ecf3; border-radius:5px; padding:0 14px; color:#283860; font:600 18px/25px scdream,sans-serif; }
+.weapon-branch img { width:40px; height:28px; object-fit:contain; }
+.weapon-body { position:absolute; left:56px; top:132px; display:flex; gap:28px; height:602px; }
+.weapon-photo { position:relative; width:426px; height:475px; flex-shrink:0; border-radius:14px; background:#f8fafe; overflow:hidden; display:flex; align-items:center; justify-content:center; }
+.weapon-photo .weapon-watermark { width:210px; height:auto; opacity:.22; }
+.weapon-photo .weapon-image { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+.weapon-photo.has-image .weapon-watermark { display:none; }
+.weapon-table { width:532px; height:602px; table-layout:fixed; border-collapse:separate; border-spacing:0; border:1px solid #cbd6e9; border-radius:8px; overflow:hidden; color:#373737; font:600 18px/25px scdream,sans-serif; letter-spacing:0; }
+.weapon-table th { width:174px; background:#f8fafe; color:#3253a7; text-align:left; padding:0 21px; white-space:nowrap; font-weight:600; border-right:1px solid #cbd6e9; }
+.weapon-table td { padding:0 19px; font-weight:600; word-break:keep-all; overflow-wrap:break-word; white-space:pre-line; }
+.weapon-table th,.weapon-table td { vertical-align:middle; border-bottom:1px solid #cbd6e9; }
+.weapon-table tr:last-child>* { border-bottom:0; }
+.weapon-table tr:nth-child(-n+3) { height:60px; }
+.weapon-table tr:nth-child(4) { height:250px; }
+.weapon-table tr:nth-child(5) { height:170px; }
+.weapon-table tr:nth-child(n+4) td { line-height:32px; }
+#weapon-enlarge { display:none; position:absolute; left:451px; top:960px; width:299px; height:72px; border:1px solid #061633; border-radius:8px; background:#3d7aef; color:#fff; font:600 20px/31px scdream,sans-serif; box-shadow:0 5px 5px #b4c6e5; cursor:pointer; }
+#business-keyboard { left:42px; top:565px; bottom:auto; background:rgba(0,0,0,.76); box-shadow:none; }
+#business-keyboard .vk-key { box-shadow:inset 0 1px #ffffff57,0 3px 1px #00000033; line-height:37px; }
+#business-keyboard .vk-key.wide-key,#business-keyboard .btn-vk-delete { font:600 18px/25px scdream,sans-serif; }
+#business-keyboard .btn-vk-search { font:600 20px/28px scdream,sans-serif; }
+#business-keyboard .vk-close-btn { position:absolute; right:28px; top:18px; width:44px; height:44px; color:#b4bdcb; font:300 54px/44px sans-serif; cursor:pointer; }
+/* Preserve the 3200×1200 LED design, fit it into the 1920×1080 kiosk preview. */
+#weapon-led { display:none; position:absolute; inset:0; z-index:100000; background:#e8ecf3; align-items:center; justify-content:center; }
+#weapon-led.active { display:flex; }
+.weapon-led-stage { position:absolute; left:0; top:180px; width:3200px; height:1200px; transform:scale(.6); transform-origin:top left; background:url('../../images/bg_business_led.png') center/100% 100% no-repeat; }
+#weapon-led-card { position:absolute; left:892px; top:97px; width:1448px; height:1028px; }
+#weapon-led-card .weapon-detail { border:1px solid #367bff; border-radius:33px; background:#ffffffe6; }
+#weapon-led-card h1 { left:81px; top:67px; font-size:55px; line-height:77px; }
+#weapon-led-card .weapon-body { left:62px; top:211px; gap:37px; height:750px; }
+#weapon-led-card .weapon-photo { width:557px; height:622px; border-radius:6px; }
+#weapon-led-card .weapon-table { width:696px; height:750px; border:0; border-radius:0; font-size:23px; line-height:32px; }
+#weapon-led-card .weapon-table th { width:224px; padding:0 29px; background:transparent; border-right:0; }
+#weapon-led-card .weapon-table td { padding:0 30px; }
+#weapon-led-card .weapon-table tr:nth-child(-n+3) { height:79px; }
+#weapon-led-card .weapon-table tr:nth-child(4) { height:327px; }
+#weapon-led-card .weapon-table tr:nth-child(5) { height:186px; }
+#weapon-led-card .weapon-table tr:nth-child(n+4) td { line-height:41px; }
+#weapon-led-card .weapon-branch { right:79px; top:68px; width:154px; height:51px; font-size:24px; line-height:33px; gap:18px; }
+#weapon-led-card .weapon-branch img { width:52px; height:36px; }
+#weapon-led-close { position:absolute; right:24px; top:20px; font-size:38px; color:#283860; background:#fff; border:1px solid #91b7ff; border-radius:8px; cursor:pointer; }
+/* LED text and rules use independent XD coordinates (the first row is shorter). */
+#weapon-led-card .weapon-table { position:relative; display:block; height:722px; }
+#weapon-led-card .weapon-table tbody { display:block; }
+#weapon-led-card .weapon-table tr { position:absolute; left:0; top:0; width:696px; display:block; border-bottom:1px solid #cbd6e9; }
+#weapon-led-card .weapon-table th,#weapon-led-card .weapon-table td { position:absolute; border:0; padding:0; display:block; }
+#weapon-led-card .weapon-table th { left:29px; width:195px; }
+#weapon-led-card .weapon-table td { left:254px; width:420px; }
+#weapon-led-card .weapon-table tr:nth-child(1) { height:68px; }
+#weapon-led-card .weapon-table tr:nth-child(2) { height:147px; }
+#weapon-led-card .weapon-table tr:nth-child(3) { height:226px; }
+#weapon-led-card .weapon-table tr:nth-child(4) { height:553px; }
+#weapon-led-card .weapon-table tr:nth-child(5) { height:722px; border:0; }
+#weapon-led-card .weapon-table tr:nth-child(1)>* { top:10px; }
+#weapon-led-card .weapon-table tr:nth-child(2)>* { top:92px; }
+#weapon-led-card .weapon-table tr:nth-child(3)>* { top:170px; }
+#weapon-led-card .weapon-table tr:nth-child(4) th { top:365px; }
+#weapon-led-card .weapon-table tr:nth-child(4) td { top:293px; }
+#weapon-led-card .weapon-table tr:nth-child(5) th { top:644px; font-size:24px; line-height:33px; }
+#weapon-led-card .weapon-table tr:nth-child(5) td { top:608px; width:402px; }
+#weapon-led-card .weapon-table { overflow:visible; }
+#weapon-led-card .weapon-table tr:nth-child(5) td { width:442px; }

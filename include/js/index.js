@@ -43,7 +43,7 @@ function setinit() {
     initEventListeners();
 
     // Try loading external employees.json, fallback to embedded
-    $.getJSON("include/js/employees.json", function (data) {
+    $.getJSON("data/employees.json", function (data) {
         if (data && data.length > 0) {
             g_employeeData = data;
         }
@@ -439,14 +439,21 @@ function initVirtualKeyboard() {
 // ============================================================
 function setSearchMode(mode) {
     g_searchMode = mode;
+    g_activeDeptFilter = 'ALL';
+    $('.dept-dropdown-selected').text('전체부서');
+    $('.dept-dropdown-container').removeClass('open');
+    $('.dept-dropdown-item, .tree-root-item, .tree-folder-header, .tree-leaf-item').removeClass('active');
+    $('.dept-dropdown-item[data-dept="ALL"], .tree-root-item[data-dept="ALL"]').addClass('active');
+    $('.org-tree-content').scrollTop(0);
+    $('.vk-key').removeClass('active');
     g_jamoList = [];
     syncSearchQuery('');
 
     if (mode === 'project') {
-        $('.header-title').text('주요사업검색');
+        $('#page-search .header-title, #page-list .header-title, #page-detail .header-title').text('주요사업검색');
         $('#search-guide-title').html('<span>사업명, 부서별</span>로 검색하세요');
         $('#search-guide-sub').html('부서를 선택하시면 <span>부서별 검색</span>을 하실 수 있습니다.');
-        $('.sync-search-input').attr('placeholder', '사업명으로 검색');
+        $('#page-search .sync-search-input, #page-list .sync-search-input, #page-detail .sync-search-input').attr('placeholder', '사업명으로 검색');
 
         $('#th-col-1').text('사업명');
         $('#th-col-2').text('사업코드');
@@ -455,10 +462,10 @@ function setSearchMode(mode) {
 
         renderEmployeeList(g_projectData);
     } else if (mode === 'ai') {
-        $('.header-title').text('AI 검색');
+        $('#page-search .header-title, #page-list .header-title, #page-detail .header-title').text('AI 검색');
         $('#search-guide-title').html('<span>AI 질의 및 키워드</span>로 검색하세요');
         $('#search-guide-sub').html('원하시는 키워드를 입력하시면 <span>AI 분석 결과</span>를 찾아드립니다.');
-        $('.sync-search-input').attr('placeholder', 'AI 질의어 입력');
+        $('#page-search .sync-search-input, #page-list .sync-search-input, #page-detail .sync-search-input').attr('placeholder', 'AI 질의어 입력');
 
         $('#th-col-1').text('사업명');
         $('#th-col-2').text('코드');
@@ -467,10 +474,10 @@ function setSearchMode(mode) {
 
         renderEmployeeList(g_projectData);
     } else { // 'employee'
-        $('.header-title').text('직원 정보 검색');
+        $('#page-search .header-title, #page-list .header-title, #page-detail .header-title').text('직원 정보 검색');
         $('#search-guide-title').html('<span>성명, 사번, 부서명</span>으로 검색하세요');
         $('#search-guide-sub').html('부서를 선택하시면 <span>부서별 검색</span>을 하실 수 있습니다.');
-        $('.sync-search-input').attr('placeholder', '성명, 사번, 부서명으로 검색하세요');
+        $('#page-search .sync-search-input, #page-list .sync-search-input, #page-detail .sync-search-input').attr('placeholder', '성명, 사번, 부서명으로 검색하세요');
 
         $('#th-col-1').text('성명');
         $('#th-col-2').text('사번');
@@ -510,14 +517,15 @@ function isKoreanMatch(text, query) {
     // 1. Direct text inclusion
     if (text.includes(query)) return true;
 
-    // 2. Initial Consonant (초성) matching
-    var textCho = getChosung(text);
-    var queryCho = getChosung(query);
-    if (textCho.includes(query) || textCho.includes(queryCho)) return true;
+    // Only explicit consonant queries use initial-consonant matching.
+    // Completed words such as 원장 must not match unrelated names like 이정민.
+    if (/^[ㄱ-ㅎ]+$/.test(query)) {
+        return getChosung(text).includes(query);
+    }
 
-    // 3. Hangul.js search
-    if (typeof Hangul !== 'undefined' && Hangul.search) {
-        if (Hangul.search(text, query) >= 0) return true;
+    // Support unfinished syllables while typing, without weakening completed words.
+    if (/[ㄱ-ㅎㅏ-ㅣ]/.test(query) && typeof Hangul !== 'undefined' && Hangul.search) {
+        return Hangul.search(text, query) >= 0;
     }
 
     return false;
@@ -568,6 +576,21 @@ function isDeptMatch(itemDept, targetDept) {
     return false;
 }
 
+// Start a fresh query whenever the kiosk search bar is tapped.
+function openSearchKeyboard(target) {
+    var pageId = $(target).closest('.page-container').attr('id');
+    g_jamoList = [];
+    syncSearchQuery('');
+    if (pageId === 'page-business') {
+        $('#business-keyboard').show();
+    } else if (pageId === 'page-list') {
+        $('#list-vk-modal').show();
+    } else {
+        if (pageId === 'page-detail') showPage('page-search');
+        $('#page-search .virtual-keyboard-modal').show();
+    }
+}
+
 function clearSearchInput() {
     g_jamoList = [];
     syncSearchQuery('');
@@ -583,6 +606,7 @@ function clearSearchInput() {
 }
 
 function executeSearch() {
+    if (g_currentScreen === 'page-business') { searchWeapons(); return; }
     var query = $('#global-search-input').val().trim();
     var sourceData = (g_searchMode === 'project' || g_searchMode === 'ai') ? g_projectData : g_employeeData;
 
@@ -724,8 +748,7 @@ function initEventListeners() {
     });
 
     $('#card-proj-search').on('click', function () {
-        setSearchMode('project');
-        showPage('page-search');
+        openBusiness();
     });
 
     $('#card-ai-search').on('click', function () {
@@ -733,14 +756,9 @@ function initEventListeners() {
         showPage('page-search');
     });
 
-    // Search Input Bar click on list screen -> Toggle keyboard overlay (A-4.png)
-    $('#page-list .trigger-keyboard-mode').on('click', function () {
-        $('#list-vk-modal').toggle();
-    });
-
-    // Search Input Bar click on detail screen -> Switch to search screen
-    $('#page-detail .trigger-keyboard-mode').on('click', function () {
-        showPage('page-search');
+    // Input area and its search icon both open a fresh keyboard session.
+    $('.trigger-keyboard-mode').on('click', function () {
+        openSearchKeyboard(this);
     });
 
     // Swiper Prev/Next Buttons

@@ -309,9 +309,6 @@ a:active {
     text-decoration: none;
 }
 
-a:hover {
-    color: #333;
-}
 
 button:focus {
     outline: none;
@@ -336,9 +333,6 @@ input:focus {
     cursor: default;
 }
 
-::-webkit-scrollbar-thumb:hover {
-    background-color: #1a66ff;
-}
 
 /* 스크롤바 뒷 배경 설정*/
 ::-webkit-scrollbar-track {
@@ -347,10 +341,6 @@ input:focus {
     cursor: default;
 }
 
-::-webkit-scrollbar-track:hover {
-    background-color: #e5edf7;
-    cursor: default;
-}
 
 ::-webkit-scrollbar-button {
     display: none;
