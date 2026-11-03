@@ -742,6 +742,7 @@ function initEventListeners() {
     $('#card-emp-search').on('click', function () {
         setSearchMode('employee');
         showPage('page-search');
+        $('#page-search .virtual-keyboard-modal').show();
     });
 
     $('#card-proj-search').on('click', function () {
