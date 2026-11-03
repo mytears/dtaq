@@ -751,9 +751,23 @@ function initEventListeners() {
         openBusiness();
     });
 
+    var preparingPopupTimer;
     $('#card-ai-search').on('click', function () {
-        setSearchMode('ai');
-        showPage('page-search');
+        var overlay = $('#preparing-overlay');
+        var popup = $('#preparing-popup');
+        if (!popup.length) {
+            overlay = $('<div id="preparing-overlay" class="preparing-overlay">').appendTo('.main_cont');
+            popup = $('<div id="preparing-popup" class="preparing-popup" role="status" aria-live="polite">').appendTo(overlay);
+        }
+        clearTimeout(preparingPopupTimer);
+        $('#page-landing').prop('inert', true);
+        overlay.show();
+        popup.text('준비중입니다').show();
+        preparingPopupTimer = setTimeout(function () {
+            popup.hide().empty();
+            overlay.hide();
+            $('#page-landing').prop('inert', false);
+        }, 2000);
     });
 
     // Input area and its search icon both open a fresh keyboard session.

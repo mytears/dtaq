@@ -535,9 +535,43 @@ body {
 }
 
 .landing-header .brand-logo-img {
-    height: 44px;
-    width: auto;
+    height: 60px;
+    width: 270px;
     display: block;
+}
+
+.landing-header .header-brand {
+    position: absolute;
+    left: 24px;
+    top: 16px;
+}
+
+.preparing-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1000;
+    pointer-events: auto;
+    touch-action: none;
+}
+
+.preparing-popup {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    width: calc(18em + 336px);
+    height: calc(3lh + 168px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background: #fff;
+    color: #000;
+    font-size: 28px;
+    font-weight: 600;
+    box-shadow: 0 8px 32px rgba(0, 20, 60, 0.2);
+    pointer-events: none;
 }
 
 .landing-title-box {
