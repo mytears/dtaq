@@ -53,7 +53,7 @@ function renderWeaponList() {
     $('#weapon-next').prop('disabled', s.page + 1 >= pages);
 }
 function weaponCard(w) {
-    var branch = {army: ['육군', 1], navy: ['해군', 2], air: ['공군', 3]}[w.branch] || ['기타', 1];
+    var branch = {army: ['육군', 1], navy: ['해군', 3], air: ['공군', 2]}[w.branch] || ['기타', 1];
     var card = $('<article class="weapon-detail">');
     card.append($('<h1>').text(w.name));
     card.append($('<div class="weapon-branch">').append($('<img alt="">').attr('src', 'images/ico_army_' + branch[1] + '.svg')).append(document.createTextNode(branch[0])));
