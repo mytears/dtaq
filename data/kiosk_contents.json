@@ -1,0 +1,9 @@
+{
+  "standby": {
+    "background": "commonfiles/bg_screen.png",
+    "title": "화면을 터치해주세요",
+    "subtitle": "TOUCH TO START",
+    "idleSeconds": 180,
+    "blinkSeconds": 2
+  }
+}

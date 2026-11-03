@@ -5,7 +5,7 @@
 
 // Global Variables & State
 var g_swiper = null;
-var g_currentScreen = 'page-landing';
+var g_currentScreen = 'page-standby';
 var g_jamoList = [];
 var g_selectedEmpId = "261010"; // Default sample: 김진호
 var g_activeDeptFilter = 'ALL';
@@ -41,16 +41,13 @@ function setinit() {
 
     // Bind Event Listeners
     initEventListeners();
+    initKiosk();
 
     // Try loading external employees.json, fallback to embedded
     $.getJSON("data/employees.json", function (data) {
         if (data && data.length > 0) {
             g_employeeData = data;
         }
-    }).always(function () {
-        // Initial setup for 김진호 sample
-        selectEmployee("261010");
-        showPage('page-landing');
     });
 }
 

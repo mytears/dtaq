@@ -16,6 +16,8 @@
     <script src="include/js/comm.js"></script>
     <script src="include/js/index.js?v=20261103-employee"></script>
     <script src="include/js/business.js"></script>
+    <script src="include/js/kiosk.js"></script>
+    <link rel="stylesheet" href="include/css/kiosk.css">
     <link rel="stylesheet" href="include/css/business.css">
 </head>
 <body>
@@ -28,7 +30,13 @@
         <!-- ============================================================
              SCREEN 1: LANDING PAGE (0.png)
              ============================================================ -->
-        <div id="page-landing" class="page-container active">
+        <section id="page-standby" class="page-container active" aria-label="대기화면">
+            <button id="standby-start" type="button">
+                <span class="standby-title">화면을 터치해주세요</span>
+                <span class="standby-subtitle" lang="en">TOUCH TO START</span>
+            </button>
+        </section>
+        <div id="page-landing" class="page-container">
             <!-- Top Header Logo -->
             <div class="landing-header">
                 <div class="header-brand">

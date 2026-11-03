@@ -1,0 +1,68 @@
+/* Standby content and inactivity lifecycle. Paths are relative to index.html. */
+var kioskState = { idleMs: 180000, timer: null, lastActivity: 0 };
+
+function resetKioskSearch() {
+    setSearchMode('employee');
+    g_selectedEmpId = null;
+    g_isEnglish = false;
+    updateKeyboardLayout();
+    $('.tree-folder-node').removeClass('expanded');
+    $('.virtual-keyboard-modal').hide();
+    $('#led-modal, #weapon-led').removeClass('active');
+    $('#preparing-overlay').hide();
+    $('#page-landing').prop('inert', false);
+    businessState.selected = null;
+    businessState.page = 0;
+    businessState.filtered = [];
+    $('#weapon-list, #weapon-led-card, #business-main').empty();
+    $('#weapon-enlarge').hide();
+}
+
+function enterKioskStandby() {
+    clearTimeout(kioskState.timer);
+    kioskState.timer = null;
+    $('#led-modal, #weapon-led').removeClass('active');
+    $('#preparing-overlay').hide();
+    $('#page-landing').prop('inert', false);
+    if (document.activeElement && document.activeElement.blur) document.activeElement.blur();
+    showPage('page-standby');
+}
+
+function recordKioskActivity() {
+    if (g_currentScreen === 'page-standby') return;
+    kioskState.lastActivity = Date.now();
+    clearTimeout(kioskState.timer);
+    kioskState.timer = setTimeout(enterKioskStandby, kioskState.idleMs);
+}
+
+function initKiosk() {
+    showPage('page-standby');
+    $('#page-standby').on('click', function () {
+        resetKioskSearch();
+        showPage('page-landing');
+        recordKioskActivity();
+    });
+    ['pointerdown', 'keydown', 'wheel'].forEach(function (eventName) {
+        document.addEventListener(eventName, recordKioskActivity, { capture: true, passive: true });
+    });
+    document.addEventListener('visibilitychange', function () {
+        if (!document.hidden && g_currentScreen !== 'page-standby' &&
+            Date.now() - kioskState.lastActivity >= kioskState.idleMs) enterKioskStandby();
+    });
+    $.getJSON('data/kiosk_contents.json').done(function (data) {
+        var content = data && data.standby;
+        if (!content) return;
+        if (typeof content.background === 'string' && /^(commonfiles|images)\/[\w./-]+$/.test(content.background)) {
+            $('#page-standby').css('background-image', 'url("' + content.background + '")');
+        }
+        if (typeof content.title === 'string') $('.standby-title').text(content.title);
+        if (typeof content.subtitle === 'string') $('.standby-subtitle').text(content.subtitle);
+        if (typeof content.idleSeconds === 'number' && isFinite(content.idleSeconds) && content.idleSeconds > 0) {
+            kioskState.idleMs = content.idleSeconds * 1000;
+            if (g_currentScreen !== 'page-standby') recordKioskActivity();
+        }
+        if (typeof content.blinkSeconds === 'number' && isFinite(content.blinkSeconds) && content.blinkSeconds > 0) {
+            $('#standby-start').css('animation-duration', content.blinkSeconds + 's');
+        }
+    });
+}

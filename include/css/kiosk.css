@@ -1,0 +1,30 @@
+#page-standby {
+    z-index: 2000;
+    background: #071d39 url('../../commonfiles/bg_screen.png') center / cover no-repeat;
+    cursor: pointer;
+}
+#page-standby.active { display: block; }
+#standby-start {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 654px;
+    height: 170px;
+    border: 5px solid #20bbed;
+    border-radius: 90px;
+    background: #202f49;
+    color: #fff;
+    box-shadow: 0 0 35px #2186e2;
+    cursor: pointer;
+    animation: standby-blink 2s ease-in-out infinite;
+}
+.standby-title { display: block; font-size: 44px; font-weight: 600; }
+.standby-subtitle { display: block; margin-top: 12px; color: #00c7e9; font-size: 26px; letter-spacing: 2px; }
+@keyframes standby-blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.45; }
+}
+@media (prefers-reduced-motion: reduce) {
+    #standby-start { animation: none; }
+}
