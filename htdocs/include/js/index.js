@@ -283,9 +283,7 @@ function selectEmployee(empId) {
 }
 
 function showLedScreen(empId) {
-    console.log("showLedScreen called for employee ID:", empId);
-    $('#led-modal').addClass('active');
-    // Host notification is handled by led-bridge.js through SetUDPMsg.
+    // Send to the external LED through led-bridge.js without changing the kiosk view.
 }
 
 function closeLedScreen() {

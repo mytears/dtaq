@@ -5,9 +5,9 @@
   var welcomeLoaded = false;
   function send(type, id = '') {
     id = String(id ?? '').trim();
-    const wireType = { rolling: 'ROLLING', welcome: 'WELCOME', employee: 'EMP', weapon: id ? 'WEB' : 'WEP', project: id ? 'WEB' : 'WEP' }[type];
+    const wireType = { rolling: 'ROLLING', welcome: 'WELCOME', employee: 'EMP', weapon: 'WEP', project: 'WEP' }[type];
     if (!wireType || /[|\x00-\x1f]/.test(id)) throw Error('지원하지 않는 LED 명령입니다.');
-    const message = `SEND|MSG|${wireType}` + (id && ['EMP', 'WEB'].includes(wireType) ? `|${id}` : '');
+    const message = `SEND|MSG|${wireType}` + (id && ['EMP', 'WEP'].includes(wireType) ? `|${id}` : '');
     // Prefer a host-provided function; otherwise use the existing WebView function-call protocol.
     if (typeof window.SetUDPMsg === 'function') window.SetUDPMsg(message);
     else if (window.chrome?.webview && typeof window.setCallWebToApp === 'function') window.setCallWebToApp('SetUDPMsg', message);

@@ -58,7 +58,7 @@ function weaponCard(w) {
     card.append($('<h1>').text(w.name));
     card.append($('<div class="weapon-branch">').append($('<img alt="">').attr('src', 'images/ico_army_' + branch[1] + '.svg')).append(document.createTextNode(branch[0])));
     var body = $('<div class="weapon-body">').appendTo(card);
-    var photo = $('<div class="weapon-photo" role="img" aria-label="이미지 준비중">').append($('<img class="weapon-watermark" src="images/img_logo.svg" alt="">')).appendTo(body);
+    var photo = $('<div class="weapon-photo" role="img" aria-label="이미지 준비중">').append($('<img class="weapon-watermark" src="images/img_logo.png" alt="">')).appendTo(body);
     if (w.image && /^(images\/)[^:]+$/.test(w.image)) {
         $('<img class="weapon-image">').attr({src:w.image, alt:w.name}).on('load', function(){ photo.addClass('has-image').attr('aria-label', w.name); }).on('error', function(){ $(this).remove(); photo.removeClass('has-image'); }).appendTo(photo);
     }
@@ -84,13 +84,5 @@ $(function() {
     keyboard.find('.vk-close-btn').on('click', function(){ keyboard.hide(); });
     page.find('.business-search').on('click', function(){ openSearchKeyboard(this); });
     $('#weapon-prev, #weapon-next').on('click', function(){ businessState.page += this.id === 'weapon-next' ? 1 : -1; renderWeaponList(); });
-    $('.main_cont').append('<section id="weapon-led" role="dialog" aria-modal="true" aria-label="무기체계 크게 보기"><div class="weapon-led-stage"><div id="weapon-led-card"></div></div><button id="weapon-led-close" aria-label="크게 보기 닫기">✕</button></section>');
-    $('#weapon-enlarge').on('click', function(){
-        var w = businessState.items.find(function(item){ return item.id === businessState.selected; });
-        if (!w) return;
-        $('#weapon-led-card').empty().append(weaponCard(w)); $('#weapon-led').addClass('active'); $('#weapon-led-close').trigger('focus');
-    });
-    function close(){ $('#weapon-led').removeClass('active'); $('#weapon-enlarge').trigger('focus'); }
-    $('#weapon-led-close').on('click', close);
-    $(document).on('keydown', function(e){ if (e.key === 'Escape' && $('#weapon-led').hasClass('active')) close(); });
+    // led-bridge.js handles the enlarge button without changing the kiosk view.
 });
