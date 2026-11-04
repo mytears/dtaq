@@ -84,5 +84,7 @@ function initKiosk() {
         if (typeof content.blinkSeconds === 'number' && isFinite(content.blinkSeconds) && content.blinkSeconds > 0) {
             $('#standby-start').css('animation-duration', content.blinkSeconds + 's');
         }
+    }).fail(function () {
+        applyKioskWelcome(null);
     });
 }

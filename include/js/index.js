@@ -285,15 +285,7 @@ function selectEmployee(empId) {
 function showLedScreen(empId) {
     console.log("showLedScreen called for employee ID:", empId);
     $('#led-modal').addClass('active');
-    
-    // Call system integration stub if bridge is present
-    if (typeof setCallWebToAppSock === 'function') {
-        try {
-            setCallWebToAppSock("SHOW_LED", empId);
-        } catch (e) {
-            console.log("WebSocket bridge notice:", e);
-        }
-    }
+    // Host notification is handled by led-bridge.js through SetUDPMsg.
 }
 
 function closeLedScreen() {

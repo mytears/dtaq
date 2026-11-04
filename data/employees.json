@@ -27,6 +27,60 @@
         "date": "2019.01 ~ 2020.12",
         "dept": "총무복지팀",
         "pos": "연구보조원"
+      },
+      {
+        "date": "2018.01 ~ 2018.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ],
     "photo": "images/img_photo.png"
@@ -54,6 +108,66 @@
         "date": "2015.07 ~ 2019.12",
         "dept": "정책기획실",
         "pos": "선임연구원"
+      },
+      {
+        "date": "2014.07 ~ 2015.06",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.07 ~ 2014.06",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.07 ~ 2013.06",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.07 ~ 2012.06",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.07 ~ 2011.06",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.07 ~ 2010.06",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.07 ~ 2009.06",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.07 ~ 2008.06",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.07 ~ 2007.06",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.07 ~ 2006.06",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ],
     "photo": "images/img_photo.png"
@@ -81,6 +195,66 @@
         "date": "2018.02 ~ 2021.05",
         "dept": "계획예산실",
         "pos": "연구원"
+      },
+      {
+        "date": "2017.02 ~ 2018.01",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.02 ~ 2017.01",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.02 ~ 2016.01",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.02 ~ 2015.01",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.02 ~ 2014.01",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.02 ~ 2013.01",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.02 ~ 2012.01",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.02 ~ 2011.01",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.02 ~ 2010.01",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.02 ~ 2009.01",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ],
     "photo": "images/img_photo.png"
@@ -123,6 +297,48 @@
         "date": "2012.03 ~ 2013.12",
         "dept": "정보체계팀",
         "pos": "인턴"
+      },
+      {
+        "date": "2011.03 ~ 2012.02",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.03 ~ 2011.02",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.03 ~ 2010.02",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.03 ~ 2009.02",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.03 ~ 2008.02",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.03 ~ 2007.02",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.03 ~ 2006.02",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ],
     "photo": "images/img_photo.png"
@@ -144,6 +360,72 @@
         "date": "2022.09 ~ 현재",
         "dept": "계획예산실",
         "pos": "연구원"
+      },
+      {
+        "date": "2021.09 ~ 2022.08",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2020.09 ~ 2021.08",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2019.09 ~ 2020.08",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2018.09 ~ 2019.08",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2017.09 ~ 2018.08",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.09 ~ 2017.08",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.09 ~ 2016.08",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.09 ~ 2015.08",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.09 ~ 2014.08",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.09 ~ 2013.08",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.09 ~ 2012.08",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ],
     "photo": "images/img_photo.png"
@@ -165,6 +447,72 @@
         "date": "2023.01 ~ 현재",
         "dept": "조직인사실",
         "pos": "연구원"
+      },
+      {
+        "date": "2022.01 ~ 2022.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2021.01 ~ 2021.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2020.01 ~ 2020.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2019.01 ~ 2019.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2018.01 ~ 2018.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ],
     "photo": "images/img_photo.png"
@@ -191,6 +539,66 @@
         "date": "2014.03 ~ 2019.03",
         "dept": "기술기획실",
         "pos": "선임연구원"
+      },
+      {
+        "date": "2013.03 ~ 2014.02",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.03 ~ 2013.02",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.03 ~ 2012.02",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.03 ~ 2011.02",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.03 ~ 2010.02",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.03 ~ 2009.02",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.03 ~ 2008.02",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.03 ~ 2007.02",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.03 ~ 2006.02",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2004.03 ~ 2005.02",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ],
     "photo": "images/img_photo.png"
@@ -212,6 +620,72 @@
         "date": "2016.03 ~ 현재",
         "dept": "전차팀",
         "pos": "수석연구원"
+      },
+      {
+        "date": "2015.03 ~ 2016.02",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.03 ~ 2015.02",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.03 ~ 2014.02",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.03 ~ 2013.02",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.03 ~ 2012.02",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.03 ~ 2011.02",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.03 ~ 2010.02",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.03 ~ 2009.02",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.03 ~ 2008.02",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.03 ~ 2007.02",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.03 ~ 2006.02",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ],
     "photo": "images/img_photo.png"
@@ -233,6 +707,72 @@
         "date": "2018.05 ~ 현재",
         "dept": "고정익팀",
         "pos": "책임연구원"
+      },
+      {
+        "date": "2017.05 ~ 2018.04",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.05 ~ 2017.04",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.05 ~ 2016.04",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.05 ~ 2015.04",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.05 ~ 2014.04",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.05 ~ 2013.04",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.05 ~ 2012.04",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.05 ~ 2011.04",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.05 ~ 2010.04",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.05 ~ 2009.04",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.05 ~ 2008.04",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ],
     "photo": "images/img_photo.png"
@@ -254,6 +794,72 @@
         "date": "2020.08 ~ 현재",
         "dept": "시험평가1팀",
         "pos": "선임연구원"
+      },
+      {
+        "date": "2019.08 ~ 2020.07",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2018.08 ~ 2019.07",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2017.08 ~ 2018.07",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.08 ~ 2017.07",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.08 ~ 2016.07",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.08 ~ 2015.07",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.08 ~ 2014.07",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.08 ~ 2013.07",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.08 ~ 2012.07",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.08 ~ 2011.07",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.08 ~ 2010.07",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ],
     "photo": "images/img_photo.png"
@@ -275,6 +881,72 @@
         "date": "2018.01 ~ 현재",
         "dept": "감사실",
         "pos": "책임연구원"
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ],
     "photo": "images/img_photo.png"
@@ -296,6 +968,72 @@
         "date": "2020.05 ~ 현재",
         "dept": "조직인사실",
         "pos": "선임연구원"
+      },
+      {
+        "date": "2019.05 ~ 2020.04",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2018.05 ~ 2019.04",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2017.05 ~ 2018.04",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.05 ~ 2017.04",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.05 ~ 2016.04",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.05 ~ 2015.04",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.05 ~ 2014.04",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.05 ~ 2013.04",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.05 ~ 2012.04",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.05 ~ 2011.04",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.05 ~ 2010.04",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ],
     "photo": "images/img_photo.png"
@@ -318,6 +1056,72 @@
         "date": "2016.09 ~ 현재",
         "dept": "원장실",
         "pos": "수석연구원"
+      },
+      {
+        "date": "2015.09 ~ 2016.08",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.09 ~ 2015.08",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.09 ~ 2014.08",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.09 ~ 2013.08",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.09 ~ 2012.08",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.09 ~ 2011.08",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.09 ~ 2010.08",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.09 ~ 2009.08",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.09 ~ 2008.08",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.09 ~ 2007.08",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.09 ~ 2006.08",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -339,6 +1143,72 @@
         "date": "2016.12 ~ 현재",
         "dept": "원장실",
         "pos": "연구원"
+      },
+      {
+        "date": "2015.12 ~ 2016.11",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.12 ~ 2015.11",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.12 ~ 2014.11",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.12 ~ 2013.11",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.12 ~ 2012.11",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.12 ~ 2011.11",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.12 ~ 2010.11",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.12 ~ 2009.11",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.12 ~ 2008.11",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.12 ~ 2007.11",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.12 ~ 2006.11",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -360,6 +1230,72 @@
         "date": "2015.09 ~ 현재",
         "dept": "감사실",
         "pos": "선임연구원"
+      },
+      {
+        "date": "2014.09 ~ 2015.08",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.09 ~ 2014.08",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.09 ~ 2013.08",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.09 ~ 2012.08",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.09 ~ 2011.08",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.09 ~ 2010.08",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.09 ~ 2009.08",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.09 ~ 2008.08",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.09 ~ 2007.08",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.09 ~ 2006.08",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2004.09 ~ 2005.08",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -386,6 +1322,66 @@
         "date": "2020.01 ~ 2022.12",
         "dept": "기술기획실",
         "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2019.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2018.01 ~ 2018.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -407,6 +1403,72 @@
         "date": "2016.07 ~ 현재",
         "dept": "(부설)국방기술진흥연구소",
         "pos": "선임연구원"
+      },
+      {
+        "date": "2015.07 ~ 2016.06",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.07 ~ 2015.06",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.07 ~ 2014.06",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.07 ~ 2013.06",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.07 ~ 2012.06",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.07 ~ 2011.06",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.07 ~ 2010.06",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.07 ~ 2009.06",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.07 ~ 2008.06",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.07 ~ 2007.06",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.07 ~ 2006.06",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -428,6 +1490,72 @@
         "date": "2016.07 ~ 현재",
         "dept": "안전혁신실",
         "pos": "선임연구원"
+      },
+      {
+        "date": "2015.07 ~ 2016.06",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.07 ~ 2015.06",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.07 ~ 2014.06",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.07 ~ 2013.06",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.07 ~ 2012.06",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.07 ~ 2011.06",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.07 ~ 2010.06",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.07 ~ 2009.06",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.07 ~ 2008.06",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.07 ~ 2007.06",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.07 ~ 2006.06",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -454,6 +1582,66 @@
         "date": "2017.01 ~ 2019.12",
         "dept": "조직인사실",
         "pos": "연구원"
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -475,6 +1663,72 @@
         "date": "2017.03 ~ 현재",
         "dept": "정책기획실",
         "pos": "책임연구원"
+      },
+      {
+        "date": "2016.03 ~ 2017.02",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.03 ~ 2016.02",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.03 ~ 2015.02",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.03 ~ 2014.02",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.03 ~ 2013.02",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.03 ~ 2012.02",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.03 ~ 2011.02",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.03 ~ 2010.02",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.03 ~ 2009.02",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.03 ~ 2008.02",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.03 ~ 2007.02",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -501,6 +1755,66 @@
         "date": "2015.01 ~ 2017.12",
         "dept": "대외협력실",
         "pos": "연구원"
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.01 ~ 2005.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -522,6 +1836,72 @@
         "date": "2016.09 ~ 현재",
         "dept": "대외협력실",
         "pos": "책임연구원"
+      },
+      {
+        "date": "2015.09 ~ 2016.08",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.09 ~ 2015.08",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.09 ~ 2014.08",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.09 ~ 2013.08",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.09 ~ 2012.08",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.09 ~ 2011.08",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.09 ~ 2010.08",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.09 ~ 2009.08",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.09 ~ 2008.08",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.09 ~ 2007.08",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.09 ~ 2006.08",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -548,6 +1928,66 @@
         "date": "2017.01 ~ 2019.12",
         "dept": "총무복지팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -574,6 +2014,66 @@
         "date": "2017.01 ~ 2019.12",
         "dept": "기술지원센터",
         "pos": "연구원"
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -595,6 +2095,72 @@
         "date": "2016.06 ~ 현재",
         "dept": "재무회계팀",
         "pos": "책임연구원"
+      },
+      {
+        "date": "2015.06 ~ 2016.05",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.06 ~ 2015.05",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.06 ~ 2014.05",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.06 ~ 2013.05",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.06 ~ 2012.05",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.06 ~ 2011.05",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.06 ~ 2010.05",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.06 ~ 2009.05",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.06 ~ 2008.05",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.06 ~ 2007.05",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.06 ~ 2006.05",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -616,6 +2182,72 @@
         "date": "2015.10 ~ 현재",
         "dept": "재무회계팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2014.10 ~ 2015.09",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.10 ~ 2014.09",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.10 ~ 2013.09",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.10 ~ 2012.09",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.10 ~ 2011.09",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.10 ~ 2010.09",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.10 ~ 2009.09",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.10 ~ 2008.09",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.10 ~ 2007.09",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.10 ~ 2006.09",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2004.10 ~ 2005.09",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -642,6 +2274,66 @@
         "date": "2020.01 ~ 2022.12",
         "dept": "시설관리팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2019.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2018.01 ~ 2018.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -668,6 +2360,66 @@
         "date": "2016.01 ~ 2018.12",
         "dept": "재무회계팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -689,6 +2441,72 @@
         "date": "2015.09 ~ 현재",
         "dept": "시설관리팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2014.09 ~ 2015.08",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.09 ~ 2014.08",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.09 ~ 2013.08",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.09 ~ 2012.08",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.09 ~ 2011.08",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.09 ~ 2010.08",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.09 ~ 2009.08",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.09 ~ 2008.08",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.09 ~ 2007.08",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.09 ~ 2006.08",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2004.09 ~ 2005.08",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -715,6 +2533,66 @@
         "date": "2019.01 ~ 2021.12",
         "dept": "건설자산팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2018.01 ~ 2018.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -741,6 +2619,66 @@
         "date": "2018.01 ~ 2020.12",
         "dept": "정책기획실",
         "pos": "연구원"
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -762,6 +2700,72 @@
         "date": "2015.11 ~ 현재",
         "dept": "정보체계팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2014.11 ~ 2015.10",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.11 ~ 2014.10",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.11 ~ 2013.10",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.11 ~ 2012.10",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.11 ~ 2011.10",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.11 ~ 2010.10",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.11 ~ 2009.10",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.11 ~ 2008.10",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.11 ~ 2007.10",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.11 ~ 2006.10",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2004.11 ~ 2005.10",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -788,6 +2792,66 @@
         "date": "2019.01 ~ 2021.12",
         "dept": "감사실",
         "pos": "연구원"
+      },
+      {
+        "date": "2018.01 ~ 2018.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -814,6 +2878,66 @@
         "date": "2018.01 ~ 2020.12",
         "dept": "기술보호조사팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -835,6 +2959,72 @@
         "date": "2015.04 ~ 현재",
         "dept": "안전보건팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2014.04 ~ 2015.03",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.04 ~ 2014.03",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.04 ~ 2013.03",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.04 ~ 2012.03",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.04 ~ 2011.03",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.04 ~ 2010.03",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.04 ~ 2009.03",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.04 ~ 2008.03",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.04 ~ 2007.03",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.04 ~ 2006.03",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2004.04 ~ 2005.03",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -861,6 +3051,66 @@
         "date": "2015.01 ~ 2017.12",
         "dept": "안전혁신실",
         "pos": "연구원"
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.01 ~ 2005.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -887,6 +3137,66 @@
         "date": "2016.01 ~ 2018.12",
         "dept": "정책기획실",
         "pos": "연구원"
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -913,6 +3223,66 @@
         "date": "2018.01 ~ 2020.12",
         "dept": "표준연구실",
         "pos": "연구원"
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -939,6 +3309,66 @@
         "date": "2020.01 ~ 2022.12",
         "dept": "체계지원단",
         "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2019.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2018.01 ~ 2018.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -965,6 +3395,66 @@
         "date": "2020.01 ~ 2022.12",
         "dept": "체계지원단",
         "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2019.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2018.01 ~ 2018.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -991,6 +3481,66 @@
         "date": "2016.01 ~ 2018.12",
         "dept": "지휘정찰센터",
         "pos": "연구원"
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1017,6 +3567,66 @@
         "date": "2018.01 ~ 2020.12",
         "dept": "지휘정찰센터",
         "pos": "연구원"
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1043,6 +3653,66 @@
         "date": "2016.01 ~ 2018.12",
         "dept": "첨단기술팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1069,6 +3739,66 @@
         "date": "2017.01 ~ 2019.12",
         "dept": "첨단기술팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1095,6 +3825,66 @@
         "date": "2019.01 ~ 2021.12",
         "dept": "성능개량연구실",
         "pos": "연구원"
+      },
+      {
+        "date": "2018.01 ~ 2018.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1116,6 +3906,72 @@
         "date": "2015.08 ~ 현재",
         "dept": "기술통제연구팀",
         "pos": "팀장"
+      },
+      {
+        "date": "2014.08 ~ 2015.07",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.08 ~ 2014.07",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.08 ~ 2013.07",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.08 ~ 2012.07",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.08 ~ 2011.07",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.08 ~ 2010.07",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.08 ~ 2009.07",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.08 ~ 2008.07",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.08 ~ 2007.07",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.08 ~ 2006.07",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2004.08 ~ 2005.07",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1142,6 +3998,66 @@
         "date": "2016.01 ~ 2018.12",
         "dept": "기술침해분석팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1168,6 +4084,66 @@
         "date": "2019.01 ~ 2021.12",
         "dept": "기술통제연구팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2018.01 ~ 2018.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1194,6 +4170,66 @@
         "date": "2015.01 ~ 2017.12",
         "dept": "정보보안팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.01 ~ 2005.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1220,6 +4256,66 @@
         "date": "2019.01 ~ 2021.12",
         "dept": "기술침해분석팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2018.01 ~ 2018.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1246,6 +4342,66 @@
         "date": "2016.01 ~ 2018.12",
         "dept": "정보보안팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1272,6 +4428,66 @@
         "date": "2019.01 ~ 2021.12",
         "dept": "신뢰성시험분석팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2018.01 ~ 2018.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1298,6 +4514,66 @@
         "date": "2015.01 ~ 2017.12",
         "dept": "대군기술지원실",
         "pos": "연구원"
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.01 ~ 2005.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1324,6 +4600,66 @@
         "date": "2015.01 ~ 2017.12",
         "dept": "유도탄수명분석팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.01 ~ 2005.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1350,6 +4686,66 @@
         "date": "2016.01 ~ 2018.12",
         "dept": "유도탄수명분석팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1376,6 +4772,66 @@
         "date": "2015.01 ~ 2017.12",
         "dept": "이화학시험분석팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.01 ~ 2005.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1402,6 +4858,66 @@
         "date": "2015.01 ~ 2017.12",
         "dept": "지상유도무기팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.01 ~ 2005.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1423,6 +4939,72 @@
         "date": "2017.12 ~ 현재",
         "dept": "이화학시험분석팀",
         "pos": "선임연구원"
+      },
+      {
+        "date": "2016.12 ~ 2017.11",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.12 ~ 2016.11",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.12 ~ 2015.11",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.12 ~ 2014.11",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.12 ~ 2013.11",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.12 ~ 2012.11",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.12 ~ 2011.11",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.12 ~ 2010.11",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.12 ~ 2009.11",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.12 ~ 2008.11",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.12 ~ 2007.11",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1444,6 +5026,72 @@
         "date": "2015.01 ~ 현재",
         "dept": "이화학시험분석팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.01 ~ 2005.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2004.01 ~ 2004.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1470,6 +5118,66 @@
         "date": "2015.01 ~ 2017.12",
         "dept": "안전혁신실",
         "pos": "연구원"
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.01 ~ 2005.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1496,6 +5204,66 @@
         "date": "2017.01 ~ 2019.12",
         "dept": "시설관리팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1517,6 +5285,72 @@
         "date": "2015.11 ~ 현재",
         "dept": "시험평가1팀",
         "pos": "수석연구원"
+      },
+      {
+        "date": "2014.11 ~ 2015.10",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.11 ~ 2014.10",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.11 ~ 2013.10",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.11 ~ 2012.10",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.11 ~ 2011.10",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.11 ~ 2010.10",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.11 ~ 2009.10",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.11 ~ 2008.10",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.11 ~ 2007.10",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.11 ~ 2006.10",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2004.11 ~ 2005.10",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1543,6 +5377,66 @@
         "date": "2018.01 ~ 2020.12",
         "dept": "시험평가1팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1569,6 +5463,66 @@
         "date": "2016.01 ~ 2018.12",
         "dept": "유도탄수명분석팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1595,6 +5549,66 @@
         "date": "2017.01 ~ 2019.12",
         "dept": "우주지휘통신팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1621,6 +5635,66 @@
         "date": "2015.01 ~ 2017.12",
         "dept": "우주지휘통신팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.01 ~ 2005.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1642,6 +5716,72 @@
         "date": "2016.12 ~ 현재",
         "dept": "품질기획실",
         "pos": "실장"
+      },
+      {
+        "date": "2015.12 ~ 2016.11",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.12 ~ 2015.11",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.12 ~ 2014.11",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.12 ~ 2013.11",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.12 ~ 2012.11",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.12 ~ 2011.11",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.12 ~ 2010.11",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.12 ~ 2009.11",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.12 ~ 2008.11",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.12 ~ 2007.11",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.12 ~ 2006.11",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1668,6 +5808,66 @@
         "date": "2016.01 ~ 2018.12",
         "dept": "대군기술지원실",
         "pos": "연구원"
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1689,6 +5889,72 @@
         "date": "2016.08 ~ 현재",
         "dept": "대군기술지원실",
         "pos": "연구원"
+      },
+      {
+        "date": "2015.08 ~ 2016.07",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.08 ~ 2015.07",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.08 ~ 2014.07",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.08 ~ 2013.07",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.08 ~ 2012.07",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.08 ~ 2011.07",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.08 ~ 2010.07",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.08 ~ 2009.07",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.08 ~ 2008.07",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.08 ~ 2007.07",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.08 ~ 2006.07",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1715,6 +5981,66 @@
         "date": "2016.01 ~ 2018.12",
         "dept": "품질기획실",
         "pos": "연구원"
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1736,6 +6062,72 @@
         "date": "2015.04 ~ 현재",
         "dept": "성능개량연구실",
         "pos": "연구원"
+      },
+      {
+        "date": "2014.04 ~ 2015.03",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.04 ~ 2014.03",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.04 ~ 2013.03",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.04 ~ 2012.03",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.04 ~ 2011.03",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.04 ~ 2010.03",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.04 ~ 2009.03",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.04 ~ 2008.03",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.04 ~ 2007.03",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.04 ~ 2006.03",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2004.04 ~ 2005.03",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1762,6 +6154,66 @@
         "date": "2017.01 ~ 2019.12",
         "dept": "체계지원단",
         "pos": "연구원"
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1783,6 +6235,72 @@
         "date": "2016.05 ~ 현재",
         "dept": "공급망관리연구실",
         "pos": "연구원"
+      },
+      {
+        "date": "2015.05 ~ 2016.04",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.05 ~ 2015.04",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.05 ~ 2014.04",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.05 ~ 2013.04",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.05 ~ 2012.04",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.05 ~ 2011.04",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.05 ~ 2010.04",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.05 ~ 2009.04",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.05 ~ 2008.04",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.05 ~ 2007.04",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.05 ~ 2006.04",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1809,6 +6327,66 @@
         "date": "2016.01 ~ 2018.12",
         "dept": "품질기획실",
         "pos": "연구원"
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1835,6 +6413,66 @@
         "date": "2019.01 ~ 2021.12",
         "dept": "품질기획실",
         "pos": "연구원"
+      },
+      {
+        "date": "2018.01 ~ 2018.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1861,6 +6499,66 @@
         "date": "2015.01 ~ 2017.12",
         "dept": "품질기획실",
         "pos": "연구원"
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.01 ~ 2005.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1887,6 +6585,66 @@
         "date": "2016.01 ~ 2018.12",
         "dept": "감시정찰팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1908,6 +6666,72 @@
         "date": "2015.03 ~ 현재",
         "dept": "우주지휘통신팀",
         "pos": "선임연구원"
+      },
+      {
+        "date": "2014.03 ~ 2015.02",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.03 ~ 2014.02",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.03 ~ 2013.02",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.03 ~ 2012.02",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.03 ~ 2011.02",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.03 ~ 2010.02",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.03 ~ 2009.02",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.03 ~ 2008.02",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.03 ~ 2007.02",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.03 ~ 2006.02",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2004.03 ~ 2005.02",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1934,6 +6758,66 @@
         "date": "2016.01 ~ 2018.12",
         "dept": "시험평가3팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1955,6 +6839,72 @@
         "date": "2017.06 ~ 현재",
         "dept": "감시정찰팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2016.06 ~ 2017.05",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.06 ~ 2016.05",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.06 ~ 2015.05",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.06 ~ 2014.05",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.06 ~ 2013.05",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.06 ~ 2012.05",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.06 ~ 2011.05",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.06 ~ 2010.05",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.06 ~ 2009.05",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.06 ~ 2008.05",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.06 ~ 2007.05",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -1981,6 +6931,66 @@
         "date": "2017.01 ~ 2019.12",
         "dept": "이화학시험분석팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2007,6 +7017,66 @@
         "date": "2018.01 ~ 2020.12",
         "dept": "첨단전력팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2033,6 +7103,66 @@
         "date": "2019.01 ~ 2021.12",
         "dept": "우주지휘통신팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2018.01 ~ 2018.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2059,6 +7189,66 @@
         "date": "2017.01 ~ 2019.12",
         "dept": "우주지휘통신팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2085,6 +7275,66 @@
         "date": "2017.01 ~ 2019.12",
         "dept": "첨단기술팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2106,6 +7356,72 @@
         "date": "2017.11 ~ 현재",
         "dept": "첨단전력팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2016.11 ~ 2017.10",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.11 ~ 2016.10",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.11 ~ 2015.10",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.11 ~ 2014.10",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.11 ~ 2013.10",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.11 ~ 2012.10",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.11 ~ 2011.10",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.11 ~ 2010.10",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.11 ~ 2009.10",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.11 ~ 2008.10",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.11 ~ 2007.10",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2132,6 +7448,66 @@
         "date": "2016.01 ~ 2018.12",
         "dept": "시험평가1팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2153,6 +7529,72 @@
         "date": "2017.07 ~ 현재",
         "dept": "장갑차팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2016.07 ~ 2017.06",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.07 ~ 2016.06",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.07 ~ 2015.06",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.07 ~ 2014.06",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.07 ~ 2013.06",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.07 ~ 2012.06",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.07 ~ 2011.06",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.07 ~ 2010.06",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.07 ~ 2009.06",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.07 ~ 2008.06",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.07 ~ 2007.06",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2179,6 +7621,66 @@
         "date": "2018.01 ~ 2020.12",
         "dept": "지상장비부품팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2205,6 +7707,66 @@
         "date": "2020.01 ~ 2022.12",
         "dept": "전차팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2019.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2018.01 ~ 2018.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2226,6 +7788,72 @@
         "date": "2015.02 ~ 현재",
         "dept": "화력장비팀",
         "pos": "책임연구원"
+      },
+      {
+        "date": "2014.02 ~ 2015.01",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.02 ~ 2014.01",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.02 ~ 2013.01",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.02 ~ 2012.01",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.02 ~ 2011.01",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.02 ~ 2010.01",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.02 ~ 2009.01",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.02 ~ 2008.01",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.02 ~ 2007.01",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.02 ~ 2006.01",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2004.02 ~ 2005.01",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2252,6 +7880,66 @@
         "date": "2016.01 ~ 2018.12",
         "dept": "지상장비부품팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2278,6 +7966,66 @@
         "date": "2015.01 ~ 2017.12",
         "dept": "안전보건팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.01 ~ 2005.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2304,6 +8052,66 @@
         "date": "2017.01 ~ 2019.12",
         "dept": "공급망관리연구실",
         "pos": "연구원"
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2330,6 +8138,66 @@
         "date": "2019.01 ~ 2021.12",
         "dept": "이화학시험분석팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2018.01 ~ 2018.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2351,6 +8219,72 @@
         "date": "2016.12 ~ 현재",
         "dept": "지상유도무기팀",
         "pos": "선임연구원"
+      },
+      {
+        "date": "2015.12 ~ 2016.11",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.12 ~ 2015.11",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.12 ~ 2014.11",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.12 ~ 2013.11",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.12 ~ 2012.11",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.12 ~ 2011.11",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.12 ~ 2010.11",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.12 ~ 2009.11",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.12 ~ 2008.11",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.12 ~ 2007.11",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.12 ~ 2006.11",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2377,6 +8311,66 @@
         "date": "2016.01 ~ 2018.12",
         "dept": "화력장비팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2398,6 +8392,72 @@
         "date": "2016.04 ~ 현재",
         "dept": "해상유도무기팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2015.04 ~ 2016.03",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.04 ~ 2015.03",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.04 ~ 2014.03",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.04 ~ 2013.03",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.04 ~ 2012.03",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.04 ~ 2011.03",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.04 ~ 2010.03",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.04 ~ 2009.03",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.04 ~ 2008.03",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.04 ~ 2007.03",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.04 ~ 2006.03",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2424,6 +8484,66 @@
         "date": "2019.01 ~ 2021.12",
         "dept": "지상유도무기팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2018.01 ~ 2018.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2450,6 +8570,66 @@
         "date": "2015.01 ~ 2017.12",
         "dept": "지상유도무기팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.01 ~ 2005.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2476,6 +8656,66 @@
         "date": "2017.01 ~ 2019.12",
         "dept": "지상유도무기팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2502,6 +8742,66 @@
         "date": "2015.01 ~ 2017.12",
         "dept": "잠수함팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.01 ~ 2005.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2528,6 +8828,66 @@
         "date": "2018.01 ~ 2020.12",
         "dept": "지원함팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2554,6 +8914,66 @@
         "date": "2016.01 ~ 2018.12",
         "dept": "해상유도무기팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2580,6 +9000,66 @@
         "date": "2017.01 ~ 2019.12",
         "dept": "전투함팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2606,6 +9086,66 @@
         "date": "2015.01 ~ 2017.12",
         "dept": "잠수함팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.01 ~ 2005.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2632,6 +9172,66 @@
         "date": "2017.01 ~ 2019.12",
         "dept": "잠수함팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2658,6 +9258,66 @@
         "date": "2017.01 ~ 2019.12",
         "dept": "첨단기술팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2684,6 +9344,66 @@
         "date": "2019.01 ~ 2021.12",
         "dept": "우주지휘통신팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2018.01 ~ 2018.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2705,6 +9425,72 @@
         "date": "2016.10 ~ 현재",
         "dept": "고정익팀",
         "pos": "팀장"
+      },
+      {
+        "date": "2015.10 ~ 2016.09",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.10 ~ 2015.09",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.10 ~ 2014.09",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.10 ~ 2013.09",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.10 ~ 2012.09",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.10 ~ 2011.09",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.10 ~ 2010.09",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.10 ~ 2009.09",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.10 ~ 2008.09",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.10 ~ 2007.09",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.10 ~ 2006.09",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2731,6 +9517,66 @@
         "date": "2020.01 ~ 2022.12",
         "dept": "공중유도무기팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2019.01 ~ 2019.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2018.01 ~ 2018.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2757,6 +9603,66 @@
         "date": "2019.01 ~ 2021.12",
         "dept": "대군기술지원실",
         "pos": "연구원"
+      },
+      {
+        "date": "2018.01 ~ 2018.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2783,6 +9689,66 @@
         "date": "2016.01 ~ 2018.12",
         "dept": "지능SW팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2804,6 +9770,72 @@
         "date": "2015.01 ~ 현재",
         "dept": "드론무인기팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.01 ~ 2006.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.01 ~ 2005.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2004.01 ~ 2004.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2825,6 +9857,72 @@
         "date": "2017.11 ~ 현재",
         "dept": "감항인증기획팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2016.11 ~ 2017.10",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.11 ~ 2016.10",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.11 ~ 2015.10",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.11 ~ 2014.10",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.11 ~ 2013.10",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.11 ~ 2012.10",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.11 ~ 2011.10",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.11 ~ 2010.10",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.11 ~ 2009.10",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.11 ~ 2008.10",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.11 ~ 2007.10",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2851,6 +9949,66 @@
         "date": "2017.01 ~ 2019.12",
         "dept": "감항인증연구팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.01 ~ 2008.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.01 ~ 2007.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2872,6 +10030,72 @@
         "date": "2015.12 ~ 현재",
         "dept": "감항인증연구팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2014.12 ~ 2015.11",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.12 ~ 2014.11",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.12 ~ 2013.11",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.12 ~ 2012.11",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.12 ~ 2011.11",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.12 ~ 2010.11",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2008.12 ~ 2009.11",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2007.12 ~ 2008.11",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2006.12 ~ 2007.11",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2005.12 ~ 2006.11",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2004.12 ~ 2005.11",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2898,6 +10122,66 @@
         "date": "2019.01 ~ 2021.12",
         "dept": "고정익팀",
         "pos": "연구원"
+      },
+      {
+        "date": "2018.01 ~ 2018.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2017.01 ~ 2017.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.01 ~ 2016.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.01 ~ 2015.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.01 ~ 2014.12",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.01 ~ 2013.12",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.01 ~ 2012.12",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.01 ~ 2011.12",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2010.01 ~ 2010.12",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2009.01 ~ 2009.12",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2919,6 +10203,72 @@
         "date": "2022.03 ~ 현재",
         "dept": "정책기획실",
         "pos": "선임연구원"
+      },
+      {
+        "date": "2021.03 ~ 2022.02",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2020.03 ~ 2021.02",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2019.03 ~ 2020.02",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2018.03 ~ 2019.02",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2017.03 ~ 2018.02",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.03 ~ 2017.02",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.03 ~ 2016.02",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.03 ~ 2015.02",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.03 ~ 2014.02",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.03 ~ 2013.02",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.03 ~ 2012.02",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   },
@@ -2940,6 +10290,72 @@
         "date": "2022.03 ~ 현재",
         "dept": "총무복지팀",
         "pos": "책임연구원"
+      },
+      {
+        "date": "2021.03 ~ 2022.02",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2020.03 ~ 2021.02",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2019.03 ~ 2020.02",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2018.03 ~ 2019.02",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2017.03 ~ 2018.02",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2016.03 ~ 2017.02",
+        "dept": "품질기획실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2015.03 ~ 2016.02",
+        "dept": "시험평가1팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2014.03 ~ 2015.02",
+        "dept": "체계지원단",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2013.03 ~ 2014.02",
+        "dept": "정보체계팀",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2012.03 ~ 2013.02",
+        "dept": "인재개발실",
+        "pos": "연구원",
+        "isTestData": true
+      },
+      {
+        "date": "2011.03 ~ 2012.02",
+        "dept": "정책기획실",
+        "pos": "연구원",
+        "isTestData": true
       }
     ]
   }
