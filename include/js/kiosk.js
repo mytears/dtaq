@@ -1,5 +1,23 @@
-/* Standby content and inactivity lifecycle. Paths are relative to index.html. */
+/* Standby/welcome content and inactivity lifecycle. Paths are relative to index.html. */
 var kioskState = { idleMs: 180000, timer: null, lastActivity: 0 };
+
+function applyKioskWelcome(content) {
+    content = content || {};
+    var visible = content.show === true;
+    var $welcome = $('#welcome-screen');
+    if (typeof content.background === 'string' && /^(commonfiles|images)\/[\w./-]+$/.test(content.background)) {
+        $welcome.css('background-image', 'url("' + content.background + '")');
+    }
+    ['subtitle', 'title', 'message', 'scheduleTitle', 'schedule'].forEach(function (key) {
+        var selectors = {
+            subtitle: '.welcome-subtitle', title: '.welcome-title', message: '.welcome-message',
+            scheduleTitle: '.welcome-schedule-title', schedule: '.welcome-schedule-text'
+        };
+        $welcome.find(selectors[key]).text(typeof content[key] === 'string' ? content[key] : '');
+    });
+    $welcome.prop('hidden', !visible);
+    $('#standby-start').prop('hidden', visible);
+}
 
 function resetKioskSearch() {
     setSearchMode('employee');
@@ -38,6 +56,7 @@ function recordKioskActivity() {
 function initKiosk() {
     showPage('page-standby');
     $('#page-standby').on('click', function () {
+        if (!$('#welcome-screen').prop('hidden')) return;
         resetKioskSearch();
         showPage('page-landing');
         recordKioskActivity();
@@ -50,6 +69,7 @@ function initKiosk() {
             Date.now() - kioskState.lastActivity >= kioskState.idleMs) enterKioskStandby();
     });
     $.getJSON('data/kiosk_contents.json').done(function (data) {
+        applyKioskWelcome(data && data.welcome);
         var content = data && data.standby;
         if (!content) return;
         if (typeof content.background === 'string' && /^(commonfiles|images)\/[\w./-]+$/.test(content.background)) {
