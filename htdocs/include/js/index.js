@@ -9,10 +9,13 @@ var g_currentScreen = 'page-standby';
 var g_jamoList = [];
 var g_selectedEmpId = "261010"; // Default sample: 김진호
 var g_activeDeptFilter = 'ALL';
+var g_deptMatches = Object.create(null);
+var g_deptCodesByName = Object.create(null);
+var g_deptNamesByCode = Object.create(null);
 var g_searchMode = 'employee';
 var g_isEnglish = false;
 
-// Sample Employee Database (Matches XD designs)
+// Employee data loaded from kiosk_contents.json
 var g_employeeData = [];
 
 // Project Data Database
@@ -43,11 +46,10 @@ function setinit() {
     initEventListeners();
     initKiosk();
 
-    // Try loading external employees.json, fallback to embedded
-    $.getJSON("data/employees.json", function (data) {
-        if (data && data.length > 0) {
-            g_employeeData = data;
-        }
+    loadKioskContents().done(function (data) {
+        if (!data) return;
+        if (Array.isArray(data.employees_list)) g_employeeData = data.employees_list;
+        if (Array.isArray(data.dept)) renderOrganization(data.dept);
     });
 }
 
@@ -124,7 +126,7 @@ function renderEmployeeList(dataList) {
                     '<div class="emp-row-card" onclick="' + clickAction + '">' +
                         '<div class="col-name">' + emp.name + '</div>' +
                         '<div class="col-id">' + emp.id + '</div>' +
-                        '<div class="col-dept">' + emp.dept + '</div>' +
+                        '<div class="col-dept">' + $('<span>').text(getCurrentDeptName(emp)).html() + '</div>' +
                         '<div class="col-pos">' + emp.pos + '</div>' +
                         '<div class="row-arrow-icon"><img src="images/icon_listarrow.svg" alt="상세보기"></div>' +
                     '</div>';
@@ -191,7 +193,8 @@ function selectEmployee(empId) {
     // Populate Profile Card
     $('#detail-name').text(emp.name);
     $('#detail-id').text(emp.id);
-    $('#detail-dept').text(emp.dept);
+    var deptName = getCurrentDeptName(emp);
+    $('#detail-dept').text(deptName);
     $('#detail-pos').text(emp.pos);
     $('#detail-job-desc').text(emp.jobDesc || (emp.duties && emp.duties[0]) || '');
     $('#detail-email').text(emp.email || 'honggildong@dtaq.re.kr');
@@ -206,23 +209,8 @@ function selectEmployee(empId) {
         $('.sync-search-input').val(emp.name);
         $('.btn-search-clear').addClass('visible');
     }
-    if (emp.dept) {
-        $('.dept-dropdown-selected').text(emp.dept);
-        $('.dept-dropdown-item').removeClass('active');
-        $('.dept-dropdown-item[data-dept="' + emp.dept + '"]').addClass('active');
-
-        $('.tree-root-item, .tree-folder-header, .tree-leaf-item').removeClass('active');
-        var $leaf = $('.tree-leaf-item[data-dept="' + emp.dept + '"]');
-        if ($leaf.length) {
-            $leaf.addClass('active');
-            $leaf.closest('.tree-folder-node').addClass('expanded');
-        } else {
-            var $folder = $('.tree-folder-header[data-dept="' + emp.dept + '"]');
-            if ($folder.length) {
-                $folder.addClass('active');
-                $folder.closest('.tree-folder-node').addClass('expanded');
-            }
-        }
+    if (deptName) {
+        highlightDept(getDeptCode(emp), deptName).parents('.tree-folder-node').addClass('expanded');
     }
 
     // Populate Timeline List
@@ -255,7 +243,7 @@ function selectEmployee(empId) {
     // Sync LED Modal Data
     $('#led-name').text(emp.name);
     $('#led-id').text(emp.id);
-    $('#led-dept').text(emp.dept);
+    $('#led-dept').text(deptName);
     $('#led-pos').text(emp.pos);
     $('#led-job-desc').text(emp.jobDesc || (emp.duties && emp.duties[0]) || '');
     $('#led-email').text(emp.email || 'honggildong@dtaq.re.kr');
@@ -518,49 +506,19 @@ function isKoreanMatch(text, query) {
     return false;
 }
 
-// Organization Hierarchy Mapping for Tree & Dropdown filtering
-var DEPT_HIERARCHY = {
-    "정책기획부": ["정책기획실", "조직인사실", "계획예산실", "대외협력실", "대외협력기획실", "국제협력실", "정책기획부"],
-    "경영관리부": ["총무복지팀", "재무회계팀", "건설자산팀", "시설관리팀", "경영지원실", "인재개발실", "정보화지원실", "경영관리부"],
-    "정보보안안전부": ["정보체계팀", "정보보안팀", "안전보건팀", "정보보호센터", "정보화지원실", "정보보안안전부"],
-    "기술연구본부": [
-        "기술연구본부", "기술기획실", "표준연구실",
-        "첨단미래기술센터", "우주위성팀", "지능SW팀", "첨단기술팀",
-        "방위산업기술보호센터", "기술통제연구팀", "기술침해분석팀", "기술보호조사팀",
-        "국방신뢰성연구센터", "RAM분석팀", "신뢰성시험분석팀", "유도탄수명분석팀", "이화학시험분석팀",
-        "국방종합시험센터", "안전기획팀", "시험평가1팀", "시험평가2팀", "시험평가3팀"
-    ],
-    "첨단미래기술센터": ["첨단미래기술센터", "우주위성팀", "지능SW팀", "첨단기술팀"],
-    "방위산업기술보호센터": ["방위산업기술보호센터", "기술통제연구팀", "기술침해분석팀", "기술보호조사팀"],
-    "국방신뢰성연구센터": ["국방신뢰성연구센터", "RAM분석팀", "신뢰성시험분석팀", "유도탄수명분석팀", "이화학시험분석팀"],
-    "국방종합시험센터": ["국방종합시험센터", "안전기획팀", "시험평가1팀", "시험평가2팀", "시험평가3팀"],
-    "품질연구본부": [
-        "품질연구본부", "품질기획실", "대군기술지원실", "성능개량연구실", "공급망관리연구실", "체계지원단",
-        "지휘정찰센터", "우주지휘통신팀", "감시정찰팀", "전자광학팀", "통합전자팀", "첨단전력팀",
-        "기동화력센터", "전차팀", "장갑차팀", "화력장비팀", "지상장비팀", "지상장비부품팀",
-        "유도탄약센터", "지상유도무기팀", "해상유도무기팀", "공중유도무기팀",
-        "함정센터", "전투함팀", "잠수함팀", "지원함팀", "무인고속함팀",
-        "항공센터", "고정익팀", "회전익팀", "드론무인기팀",
-        "감항인증연구센터", "감항인증기획팀", "감항인증연구팀"
-    ],
-    "지휘정찰센터": ["지휘정찰센터", "우주지휘통신팀", "감시정찰팀", "전자광학팀", "통합전자팀", "첨단전력팀"],
-    "기동화력센터": ["기동화력센터", "전차팀", "장갑차팀", "화력장비팀", "지상장비팀", "지상장비부품팀"],
-    "유도탄약센터": ["유도탄약센터", "지상유도무기팀", "해상유도무기팀", "공중유도무기팀"],
-    "함정센터": ["함정센터", "전투함팀", "잠수함팀", "지원함팀", "무인고속함팀"],
-    "항공센터": ["항공센터", "고정익팀", "회전익팀", "드론무인기팀"],
-    "감항인증연구센터": ["감항인증연구센터", "감항인증기획팀", "감항인증연구팀"]
-};
+function getDeptCode(item) {
+    if (g_deptNamesByCode[item.deptCode]) return item.deptCode;
+    return g_deptCodesByName[item.dept] || item.deptCode || item.dept;
+}
 
-function isDeptMatch(itemDept, targetDept) {
-    if (!targetDept || targetDept === 'ALL') return true;
-    if (!itemDept) return false;
-    if (itemDept === targetDept || itemDept.includes(targetDept)) return true;
-    if (DEPT_HIERARCHY[targetDept]) {
-        return DEPT_HIERARCHY[targetDept].some(function (sub) {
-            return itemDept === sub || itemDept.includes(sub);
-        });
-    }
-    return false;
+function getCurrentDeptName(item) {
+    return g_deptNamesByCode[getDeptCode(item)] || item.dept || '';
+}
+
+function isDeptMatch(item, targetCode) {
+    if (!targetCode || targetCode === 'ALL') return true;
+    var code = getDeptCode(item);
+    return code === targetCode || (g_deptMatches[targetCode] || []).includes(code);
 }
 
 // Start a fresh query whenever the kiosk search bar is tapped.
@@ -586,7 +544,7 @@ function clearSearchInput() {
     // Filter by department if active
     if (g_activeDeptFilter !== 'ALL') {
         sourceData = sourceData.filter(function(item) {
-            return isDeptMatch(item.dept, g_activeDeptFilter);
+            return isDeptMatch(item, g_activeDeptFilter);
         });
     }
     renderEmployeeList(sourceData);
@@ -601,11 +559,11 @@ function executeSearch() {
         var matchQuery = !query || 
             isKoreanMatch(item.name, query) || 
             isKoreanMatch(item.id, query) || 
-            isKoreanMatch(item.dept, query) ||
+            isKoreanMatch(getCurrentDeptName(item), query) ||
             isKoreanMatch(item.pos, query) ||
             isKoreanMatch(item.email, query);
 
-        var matchDept = isDeptMatch(item.dept, g_activeDeptFilter);
+        var matchDept = isDeptMatch(item, g_activeDeptFilter);
         return matchQuery && matchDept;
     });
 
@@ -635,18 +593,14 @@ function initCustomDropdown() {
     // Select item from dropdown
     $(document).on('click', '.dept-dropdown-item', function(e) {
         e.stopPropagation();
-        var deptName = $(this).attr('data-dept');
+        var deptCode = $(this).attr('data-dept');
         var deptText = $(this).text();
 
-        $('.dept-dropdown-item').removeClass('active');
-        $('.dept-dropdown-item[data-dept="' + deptName + '"]').addClass('active');
-
-        $('.dept-dropdown-selected').text(deptText);
         $('.dept-dropdown-container').removeClass('open');
         $('.dept-dropdown-btn img').attr('src', 'images/ico_chevron_down.svg');
 
         // Sync with organization tree
-        syncDeptFilter(deptName, deptText);
+        syncDeptFilter(deptCode, deptText);
     });
 
     // Click outside to close dropdown
@@ -658,25 +612,66 @@ function initCustomDropdown() {
     });
 }
 
-function syncDeptFilter(deptName, deptText) {
-    g_activeDeptFilter = deptName;
-    var heading = (deptName === 'ALL') ? '국방기술품질원' : deptText;
-    $('#list-dept-heading').text(heading);
+function renderOrganization(departments) {
+    var $lists = $('.dept-dropdown-list-wrap');
+    var $trees = $('.org-tree-content');
+    $lists.children().not('[data-dept="ALL"]').remove();
+    $trees.children().not('.tree-root-item').remove();
+    g_deptMatches = Object.create(null);
+    g_deptCodesByName = Object.create(null);
+    g_deptNamesByCode = Object.create(null);
 
-    // Sync dropdown selection
-    var dropdownText = (deptName === 'ALL') ? '전체부서' : deptText;
-    $('.dept-dropdown-selected').text(dropdownText);
-    $('.dept-dropdown-item').removeClass('active');
-    $('.dept-dropdown-item[data-dept="' + deptName + '"]').addClass('active');
+    var $options = $('<div>');
+    var $nodes = $('<div>');
+    departments.forEach(function (department) {
+        $nodes.append(renderDepartment(department, $options));
+    });
+    $options.children().appendTo($lists);
+    $nodes.children().appendTo($trees);
+}
 
-    // Sync tree selection
-    $('.tree-root-item, .tree-leaf-item, .tree-folder-header').removeClass('active');
-    if (deptName === 'ALL') {
-        $('.tree-root-item').addClass('active');
-    } else {
-        $('[data-dept="' + deptName + '"]').addClass('active');
+function renderDepartment(department, $options) {
+    var name = typeof department === 'string' ? department : department.name;
+    var code = department.deptCode || name;
+    var children = department.children || [];
+    var active = code === g_activeDeptFilter;
+    g_deptCodesByName[name] = code;
+    g_deptNamesByCode[code] = name;
+
+    $('<div class="dept-dropdown-item">').attr('data-dept', code).text(name)
+        .toggleClass('active', active).appendTo($options);
+
+    var $label = $('<span class="tree-text">').text(name);
+    var matches = [code];
+    if (!children.length) {
+        g_deptMatches[code] = matches;
+        return $('<div class="tree-leaf-item">').attr('data-dept', code).toggleClass('active', active)
+            .append('<span class="tree-line"></span>', '<img src="images/ico_org_3.svg" class="tree-node-icon" alt="">', $label);
     }
 
+    var $header = $('<div class="tree-folder-header">').attr('data-dept', code).toggleClass('active', active)
+        .append('<span class="tree-toggle-arrow">▼</span>', '<img src="images/ico_org_2.svg" class="tree-node-icon" alt="">', $label);
+    var $children = $('<div class="tree-folder-children">');
+    children.forEach(function (child) {
+        $children.append(renderDepartment(child, $options));
+        matches = matches.concat(g_deptMatches[child.deptCode || child.name || child]);
+    });
+    g_deptMatches[code] = matches;
+    return $('<div class="tree-folder-node expanded">').append($header, $children);
+}
+
+function highlightDept(deptCode, deptText) {
+    var selector = '[data-dept="' + $.escapeSelector(deptCode) + '"]';
+    $('.dept-dropdown-selected').text(deptCode === 'ALL' ? '전체부서' : deptText);
+    $('.dept-dropdown-item').removeClass('active').filter(selector).addClass('active');
+    return $('.tree-root-item, .tree-leaf-item, .tree-folder-header')
+        .removeClass('active').filter(selector).addClass('active');
+}
+
+function syncDeptFilter(deptCode, deptText) {
+    g_activeDeptFilter = deptCode;
+    $('#list-dept-heading').text(deptCode === 'ALL' ? '국방기술품질원' : deptText);
+    highlightDept(deptCode, deptText);
     executeSearch();
 }
 
@@ -687,9 +682,6 @@ function initOrgTree() {
     // Root node click
     $(document).on('click', '.tree-root-item', function(e) {
         e.stopPropagation();
-        $('.dept-dropdown-selected').text('전체부서');
-        $('.dept-dropdown-item').removeClass('active');
-        $('.dept-dropdown-item[data-dept="ALL"]').addClass('active');
         syncDeptFilter('ALL', '국방기술품질원');
     });
 
@@ -699,23 +691,17 @@ function initOrgTree() {
         var $folderNode = $(this).closest('.tree-folder-node');
         $folderNode.toggleClass('expanded');
 
-        var deptName = $(this).attr('data-dept');
+        var deptCode = $(this).attr('data-dept');
         var deptText = $(this).find('.tree-text').text();
-        $('.dept-dropdown-selected').text(deptText);
-        $('.dept-dropdown-item').removeClass('active');
-        $('.dept-dropdown-item[data-dept="' + deptName + '"]').addClass('active');
-        syncDeptFilter(deptName, deptText);
+        syncDeptFilter(deptCode, deptText);
     });
 
     // Leaf item click
     $(document).on('click', '.tree-leaf-item', function(e) {
         e.stopPropagation();
-        var deptName = $(this).attr('data-dept');
+        var deptCode = $(this).attr('data-dept');
         var deptText = $(this).find('.tree-text').text();
-        $('.dept-dropdown-selected').text(deptText);
-        $('.dept-dropdown-item').removeClass('active');
-        $('.dept-dropdown-item[data-dept="' + deptName + '"]').addClass('active');
-        syncDeptFilter(deptName, deptText);
+        syncDeptFilter(deptCode, deptText);
     });
 }
 

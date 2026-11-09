@@ -1,6 +1,6 @@
-/* Business introduction: all list and detail content comes from weapons.json. */
+/* Business introduction: list and detail content comes from kiosk_contents.json. */
 var businessState = { items: [], filtered: [], page: 0, selected: null, loaded: false };
-function openBusiness() {
+function openBusiness(reload) {
     g_searchMode = 'project';
     syncSearchQuery(''); g_jamoList = [];
     businessState.selected = null;
@@ -17,19 +17,23 @@ function openBusiness() {
     $('#business-keyboard').show();
     if (businessState.loaded) { searchWeapons(); $('#business-keyboard').show(); return; }
     $('#weapon-list').text('무기체계 정보를 불러오는 중입니다.');
-    $.getJSON('data/weapons.json').done(function(data) {
-        if (!data || !Array.isArray(data.weapons) || !data.weapons.every(function(w) {
+    loadKioskContents(reload === true).done(function(data) {
+        var weapons = data && data.weapons_list;
+        if (!Array.isArray(weapons) || !weapons.every(function(w) {
             return w && typeof w.id === 'string' && typeof w.name === 'string' && Array.isArray(w.performance);
         })) { businessLoadError(); return; }
-        businessState.items = data.weapons;
+        businessState.items = weapons;
         businessState.loaded = true;
-        searchWeapons();
-        $("#business-keyboard").show();
+        if (g_currentScreen === 'page-business') {
+            searchWeapons();
+            $("#business-keyboard").show();
+        }
     }).fail(businessLoadError);
 }
 function businessLoadError() {
+    if (g_currentScreen !== 'page-business') return;
     $('#weapon-list').empty().append($('<p>').text('무기체계 정보를 불러오지 못했습니다.'))
-        .append($('<button type="button">').text('다시 불러오기').on('click', openBusiness));
+        .append($('<button type="button">').text('다시 불러오기').on('click', function () { openBusiness(true); }));
 }
 function searchWeapons() {
     var query = ($('#global-search-input').val() || '').replace(/\s/g, '').toLowerCase();

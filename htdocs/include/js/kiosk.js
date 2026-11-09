@@ -1,5 +1,17 @@
 /* Standby/welcome content and inactivity lifecycle. Paths are relative to index.html. */
 var kioskState = { idleMs: 180000, timer: null, lastActivity: 0 };
+var kioskContentsRequest = null;
+
+function loadKioskContents(reload) {
+    if (!reload && kioskContentsRequest) return kioskContentsRequest;
+
+    var request = $.getJSON('data/kiosk_contents.json');
+    kioskContentsRequest = request;
+    request.fail(function () {
+        if (kioskContentsRequest === request) kioskContentsRequest = null;
+    });
+    return request;
+}
 
 function applyKioskWelcome(content) {
     content = content || {};
@@ -68,7 +80,7 @@ function initKiosk() {
         if (!document.hidden && g_currentScreen !== 'page-standby' &&
             Date.now() - kioskState.lastActivity >= kioskState.idleMs) enterKioskStandby();
     });
-    $.getJSON('data/kiosk_contents.json').done(function (data) {
+    loadKioskContents().done(function (data) {
         applyKioskWelcome(data && data.welcome);
         var content = data && data.standby;
         if (!content) return;
@@ -77,12 +89,10 @@ function initKiosk() {
         }
         if (typeof content.title === 'string') $('.standby-title').text(content.title);
         if (typeof content.subtitle === 'string') $('.standby-subtitle').text(content.subtitle);
-        if (typeof content.idleSeconds === 'number' && isFinite(content.idleSeconds) && content.idleSeconds > 0) {
-            kioskState.idleMs = content.idleSeconds * 1000;
+        var idleSeconds = content.idelTime === undefined ? content.idleSeconds : content.idelTime;
+        if (typeof idleSeconds === 'number' && isFinite(idleSeconds) && idleSeconds > 0) {
+            kioskState.idleMs = idleSeconds * 1000;
             if (g_currentScreen !== 'page-standby') recordKioskActivity();
-        }
-        if (typeof content.blinkSeconds === 'number' && isFinite(content.blinkSeconds) && content.blinkSeconds > 0) {
-            $('#standby-start').css('animation-duration', content.blinkSeconds + 's');
         }
     }).fail(function () {
         applyKioskWelcome(null);
