@@ -70,6 +70,7 @@ function showPage(pageId) {
     
     var $target = $('#' + pageId);
     $target.show();
+    syncKioskVideos();
     setTimeout(function() {
         $target.addClass('active');
     }, 10);

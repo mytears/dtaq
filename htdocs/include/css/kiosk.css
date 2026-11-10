@@ -9,20 +9,24 @@
     inset: 0;
     z-index: 2100;
     background: #fff url('../../commonfiles/bg_welcome-1.png') center / cover no-repeat;
-    color: #373737;
-    text-align: center;
     cursor: default;
 }
-#welcome-screen[hidden], #standby-start[hidden] { display: none; }
-#welcome-screen p, #welcome-screen h1 { margin: 0; }
-.welcome-content { position: absolute; top: 366px; left: 60px; right: 60px; }
-.welcome-subtitle { color: #3068e5; font-size: 30px; font-weight: 700; letter-spacing: 24px; padding-left: 24px; }
-#welcome-screen .welcome-title { margin-top: 24px; color: #3068e5; font-size: 64px; font-weight: 700; line-height: 1.4; }
-#welcome-screen .welcome-message { margin-top: 20px; font-size: 96px; font-weight: 700; line-height: 1.35; }
-.welcome-title, .welcome-message, .welcome-schedule-text { white-space: pre-line; overflow-wrap: anywhere; }
-.welcome-schedule { position: absolute; right: 44px; bottom: 44px; left: 60px; text-align: right; }
-.welcome-schedule-title { color: #3068e5; font-size: 30px; font-weight: 700; }
-#welcome-screen .welcome-schedule-text { margin-top: 8px; font-size: 36px; font-weight: 700; }
+#welcome-media {
+    position: absolute;
+    inset: 0;
+    background: center / contain no-repeat;
+    pointer-events: none;
+}
+#welcome-media video { object-fit: contain; }
+#welcome-screen[hidden], #standby-start[hidden], .kiosk-video[hidden] { display: none; }
+.kiosk-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
 #standby-start {
     position: absolute;
     left: 50%;

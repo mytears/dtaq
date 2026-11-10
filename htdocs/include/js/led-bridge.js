@@ -32,7 +32,7 @@
   wrap('showLedScreen', function (id) { if (id) send('employee', id); });
   wrap('applyKioskWelcome', function (content) {
     welcomeLoaded = true;
-    if (window.g_currentScreen === 'page-standby') send(content?.show === true ? 'welcome' : 'rolling');
+    if (window.g_currentScreen === 'page-standby') send(content ? 'welcome' : 'rolling');
   });
   // Business UI is created on DOM ready. A delegated listener works for both existing and new buttons.
   document.addEventListener('click', event => {

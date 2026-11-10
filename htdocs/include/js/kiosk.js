@@ -1,5 +1,5 @@
 /* Standby/welcome content and inactivity lifecycle. Paths are relative to index.html. */
-var kioskState = { idleMs: 180000, timer: null, lastActivity: 0 };
+var kioskState = { idleMs: 180000, timer: null, lastActivity: 0, welcomeTimer: null };
 var kioskContentsRequest = null;
 
 function loadKioskContents(reload) {
@@ -13,22 +13,82 @@ function loadKioskContents(reload) {
     return request;
 }
 
-function applyKioskWelcome(content) {
-    content = content || {};
-    var visible = content.show === true;
-    var $welcome = $('#welcome-screen');
-    if (typeof content.background === 'string' && /^(commonfiles|images)\/[\w./-]+$/.test(content.background)) {
-        $welcome.css('background-image', 'url("' + content.background + '")');
+function findKioskWelcome(content, now) {
+    if (!content || !Array.isArray(content.welcome_list)) return null;
+
+    var today = String(now.getFullYear()).padStart(4, '0') +
+        String(now.getMonth() + 1).padStart(2, '0') + String(now.getDate()).padStart(2, '0');
+    var time = String(now.getHours()).padStart(2, '0') + String(now.getMinutes()).padStart(2, '0');
+    var dayFormat = /^\d{8}$/;
+    var timeFormat = /^((?:[01]\d|2[0-3])[0-5]\d)(?:[0-5]\d)?$/;
+
+    var ending = null;
+    for (var item of content.welcome_list) {
+        if (!item || !dayFormat.test(item.sday) || !dayFormat.test(item.eday) ||
+            today < item.sday || item.eday < today) continue;
+
+        var start = timeFormat.exec(item.stime)?.[1];
+        var end = timeFormat.exec(item.etime)?.[1];
+        if (!start || !end || time < start || end < time) continue;
+
+        if (start === time) return item;
+        if (!ending) {
+            if (end !== time) return item;
+            // A reservation starting this minute takes priority over this one.
+            ending = item;
+        }
     }
-    ['subtitle', 'title', 'message', 'scheduleTitle', 'schedule'].forEach(function (key) {
-        var selectors = {
-            subtitle: '.welcome-subtitle', title: '.welcome-title', message: '.welcome-message',
-            scheduleTitle: '.welcome-schedule-title', schedule: '.welcome-schedule-text'
-        };
-        $welcome.find(selectors[key]).text(typeof content[key] === 'string' ? content[key] : '');
+    return ending;
+}
+
+function refreshKioskWelcome() {
+    if (kioskState.welcome === undefined) return;
+    var content = findKioskWelcome(kioskState.welcome, new Date());
+    if (content === kioskState.activeWelcome) return;
+    kioskState.activeWelcome = content;
+    applyKioskWelcome(content);
+}
+
+function applyKioskMedia($layer, type, path) {
+    var media = typeof path === 'string' && /^(commonfiles|images)\/[\w./-]+$/.test(path) ? path : '';
+    var image = !type || type === 'IMG' ? media : '';
+    var source = type === 'MOV' ? media : '';
+    $layer.css('background-image', image ? 'url("' + image + '")' : '');
+
+    var video = $layer.children('.kiosk-video')[0];
+    video.hidden = !source;
+    if ((video.getAttribute('src') || '') === source) return;
+    video.pause();
+    if (source) {
+        video.src = source;
+    } else {
+        video.removeAttribute('src');
+        video.load();
+    }
+}
+
+function syncKioskVideos() {
+    var standbyVisible = g_currentScreen === 'page-standby' && !document.hidden;
+    var welcomeVisible = !$('#welcome-screen').prop('hidden');
+    $('#page-standby .kiosk-video').each(function () {
+        var isWelcomeVideo = this.parentNode.id !== 'page-standby';
+        if (standbyVisible && welcomeVisible === isWelcomeVideo && !this.hidden) {
+            if (this.paused) this.play().catch(function () {});
+        } else if (!this.paused) {
+            this.pause();
+        }
     });
+}
+
+function applyKioskWelcome(content) {
+    var visible = Boolean(content);
+    content = content || {};
+    var $welcome = $('#welcome-screen');
+    applyKioskMedia($welcome, content.bg_type, content.bg_path ?? content.background);
+    applyKioskMedia($('#welcome-media'), content.type, content.file_path);
     $welcome.prop('hidden', !visible);
     $('#standby-start').prop('hidden', visible);
+    syncKioskVideos();
 }
 
 function resetKioskSearch() {
@@ -55,6 +115,7 @@ function enterKioskStandby() {
     $('#preparing-overlay').hide();
     $('#page-landing').prop('inert', false);
     if (document.activeElement && document.activeElement.blur) document.activeElement.blur();
+    refreshKioskWelcome();
     showPage('page-standby');
 }
 
@@ -68,6 +129,7 @@ function recordKioskActivity() {
 function initKiosk() {
     showPage('page-standby');
     $('#page-standby').on('click', function () {
+        refreshKioskWelcome();
         if (!$('#welcome-screen').prop('hidden')) return;
         resetKioskSearch();
         showPage('page-landing');
@@ -77,16 +139,22 @@ function initKiosk() {
         document.addEventListener(eventName, recordKioskActivity, { capture: true, passive: true });
     });
     document.addEventListener('visibilitychange', function () {
-        if (!document.hidden && g_currentScreen !== 'page-standby' &&
+        syncKioskVideos();
+        if (document.hidden) return;
+        refreshKioskWelcome();
+        if (g_currentScreen !== 'page-standby' &&
             Date.now() - kioskState.lastActivity >= kioskState.idleMs) enterKioskStandby();
     });
     loadKioskContents().done(function (data) {
-        applyKioskWelcome(data && data.welcome);
+        kioskState.welcome = (data && data.welcome) || null;
+        refreshKioskWelcome();
+        if (kioskState.welcome && Array.isArray(kioskState.welcome.welcome_list) && kioskState.welcomeTimer === null) {
+            kioskState.welcomeTimer = setInterval(refreshKioskWelcome, 1000);
+        }
         var content = data && data.standby;
         if (!content) return;
-        if (typeof content.background === 'string' && /^(commonfiles|images)\/[\w./-]+$/.test(content.background)) {
-            $('#page-standby').css('background-image', 'url("' + content.background + '")');
-        }
+        applyKioskMedia($('#page-standby'), content.type, content.file_path ?? content.background);
+        syncKioskVideos();
         if (typeof content.title === 'string') $('.standby-title').text(content.title);
         if (typeof content.subtitle === 'string') $('.standby-subtitle').text(content.subtitle);
         var idleSeconds = content.idelTime === undefined ? content.idleSeconds : content.idelTime;
@@ -95,6 +163,7 @@ function initKiosk() {
             if (g_currentScreen !== 'page-standby') recordKioskActivity();
         }
     }).fail(function () {
-        applyKioskWelcome(null);
+        kioskState.welcome = null;
+        refreshKioskWelcome();
     });
 }
