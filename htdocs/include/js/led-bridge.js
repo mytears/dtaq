@@ -17,7 +17,11 @@
   function wrap(name, hook) {
     const original = window[name];
     if (typeof original !== 'function') return;
-    window[name] = function (...args) { const result = original.apply(this, args); hook.apply(this, args); return result; };
+    window[name] = function (...args) {
+      const result = original.apply(this, args);
+      if (result !== false) hook.apply(this, args);
+      return result;
+    };
   }
   wrap('showPage', function (pageId) {
     if (pageId === 'page-search' && window.g_searchMode === 'employee') send('employee');

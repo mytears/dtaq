@@ -84,8 +84,14 @@ function applyKioskWelcome(content) {
     var visible = Boolean(content);
     content = content || {};
     var $welcome = $('#welcome-screen');
+    var visitor = typeof content.visitor === 'string' ? content.visitor.trim() : '';
+    var schedule = typeof content.schedule === 'string' ? content.schedule.trim() : '';
     applyKioskMedia($welcome, content.bg_type, content.bg_path ?? content.background);
     applyKioskMedia($('#welcome-media'), content.type, content.file_path);
+    $('#welcome-greeting').prop('hidden', !visitor || Boolean(content.file_path));
+    $('.welcome-visitor').text(visitor);
+    $('.welcome-schedule').prop('hidden', !schedule);
+    $('.welcome-schedule-text').text(schedule);
     $welcome.prop('hidden', !visible);
     $('#standby-start').prop('hidden', visible);
     syncKioskVideos();
@@ -97,13 +103,12 @@ function resetKioskSearch() {
     g_isEnglish = false;
     updateKeyboardLayout();
     $('.tree-folder-node').removeClass('expanded');
-    $('.virtual-keyboard-modal').hide();
     $('#led-modal, #weapon-led').removeClass('active');
     $('#preparing-overlay').hide();
     $('#page-landing').prop('inert', false);
     businessState.selected = null;
     businessState.page = 0;
-    businessState.filtered = [];
+    businessState.filtered = null;
     $('#weapon-list, #weapon-led-card, #business-main').empty();
     $('#weapon-enlarge').hide();
 }
@@ -127,6 +132,13 @@ function recordKioskActivity() {
 }
 
 function initKiosk() {
+    var stage = document.querySelector('.main_cont');
+    function fitStage() {
+        var scale = Math.min(window.innerWidth / stage.offsetWidth, window.innerHeight / stage.offsetHeight);
+        stage.style.setProperty('--stage-scale', scale);
+    }
+    fitStage();
+    window.addEventListener('resize', fitStage);
     showPage('page-standby');
     $('#page-standby').on('click', function () {
         refreshKioskWelcome();

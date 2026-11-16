@@ -5,8 +5,12 @@
 
 // Global Variables & State
 var g_swiper = null;
+var g_employeeResults = [];
+var g_resultsMode = null;
+var g_resetResultPage = false;
 var g_currentScreen = 'page-standby';
 var g_jamoList = [];
+var g_detailPreviousQuery = null;
 var g_selectedEmpId = "261010"; // Default sample: 김진호
 var g_activeDeptFilter = 'ALL';
 var g_deptMatches = Object.create(null);
@@ -33,6 +37,8 @@ var g_projectData = [
 // Initialization Entry Point
 // ============================================================
 function setinit() {
+    if (setinit.initialized) return;
+    setinit.initialized = true;
     console.log("DTaQ Kiosk App Initialized via setinit()");
     
     // Bind Keyboard Buttons
@@ -65,26 +71,18 @@ $(document).ready(function () {
 // Page Navigation
 // ============================================================
 function showPage(pageId) {
+    if (pageId === g_currentScreen) return false;
+
+    if (g_currentScreen === 'page-detail' && pageId === 'page-list') cancelDetailSearch();
+    document.getElementById(g_currentScreen).classList.remove('active');
+    g_detailPreviousQuery = null;
     g_currentScreen = pageId;
-    $('.page-container').removeClass('active').hide();
-    
-    var $target = $('#' + pageId);
-    $target.show();
+    document.getElementById(pageId).classList.add('active');
+    syncSearchQuery($('#global-search-input').val());
+
+    if (pageId === 'page-list') updateEmployeeSwiper();
     syncKioskVideos();
-    setTimeout(function() {
-        $target.addClass('active');
-    }, 10);
-
-    // If entering list page, update Swiper layout
-    if (pageId === 'page-list' && g_swiper) {
-        setTimeout(function() {
-            g_swiper.update();
-        }, 80);
-    }
-
-    // Sync input value across pages
-    var currentQuery = $('#global-search-input').val();
-    syncSearchQuery(currentQuery);
+    return true;
 }
 
 function syncSearchQuery(query) {
@@ -105,65 +103,61 @@ function renderEmployeeList(dataList) {
     var itemsPerPage = 7;
     var totalItems = dataList.length;
     var totalPages = Math.ceil(totalItems / itemsPerPage) || 1;
+    var sameResults = g_resultsMode === g_searchMode && g_employeeResults.length === totalItems &&
+        dataList.every(function (employee, index) { return employee === g_employeeResults[index]; });
 
-    $('#result-count').text(totalItems);
-
-    var $wrapper = $('#emp-swiper-wrapper');
-    $wrapper.empty();
-
-    for (var p = 0; p < totalPages; p++) {
-        var slideHtml = '<div class="swiper-slide"><div class="emp-list-group">';
-        var startIdx = p * itemsPerPage;
-        var endIdx = startIdx + itemsPerPage;
-
-        for (var i = startIdx; i < endIdx; i++) {
-            if (i < totalItems) {
-                var emp = dataList[i];
-                var clickAction = (g_searchMode === 'employee') 
-                    ? 'selectEmployee(\'' + emp.id + '\')' 
-                    : 'void(0)';
-                
-                slideHtml += 
-                    '<div class="emp-row-card" onclick="' + clickAction + '">' +
-                        '<div class="col-name">' + emp.name + '</div>' +
-                        '<div class="col-id">' + emp.id + '</div>' +
-                        '<div class="col-dept">' + $('<span>').text(getCurrentDeptName(emp)).html() + '</div>' +
-                        '<div class="col-pos">' + emp.pos + '</div>' +
-                        '<div class="row-arrow-icon"><img src="images/icon_listarrow.svg" alt="상세보기"></div>' +
-                    '</div>';
-            } else {
-                // Empty placeholder slot matching A-7.png
-                slideHtml += '<div class="emp-row-empty"></div>';
+    if (!sameResults) {
+        var slides = document.createDocumentFragment();
+        for (var page = 0; page < totalPages; page++) {
+            var slide = $('<div class="swiper-slide">').appendTo(slides);
+            var group = $('<div class="emp-list-group">').appendTo(slide);
+            for (var slot = 0; slot < itemsPerPage; slot++) {
+                var employee = dataList[page * itemsPerPage + slot];
+                if (!employee) {
+                    group.append('<div class="emp-row-empty"></div>');
+                    continue;
+                }
+                $('<div class="emp-row-card">').attr('data-employee-id', employee.id).append(
+                    $('<div class="col-name">').text(employee.name ?? ''),
+                    $('<div class="col-id">').text(employee.id ?? ''),
+                    $('<div class="col-dept">').text(getCurrentDeptName(employee) ?? ''),
+                    $('<div class="col-pos">').text(employee.pos ?? ''),
+                    '<div class="row-arrow-icon"><img src="images/icon_listarrow.svg" alt="상세보기"></div>'
+                ).appendTo(group);
             }
         }
 
-        slideHtml += '</div></div>';
-        $wrapper.append(slideHtml);
+        document.getElementById('emp-swiper-wrapper').replaceChildren(slides);
+        $('#result-count').text(totalItems);
+        g_employeeResults = dataList.slice();
+        g_resultsMode = g_searchMode;
     }
 
-    // Initialize or Update Swiper
-    if (g_swiper !== null) {
-        g_swiper.destroy(true, true);
-    }
+    // A new search starts on the first page, including searches with the same results.
+    g_resetResultPage = true;
+    if (g_currentScreen === 'page-list') updateEmployeeSwiper(!sameResults);
+}
 
-    g_swiper = new Swiper('#emp-swiper', {
-        direction: 'horizontal',
-        loop: false,
-        speed: 300,
-        spaceBetween: 100,
-        observer: true,
-        observeParents: true,
-        on: {
-            init: function () {
-                updatePageIndicator(1, totalPages);
-            },
-            slideChange: function () {
-                updatePageIndicator(this.activeIndex + 1, totalPages);
+function updateEmployeeSwiper(updateLayout = true) {
+    if (g_swiper) {
+        if (updateLayout) g_swiper.update();
+    } else {
+        g_swiper = new Swiper('#emp-swiper', {
+            direction: 'horizontal',
+            speed: 300,
+            spaceBetween: 100,
+            on: {
+                slideChange: function () {
+                    updatePageIndicator(this.activeIndex + 1, this.slides.length);
+                }
             }
-        }
-    });
-
-    updatePageIndicator(1, totalPages);
+        });
+    }
+    if (g_resetResultPage) {
+        g_swiper.slideTo(0, 0, false);
+        g_resetResultPage = false;
+    }
+    updatePageIndicator(g_swiper.activeIndex + 1, Math.max(1, g_swiper.slides.length));
 }
 
 function updatePageIndicator(current, total) {
@@ -200,16 +194,7 @@ function selectEmployee(empId) {
     $('#detail-job-desc').text(emp.jobDesc || (emp.duties && emp.duties[0]) || '');
     $('#detail-email').text(emp.email || 'honggildong@dtaq.re.kr');
     $('#detail-phone').text(emp.phone || '055-111-1234');
-    if (emp.photo) {
-        $('#detail-photo').attr('src', emp.photo);
-        $('#led-photo').attr('src', emp.photo);
-    }
-
-    // Sync Right Sidebar (Search input & Department selection) to match A-8 -1
-    if (emp.name) {
-        $('.sync-search-input').val(emp.name);
-        $('.btn-search-clear').addClass('visible');
-    }
+    $('#detail-photo, #led-photo').attr('src', emp.photo || 'images/img_photo.png');
     if (deptName) {
         highlightDept(getDeptCode(emp), deptName).parents('.tree-folder-node').addClass('expanded');
     }
@@ -269,6 +254,8 @@ function selectEmployee(empId) {
     });
 
     showPage('page-detail');
+    $('#page-detail .sync-search-input').val(emp.name);
+    $('#page-detail .btn-search-clear').addClass('visible');
 }
 
 function showLedScreen(empId) {
@@ -334,6 +321,9 @@ function updateKeyboardLayout() {
 }
 
 function initVirtualKeyboard() {
+    ['page-list', 'page-detail'].forEach(function (pageId) {
+        $('#page-search .virtual-keyboard-modal').clone().appendTo('#' + pageId);
+    });
     // Virtual key click handler
     $(document).on('click', '.vk-key', function (e) {
         e.preventDefault();
@@ -349,6 +339,8 @@ function initVirtualKeyboard() {
             updateKeyboardLayout();
             return;
         }
+
+        if (g_currentScreen === 'page-detail') beginDetailSearch();
 
         if (action === 'delete') {
             g_jamoList.pop();
@@ -392,18 +384,6 @@ function initVirtualKeyboard() {
         if (e.which === 13) {
             executeSearch();
         }
-    });
-
-    // Keyboard Close Button on search page -> executes search / navigates
-    $('#vk-close-btn-search').on('click', function (e) {
-        e.stopPropagation();
-        executeSearch();
-    });
-
-    // Keyboard Close Button on list page overlay -> closes overlay
-    $('#vk-close-btn-list').on('click', function (e) {
-        e.stopPropagation();
-        $('#list-vk-modal').hide();
     });
 
     // Ensure layout is initialized to Korean state
@@ -451,7 +431,7 @@ function setSearchMode(mode) {
         renderEmployeeList(g_projectData);
     } else { // 'employee'
         $('#page-search .header-title, #page-list .header-title, #page-detail .header-title').text('직원 정보 검색');
-        $('#search-guide-title').html('<span>성명, 사번, 부서명</span>으로 검색하세요');
+        $('#search-guide-title').html('<span>성명, 사번, 부서명</span>으로 검색하세요.');
         $('#search-guide-sub').html('부서를 선택하시면 <span>부서별 검색</span>을 하실 수 있습니다.');
         $('#page-search .sync-search-input, #page-list .sync-search-input, #page-detail .sync-search-input').attr('placeholder', '성명, 사번, 부서명으로 검색하세요');
 
@@ -472,6 +452,7 @@ var CHO_LIST = [
 
 function getChosung(str) {
     if (!str) return "";
+    str = str.normalize('NFC');
     var result = "";
     for (var i = 0; i < str.length; i++) {
         var code = str.charCodeAt(i);
@@ -485,6 +466,17 @@ function getChosung(str) {
     return result;
 }
 
+function getInitialQuery(query) {
+    var initials = query.replace(/\s/g, '').replace(/[\u1100-\u1112]/g, function (letter) {
+        return CHO_LIST[letter.charCodeAt(0) - 0x1100];
+    });
+    return /^[ㄱ-ㅎ]+$/.test(initials) ? initials : '';
+}
+
+function matchesInitials(name, initials) {
+    return getChosung(name).replace(/\s/g, '').includes(initials);
+}
+
 function isKoreanMatch(text, query) {
     if (!text || !query) return false;
     text = (text + "").toLowerCase();
@@ -492,12 +484,6 @@ function isKoreanMatch(text, query) {
 
     // 1. Direct text inclusion
     if (text.includes(query)) return true;
-
-    // Only explicit consonant queries use initial-consonant matching.
-    // Completed words such as 원장 must not match unrelated names like 이정민.
-    if (/^[ㄱ-ㅎ]+$/.test(query)) {
-        return getChosung(text).includes(query);
-    }
 
     // Support unfinished syllables while typing, without weakening completed words.
     if (/[ㄱ-ㅎㅏ-ㅣ]/.test(query) && typeof Hangul !== 'undefined' && Hangul.search) {
@@ -522,22 +508,29 @@ function isDeptMatch(item, targetCode) {
     return code === targetCode || (g_deptMatches[targetCode] || []).includes(code);
 }
 
-// Start a fresh query whenever the kiosk search bar is tapped.
-function openSearchKeyboard(target) {
-    var pageId = $(target).closest('.page-container').attr('id');
+function beginDetailSearch() {
+    if (g_detailPreviousQuery !== null) return;
+    g_detailPreviousQuery = $('#global-search-input').val();
     g_jamoList = [];
     syncSearchQuery('');
-    if (pageId === 'page-business') {
-        $('#business-keyboard').show();
-    } else if (pageId === 'page-list') {
-        $('#list-vk-modal').show();
-    } else {
-        if (pageId === 'page-detail') showPage('page-search');
-        $('#page-search .virtual-keyboard-modal').show();
-    }
+}
+
+function cancelDetailSearch() {
+    if (g_detailPreviousQuery === null) return;
+    g_jamoList = Hangul.disassemble(g_detailPreviousQuery);
+    syncSearchQuery(g_detailPreviousQuery);
+    g_detailPreviousQuery = null;
+    $('#page-detail .sync-search-input').val($('#detail-name').text());
+    $('#page-detail .btn-search-clear').addClass('visible');
 }
 
 function clearSearchInput() {
+    if (g_currentScreen === 'page-detail') {
+        beginDetailSearch();
+        g_jamoList = [];
+        syncSearchQuery('');
+        return;
+    }
     g_jamoList = [];
     syncSearchQuery('');
     var sourceData = (g_searchMode === 'project' || g_searchMode === 'ai') ? g_projectData : g_employeeData;
@@ -554,22 +547,23 @@ function clearSearchInput() {
 function executeSearch() {
     if (g_currentScreen === 'page-business') { searchWeapons(); return; }
     var query = $('#global-search-input').val().trim();
+    var initials = getInitialQuery(query);
     var sourceData = (g_searchMode === 'project' || g_searchMode === 'ai') ? g_projectData : g_employeeData;
 
     var filtered = sourceData.filter(function(item) {
-        var matchQuery = !query || 
-            isKoreanMatch(item.name, query) || 
-            isKoreanMatch(item.id, query) || 
+        if (!isDeptMatch(item, g_activeDeptFilter)) return false;
+        if (!query) return true;
+        if (initials) return matchesInitials(item.name, initials);
+
+        return isKoreanMatch(item.name, query) ||
+            isKoreanMatch(item.id, query) ||
             isKoreanMatch(getCurrentDeptName(item), query) ||
             isKoreanMatch(item.pos, query) ||
             isKoreanMatch(item.email, query);
-
-        var matchDept = isDeptMatch(item, g_activeDeptFilter);
-        return matchQuery && matchDept;
     });
 
     renderEmployeeList(filtered);
-    $('#list-vk-modal').hide();
+    g_detailPreviousQuery = null;
     showPage('page-list');
 }
 
@@ -669,11 +663,26 @@ function highlightDept(deptCode, deptText) {
         .removeClass('active').filter(selector).addClass('active');
 }
 
-function syncDeptFilter(deptCode, deptText) {
+function syncDeptFilter(deptCode, deptText, expandFolder = true) {
     g_activeDeptFilter = deptCode;
     $('#list-dept-heading').text(deptCode === 'ALL' ? '국방기술품질원' : deptText);
-    highlightDept(deptCode, deptText);
+    var $selected = highlightDept(deptCode, deptText);
+    $selected.parents('.tree-folder-node').addClass('expanded');
+    if (!expandFolder) $selected.filter('.tree-folder-header').parent().removeClass('expanded');
+
     executeSearch();
+    revealDepartment($selected.filter('#page-list .active')[0]);
+}
+
+function revealDepartment(node) {
+    if (!node) return;
+    var tree = node.closest('.org-tree-content');
+    var branch = node.matches('.tree-folder-header') ? node.parentElement : node;
+    var viewport = tree.getBoundingClientRect();
+    var bounds = branch.getBoundingClientRect();
+    if (viewport.height && (bounds.top < viewport.top || bounds.bottom > viewport.bottom)) {
+        tree.scrollTop += (bounds.top - viewport.top) * tree.clientHeight / viewport.height;
+    }
 }
 
 // ============================================================
@@ -686,15 +695,13 @@ function initOrgTree() {
         syncDeptFilter('ALL', '국방기술품질원');
     });
 
-    // Folder header click (Expand/Collapse + Select)
+    // Selecting the department opens its folder. The arrow can also collapse it.
     $(document).on('click', '.tree-folder-header', function(e) {
         e.stopPropagation();
-        var $folderNode = $(this).closest('.tree-folder-node');
-        $folderNode.toggleClass('expanded');
-
+        var collapse = $(e.target).is('.tree-toggle-arrow') && $(this).parent().hasClass('expanded');
         var deptCode = $(this).attr('data-dept');
         var deptText = $(this).find('.tree-text').text();
-        syncDeptFilter(deptCode, deptText);
+        syncDeptFilter(deptCode, deptText, !collapse);
     });
 
     // Leaf item click
@@ -711,7 +718,7 @@ function initOrgTree() {
 // ============================================================
 function initEventListeners() {
     // Navigation Buttons
-    $('.btn-home, .header-brand').on('click', function () {
+    $(document).on('click', '.btn-home, .header-brand', function () {
         showPage('page-landing');
     });
 
@@ -719,7 +726,6 @@ function initEventListeners() {
     $('#card-emp-search').on('click', function () {
         setSearchMode('employee');
         showPage('page-search');
-        $('#page-search .virtual-keyboard-modal').show();
     });
 
     $('#card-proj-search').on('click', function () {
@@ -745,12 +751,17 @@ function initEventListeners() {
         }, 2000);
     });
 
-    // Input area and its search icon both open a fresh keyboard session.
-    $('.trigger-keyboard-mode').on('click', function () {
-        openSearchKeyboard(this);
+    $('#page-detail .sync-search-input').on('focus click', beginDetailSearch);
+    $('.btn-search-trigger').on('click', function () {
+        if (g_currentScreen === 'page-detail') beginDetailSearch();
+        executeSearch();
     });
 
     // Swiper Prev/Next Buttons
+    $('#emp-swiper-wrapper').on('click', '.emp-row-card', function () {
+        if (g_searchMode === 'employee') selectEmployee(this.getAttribute('data-employee-id'));
+    });
+
     $('#btn-prev-page').on('click', function () {
         if (g_swiper) g_swiper.slidePrev();
     });
@@ -774,11 +785,11 @@ function initEventListeners() {
         closeLedScreen();
     });
 
-    // ESC key closes LED modal
+    // Escape closes the LED modal and cancels an in-progress detail search.
     $(document).on('keydown', function(e) {
         if (e.key === 'Escape') {
             closeLedScreen();
-            $('#list-vk-modal').hide();
+            cancelDetailSearch();
         }
     });
 }

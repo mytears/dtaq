@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>국방기술품질원 - 직원 정보 검색 System</title>
+    <link rel="preload" as="image" href="images/portrait/home.webp">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="include/css/common.css">
-    <link rel="stylesheet" href="include/css/index.css?v=dept-tree">
+    <link rel="stylesheet" href="include/css/index.css?v=employee-layout">
 
     <!-- JavaScript Libraries -->
     <script src="include/js/lib/jquery.min.js"></script>
     <script src="include/js/lib/hangul.js"></script>
     <script src="include/js/lib/swiper-bundle.min.js"></script>
     <script src="include/js/comm.js"></script>
-    <script src="include/js/index.js?v=kiosk-media"></script>
-    <script src="include/js/business.js?v=employee-weapon-lists"></script>
-    <script src="include/js/kiosk.js?v=kiosk-media"></script>
+    <script src="include/js/index.js?v=department-tree"></script>
+    <script src="include/js/business.js?v=initial-search"></script>
+    <script src="include/js/kiosk.js?v=instant-navigation"></script>
     <link rel="stylesheet" href="include/css/kiosk.css?v=kiosk-media">
-    <link rel="stylesheet" href="include/css/business.css">
-    <script src="include/js/led-bridge.js?v=welcome-list"></script>
+    <link rel="stylesheet" href="include/css/business.css?v=employee-layout">
+    <link rel="stylesheet" href="include/css/portrait.css?v=employee-layout">
+    <script src="include/js/led-bridge.js?v=instant-navigation"></script>
 </head>
 <body>
 
@@ -42,6 +44,16 @@
                 <div id="welcome-media">
                     <video class="kiosk-video" muted loop playsinline preload="none" hidden aria-hidden="true"></video>
                 </div>
+                <div id="welcome-greeting" hidden>
+                    <img class="welcome-logo" src="images/img_logo.png" alt="국방기술품질원">
+                    <div class="welcome-heading" lang="en">WELCOME</div>
+                    <div class="welcome-visitor"></div>
+                    <div class="welcome-message">방문을 진심으로 환영합니다</div>
+                    <div class="welcome-schedule" hidden>
+                        <span>일 정</span>
+                        <div class="welcome-schedule-text"></div>
+                    </div>
+                </div>
             </div>
         </section>
         <div id="page-landing" class="page-container">
@@ -60,37 +72,37 @@
             <!-- 3 Feature Cards -->
             <div class="landing-cards-wrap">
                 <!-- Card 1: Employee Search -->
-                <div class="card-item" id="card-emp-search">
-                    <div class="card-info">
-                        <h2 class="card-title">직원 정보 검색</h2>
-                        <p class="card-desc">성명 · 부서 · 담당업무로<br>검색합니다.</p>
-                    </div>
-                    <div class="card-img-wrap">
-                        <img src="images/0_img_1.png" alt="직원 정보 검색">
-                    </div>
-                </div>
+                <button type="button" class="card-item" id="card-emp-search">
+                    <span class="card-info">
+                        <span class="card-title">직원 정보 검색</span>
+                        <span class="card-desc">성명 · 부서 · 담당업무로 검색하실 수 있습니다.</span>
+                    </span>
+                    <span class="card-img-wrap">
+                        <img src="images/portrait/employee-card.webp" alt="">
+                    </span>
+                </button>
 
                 <!-- Card 2: Main Project Search -->
-                <div class="card-item" id="card-proj-search">
-                    <div class="card-info">
-                        <h2 class="card-title">주요 사업 검색</h2>
-                        <p class="card-desc">주요사업 · 진행 현황을<br>검색합니다.</p>
-                    </div>
-                    <div class="card-img-wrap">
-                        <img src="images/0_img_2.png" alt="주요 사업 검색">
-                    </div>
-                </div>
+                <button type="button" class="card-item" id="card-proj-search">
+                    <span class="card-info">
+                        <span class="card-title">주요 사업 검색</span>
+                        <span class="card-desc">무기체계를 검색하실 수 있습니다.</span>
+                    </span>
+                    <span class="card-img-wrap">
+                        <img src="images/portrait/business-card.webp" alt="">
+                    </span>
+                </button>
 
                 <!-- Card 3: AI Search -->
-                <div class="card-item" id="card-ai-search">
-                    <div class="card-info">
-                        <h2 class="card-title">AI 검색</h2>
-                        <p class="card-desc">AI가 함께 원하는 정보를<br>찾습니다.</p>
-                    </div>
-                    <div class="card-img-wrap">
-                        <img src="images/0_img_3.png" alt="AI 검색">
-                    </div>
-                </div>
+                <button type="button" class="card-item" id="card-ai-search">
+                    <span class="card-info">
+                        <span class="card-title">AI 검색</span>
+                        <span class="card-desc">AI가 함께 원하는 정보를<br>찾습니다.</span>
+                    </span>
+                    <span class="card-img-wrap">
+                        <img src="images/portrait/ai-card.webp" alt="">
+                    </span>
+                </button>
             </div>
         </div>
 
@@ -116,13 +128,12 @@
                 <!-- Left Main Section (Search Guide + Keyboard) -->
                 <div class="main-section">
                     <div class="search-guide-box">
-                        <h2 class="search-guide-title" id="search-guide-title"><span>성명, 사번, 부서명</span>으로 검색하세요</h2>
+                        <h2 class="search-guide-title" id="search-guide-title"><span>성명, 사번, 부서명</span>으로 검색하세요.</h2>
                         <p class="search-guide-sub" id="search-guide-sub">부서를 선택하시면 <span>부서별 검색</span>을 하실 수 있습니다.</p>
                     </div>
 
                     <!-- Floating Dark Virtual Keyboard -->
                     <div class="virtual-keyboard-modal">
-                        <div class="vk-close-btn" id="vk-close-btn-search">✕</div>
 
                         <!-- Row 1: Numbers -->
                         <div class="vk-row vk-row-1">
@@ -181,7 +192,7 @@
 
                         <!-- Row 5: Double consonants + Search -->
                         <div class="vk-row vk-row-5 vk-row-5-ko">
-                            <button class="vk-key wide-key btn-vk-lang" id="vk-lang-toggle-1">한/영</button>
+                            <button class="vk-key wide-key btn-vk-lang">한/영</button>
                             <button class="vk-key" data-key="ㅃ">ㅃ</button>
                             <button class="vk-key" data-key="ㅉ">ㅉ</button>
                             <button class="vk-key" data-key="ㄸ">ㄸ</button>
@@ -212,12 +223,12 @@
                 <!-- Right Sidebar Section -->
                 <div class="sidebar-section">
                     <!-- Search Input Box -->
-                    <div class="search-box-wrap trigger-keyboard-mode">
+                    <div class="search-box-wrap">
                         <input type="text" class="sync-search-input" value="" placeholder="성명, 사번, 부서명으로 검색하세요">
                         <button class="btn-search-clear" onclick="event.stopPropagation(); clearSearchInput();">
                             <img src="images/search_bt_clear.svg" alt="지우기" class="clear-icon">
                         </button>
-                        <button class="btn-search-trigger" onclick="event.stopPropagation(); openSearchKeyboard(this);">
+                        <button class="btn-search-trigger" type="button">
                             <img src="images/ico_search.svg" alt="검색" class="search-icon">
                         </button>
                     </div>
@@ -270,7 +281,7 @@
             <!-- Body Grid -->
             <div class="page-content-wrapper">
                 <!-- Left Main Section -->
-                <div class="main-section" style="position: relative;">
+                <div class="main-section">
                     <div class="main-list-card">
                         <div class="list-top-bar">
                             <div class="list-dept-name" id="list-dept-heading">국방기술품질원</div>
@@ -307,104 +318,17 @@
                         </div>
                     </div>
 
-                    <!-- Overlay Virtual Keyboard on List View (A-4.png) -->
-                    <div class="virtual-keyboard-modal list-vk-overlay" id="list-vk-modal" style="display: none;">
-                        <div class="vk-close-btn" id="vk-close-btn-list">✕</div>
-
-                        <!-- Row 1: Numbers -->
-                        <div class="vk-row vk-row-1">
-                            <button class="vk-key" data-key="1">1</button>
-                            <button class="vk-key" data-key="2">2</button>
-                            <button class="vk-key" data-key="3">3</button>
-                            <button class="vk-key" data-key="4">4</button>
-                            <button class="vk-key" data-key="5">5</button>
-                            <button class="vk-key" data-key="6">6</button>
-                            <button class="vk-key" data-key="7">7</button>
-                            <button class="vk-key" data-key="8">8</button>
-                            <button class="vk-key" data-key="9">9</button>
-                            <button class="vk-key" data-key="0">0</button>
-                        </div>
-
-                        <!-- Row 2 -->
-                        <div class="vk-row vk-row-2">
-                            <button class="vk-key" data-key="ㅂ">ㅂ</button>
-                            <button class="vk-key" data-key="ㅈ">ㅈ</button>
-                            <button class="vk-key" data-key="ㄷ">ㄷ</button>
-                            <button class="vk-key" data-key="ㄱ">ㄱ</button>
-                            <button class="vk-key" data-key="ㅅ">ㅅ</button>
-                            <button class="vk-key" data-key="ㅛ">ㅛ</button>
-                            <button class="vk-key" data-key="ㅕ">ㅕ</button>
-                            <button class="vk-key" data-key="ㅑ">ㅑ</button>
-                            <button class="vk-key" data-key="ㅐ">ㅐ</button>
-                            <button class="vk-key" data-key="ㅔ">ㅔ</button>
-                        </div>
-
-                        <!-- Row 3 -->
-                        <div class="vk-row vk-row-3">
-                            <button class="vk-key" data-key="ㅁ">ㅁ</button>
-                            <button class="vk-key" data-key="ㄴ">ㄴ</button>
-                            <button class="vk-key" data-key="ㅇ">ㅇ</button>
-                            <button class="vk-key" data-key="ㄹ">ㄹ</button>
-                            <button class="vk-key" data-key="ㅎ">ㅎ</button>
-                            <button class="vk-key" data-key="ㅗ">ㅗ</button>
-                            <button class="vk-key" data-key="ㅓ">ㅓ</button>
-                            <button class="vk-key" data-key="ㅏ">ㅏ</button>
-                            <button class="vk-key" data-key="ㅣ">ㅣ</button>
-                        </div>
-
-                        <!-- Row 4 -->
-                        <div class="vk-row vk-row-4">
-                            <button class="vk-key" data-key="ㅋ">ㅋ</button>
-                            <button class="vk-key" data-key="ㅌ">ㅌ</button>
-                            <button class="vk-key" data-key="ㅊ">ㅊ</button>
-                            <button class="vk-key" data-key="ㅍ">ㅍ</button>
-                            <button class="vk-key" data-key="ㅠ">ㅠ</button>
-                            <button class="vk-key" data-key="ㅜ">ㅜ</button>
-                            <button class="vk-key" data-key="ㅡ">ㅡ</button>
-                            <button class="vk-key btn-vk-delete" data-action="delete">
-                                <img src="images/keyboard_search_clear.svg" alt="" class="vk-key-icon"> 지우기
-                            </button>
-                        </div>
-
-                        <!-- Row 5: Double consonants + Search -->
-                        <div class="vk-row vk-row-5 vk-row-5-ko">
-                            <button class="vk-key wide-key btn-vk-lang" id="vk-lang-toggle-2">한/영</button>
-                            <button class="vk-key" data-key="ㅃ">ㅃ</button>
-                            <button class="vk-key" data-key="ㅉ">ㅉ</button>
-                            <button class="vk-key" data-key="ㄸ">ㄸ</button>
-                            <button class="vk-key" data-key="ㄲ">ㄲ</button>
-                            <button class="vk-key" data-key="ㅆ">ㅆ</button>
-                            <button class="vk-key" data-key="ㅒ">ㅒ</button>
-                            <button class="vk-key" data-key="ㅖ">ㅖ</button>
-                            <button class="vk-key btn-vk-search" data-action="search">
-                                <img src="images/keyboard_search_icon.svg" alt="" class="vk-key-icon"> 검색
-                            </button>
-                        </div>
-
-                        <!-- Row 5 (English): Lang + Symbols/Space + Search -->
-                        <div class="vk-row vk-row-5 vk-row-5-en" style="display: none;">
-                            <button class="vk-key wide-key btn-vk-lang">한/영</button>
-                            <button class="vk-key" data-key=".">.</button>
-                            <button class="vk-key" data-key="-">-</button>
-                            <button class="vk-key btn-vk-space" data-key=" ">SPACE</button>
-                            <button class="vk-key" data-key="@">@</button>
-                            <button class="vk-key" data-key="_">_</button>
-                            <button class="vk-key btn-vk-search" data-action="search">
-                                <img src="images/keyboard_search_icon.svg" alt="" class="vk-key-icon"> 검색
-                            </button>
-                        </div>
-                    </div>
                 </div>
 
                 <!-- Right Sidebar Section -->
                 <div class="sidebar-section">
                     <!-- Search Box -->
-                    <div class="search-box-wrap trigger-keyboard-mode">
+                    <div class="search-box-wrap">
                         <input type="text" class="sync-search-input" value="" placeholder="성명, 사번, 부서명으로 검색하세요">
                         <button class="btn-search-clear" onclick="event.stopPropagation(); clearSearchInput();">
                             <img src="images/search_bt_clear.svg" alt="지우기" class="clear-icon">
                         </button>
-                        <button class="btn-search-trigger" onclick="event.stopPropagation(); openSearchKeyboard(this);">
+                        <button class="btn-search-trigger" type="button">
                             <img src="images/ico_search.svg" alt="검색" class="search-icon">
                         </button>
                     </div>
@@ -524,12 +448,12 @@
                 <!-- Right Sidebar Section -->
                 <div class="sidebar-section">
                     <!-- Search Box -->
-                    <div class="search-box-wrap trigger-keyboard-mode">
+                    <div class="search-box-wrap">
                         <input type="text" class="sync-search-input" value="" placeholder="성명, 사번, 부서명으로 검색하세요">
                         <button class="btn-search-clear" onclick="event.stopPropagation(); clearSearchInput();">
                             <img src="images/search_bt_clear.svg" alt="지우기" class="clear-icon">
                         </button>
-                        <button class="btn-search-trigger" onclick="event.stopPropagation(); openSearchKeyboard(this);">
+                        <button class="btn-search-trigger" type="button">
                             <img src="images/ico_search.svg" alt="검색" class="search-icon">
                         </button>
                     </div>

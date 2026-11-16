@@ -5,7 +5,9 @@
         "type": "IMG",
         "file_path": "",
         "bg_type": "IMG",
-        "bg_path": "commonfiles/bg_welcome-1.png",
+        "bg_path": "images/portrait/welcome-1.webp",
+        "visitor": "방위사업청 대표단",
+        "schedule": "본관 3층 대회의실 • 기술협력 간담",
         "sday": "20261110",
         "eday": "20261110",
         "stime": "0900",
@@ -15,7 +17,7 @@
   },
   "standby": {
     "type": "IMG",
-    "file_path": "commonfiles/bg_screen.png",
+    "file_path": "images/portrait/standby.webp",
     "title": "화면을 터치해주세요",
     "subtitle": "TOUCH TO START",
     "idelTime": 180
