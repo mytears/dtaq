@@ -102,15 +102,13 @@ function resetKioskSearch() {
     g_selectedEmpId = null;
     g_isEnglish = false;
     updateKeyboardLayout();
-    $('.tree-folder-node').removeClass('expanded');
     $('#led-modal, #weapon-led').removeClass('active');
     $('#preparing-overlay').hide();
     $('#page-landing').prop('inert', false);
-    businessState.selected = null;
+    closeWeaponDetail();
     businessState.page = 0;
     businessState.filtered = null;
-    $('#weapon-list, #weapon-led-card, #business-main').empty();
-    $('#weapon-enlarge').hide();
+    $('#weapon-list, #weapon-led-card').empty();
 }
 
 function enterKioskStandby() {

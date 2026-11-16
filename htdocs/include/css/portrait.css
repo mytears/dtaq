@@ -267,11 +267,26 @@ body {
 .welcome-schedule-text { margin-top: 16px; }
 
 /* Shared search controls and keyboard */
+.main_cont :is(#page-search, #page-list, #page-detail, #page-business) {
+    background: var(--portrait-surface) url('../../images/portrait/search-results.webp') center / 100% 100% no-repeat;
+}
+
+.main_cont #page-search {
+    background: linear-gradient(#eff5fd4d, #eff5fd4d),
+        #eff5fd url('../../images/portrait/search-start.webp') center / 100% 100% no-repeat;
+}
+
+.app-header .header-brand,
+#page-business .header-brand { left: 40px; top: 44px; }
+
+.app-header .brand-logo-img,
+#page-business .brand-logo-img { width: 473px; }
+
 .app-header .header-title,
 #page-business .header-title {
     left: auto;
-    right: 153px;
-    top: 44px;
+    right: 151px;
+    top: 50px;
     transform: none;
     margin: 0;
     font: 600 70px/1.25 scdream, sans-serif;
@@ -281,8 +296,8 @@ body {
 .app-header .btn-home,
 #page-business .btn-home {
     position: absolute;
-    left: 1631px;
-    top: 3641px;
+    left: 1637px;
+    top: 3201px;
     width: 400px;
     height: 150px;
     gap: 27px;
@@ -290,7 +305,7 @@ body {
     border: 1px solid #a0b6de;
     border-radius: 8px;
     background: #dae2f5;
-    box-shadow: 0 5px 8px #c9d7ef;
+    box-shadow: none;
     font: 600 50px/1 scdream, sans-serif;
     z-index: 5;
 }
@@ -314,7 +329,7 @@ body {
 .business-search,
 .dept-dropdown-container {
     position: absolute;
-    top: 2475px;
+    top: 2015px;
     height: 160px;
     margin: 0;
 }
@@ -328,12 +343,12 @@ body {
 }
 
 .search-box-wrap { left: 725px; width: 1300px; padding: 0 9px 0 72px; }
-.business-search { left: 135px; width: 1890px; padding: 0 9px 0 146px; }
+.business-search { left: 141px; width: 1884px; padding: 0 9px 0 140px; }
 
 .search-box-wrap input,
 .business-search input {
     min-width: 0;
-    font: 600 60px/1.2 scdream, sans-serif;
+    font: 500 50px/1.2 scdream, sans-serif;
     color: #3253a7;
     user-select: text;
 }
@@ -392,7 +407,7 @@ body {
 #business-keyboard {
     position: absolute;
     left: 123px;
-    top: 2671px;
+    top: 2209px;
     bottom: auto;
     width: 1914px;
     height: 928px;
@@ -417,11 +432,12 @@ body {
     max-width: none;
     height: 126px;
     font: 500 55px/1 scdream, sans-serif;
-    box-shadow: inset 0 2px #ffffff24, 0 3px 2px #0003;
+    border-radius: 8px;
+    box-shadow: none;
 }
 
 .virtual-keyboard-modal .vk-key.wide-key,
-#business-keyboard .vk-key.wide-key { width: 249px; font: 600 45px/1 scdream, sans-serif; }
+#business-keyboard .vk-key.wide-key { width: 250px; font: 600 45px/1 scdream, sans-serif; }
 .virtual-keyboard-modal .vk-key.btn-vk-space { width: 432px; font-size: 38px; }
 .virtual-keyboard-modal .vk-key.btn-vk-delete,
 #business-keyboard .vk-key.btn-vk-delete { width: 203px; gap: 9px; font: 600 32px/1 scdream, sans-serif; }
@@ -433,27 +449,32 @@ body {
 .org-tree-card {
     position: absolute;
     left: 155px;
-    top: 1767px;
+    top: 415px;
     width: 1850px;
-    height: 670px;
+    height: 1555px;
     max-height: none;
     margin: 0;
-    padding: 65px 36px 26px 19px;
+    padding: 62px 36px 36px 51px;
     border: 1px solid #91b7ff;
-    overflow: visible;
+    overflow: hidden;
 }
+
+#page-list .org-tree-card { top: 1462px; height: 507px; padding-top: 62px; padding-bottom: 33px; }
 
 .org-tree-card::before {
     content: '';
     position: absolute;
-    left: -24px;
-    top: -43px;
-    width: 1883px;
-    border-top: 1px solid var(--portrait-blue);
+    inset: 0 0 auto;
+    height: 12px;
+    background: #1c4aa2;
 }
 
-.org-tree-title { font-size: 55px; font-weight: 600; padding-left: 75px; margin-bottom: 33px; }
-.org-tree-content { padding-right: 63px; overflow-y: scroll; }
+#page-list .org-tree-card::before { top: 3px; height: 10px; }
+
+.org-tree-title { font: 600 55px/66px scdream, sans-serif; color: #000; padding-left: 43px; margin-bottom: 41px; }
+#page-list .org-tree-title { margin-bottom: 11px; }
+.org-tree-content { padding: 7px 29px 0 0; overflow-y: scroll; }
+#page-list .org-tree-content { padding-top: 26px; }
 .org-tree-content::-webkit-scrollbar,
 .career-timeline-scroll::-webkit-scrollbar { width: 16px; }
 .org-tree-content::-webkit-scrollbar-thumb { min-height: 85px; }
@@ -462,17 +483,18 @@ body {
 .dept-dropdown-list-wrap,
 .weapon-specs { touch-action: pan-y; }
 
-.tree-root-item { width: 100%; height: 73px; padding-left: 81px; gap: 14px; margin-bottom: 11px; }
+.tree-root-item { width: 100%; height: 77px; padding-left: 47px; gap: 14px; margin-bottom: 11px; }
 .tree-root-icon { width: 42px; height: 42px; }
 .tree-root-text { font-size: 37px; font-weight: 600; }
-.org-tree-content > .tree-leaf-item { margin-left: 90px; }
-.tree-leaf-item, .tree-folder-header { font-size: 37px; min-height: 69px; gap: 15px; }
+.org-tree-content > .tree-leaf-item { margin-left: 70px; }
+.tree-leaf-item, .tree-folder-header { font-size: 40px; min-height: 78px; gap: 15px; }
+#page-list :is(.tree-leaf-item, .tree-folder-header) { font-size: 37px; min-height: 69px; }
 .tree-leaf-item { padding-left: 47px; }
 .tree-node-icon { width: 33px; height: 33px; }
 .tree-leaf-item::before, .tree-leaf-item::after { left: 20px; }
 .tree-leaf-item::after { width: 19px; }
 .tree-folder-node { margin-top: 8px; }
-.org-tree-content > .tree-folder-node { margin-left: 67px; }
+.org-tree-content > .tree-folder-node { margin-left: 47px; }
 .tree-folder-header { padding: 6px 12px; }
 .tree-toggle-arrow { width: 31px; font-size: 22px; }
 .tree-folder-children { padding-left: 47px; }
@@ -480,65 +502,53 @@ body {
 .search-guide-box,
 .business-guide {
     position: absolute;
-    left: 232px;
-    top: 787px;
-    width: 1677px;
-    height: 393px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 21px;
+    left: 135px;
+    top: 3456px;
+    width: 1890px;
+    height: auto;
+    display: block;
     padding: 0;
     margin: 0;
     border: 0;
-    outline: 20px solid #ffffff50;
-    background: #ffffffd9;
+    outline: 0;
+    box-shadow: none;
+    background: transparent;
     color: #373737;
+    text-align: center;
 }
+
+.search-guide-box { left: 81px; }
+.business-guide p:first-child { transform: translateX(-17px); }
 
 .search-guide-title,
 .search-guide-sub,
 .business-guide p {
     margin: 0;
     color: #373737;
-    font: 500 59px/1.4 scdream, sans-serif;
+    font: 500 59px/105px scdream, sans-serif;
     letter-spacing: 0;
 }
 
-.search-guide-box span, .business-guide span { color: var(--portrait-blue); font-weight: 600; }
-
-#page-search .main-section::before,
-#page-business:not(.showing-weapon) #business-main::before {
-    content: '';
-    position: absolute;
-    top: 776px;
-    right: -90px;
-    width: 874px;
-    height: 938px;
-    background: url('../../images/portrait/employee-card.webp') center / contain no-repeat;
-    opacity: .28;
-    mix-blend-mode: multiply;
-}
+.search-guide-box span, .business-guide span { color: var(--portrait-blue); font-weight: 500; }
 
 .main-list-card {
     position: absolute;
-    left: 161px;
-    top: 282px;
+    left: 153px;
+    top: 304px;
     width: 1854px;
     margin: 0;
 }
 
-.list-top-bar { width: 100%; height: 104px; margin-bottom: 39px; padding: 0 0 8px 12px; }
-.list-dept-name { max-width: 1400px; font-size: 75px; font-weight: 600; line-height: 1.25; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
-.list-result-count, .list-result-count span { font-size: 33px; }
-.table-header { width: 100%; height: 86px; min-height: 86px; margin-bottom: 32px; background: #becde94d; font-size: 38px; }
-.table-header, .emp-row-card { display: grid; grid-template-columns: 374px 382px 566px 452px 76px; }
+.list-top-bar { position: relative; width: 100%; height: 177px; margin: 0; }
+.list-dept-name { position: absolute; left: 28px; top: 0; max-width: 1400px; font-size: 90px; font-weight: 600; line-height: 1.2; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.list-result-count { position: absolute; right: 14px; top: 73px; font-size: 45px; line-height: 1.2; }
+.table-header { width: 100%; height: 86px; min-height: 86px; margin-bottom: 15px; background: #d5deef; font-size: 38px; }
+.table-header, .emp-row-card { display: grid; grid-template-columns: 374px 382px 566px 452px 1fr; }
 .table-header > div, .emp-row-card > div { width: auto; min-width: 0; }
 
 .swiper-container-wrap, .emp-swiper.swiper, .emp-list-group {
     width: 1850px;
-    height: 960px;
+    height: 680px;
     max-height: none;
 }
 
@@ -564,125 +574,121 @@ body {
     overflow-wrap: anywhere;
 }
 
-.row-arrow-icon img { width: 50px; height: 50px; }
+.row-arrow-icon img,
+.weapon-row img { width: 64px; height: 64px; filter: grayscale(1) brightness(.85); }
 
-.list-pagination-bar,
-.weapon-pager {
-    width: 1850px;
-    height: 88px;
-    gap: 32px;
-    margin-top: 52px;
+.list-pagination-bar {
+    width: 100%;
+    height: 114px;
+    gap: 17px;
+    margin-top: 44px;
 }
 
-.pg-btn,
-.weapon-pager button { width: 226px; height: 88px; }
-.pg-icon,
-.weapon-pager button img { width: 27px; height: 35px; }
-.pg-indicator,
-#weapon-pagination { min-width: 133px; font-size: 45px; font-weight: 600; }
+.list-pagination-bar .pg-btn {
+    width: 226px;
+    height: 114px;
+    gap: 28px;
+    border: 2px solid #a0b6de;
+    box-shadow: none;
+    color: #212121;
+    font: 500 42px/1 scdream, sans-serif;
+}
+
+.list-pagination-bar .pg-btn:disabled { opacity: .5; cursor: default; }
+.list-pagination-bar .pg-icon { width: 27px; height: 35px; }
+.list-pagination-bar .pg-indicator { width: 219px; font-size: 50px; font-weight: 600; }
+.page-current { color: #316ad8; }
 
 .detail-cards-container {
     position: absolute;
-    left: 131px;
-    top: 277px;
+    left: 138px;
+    top: 381px;
     width: 1885px;
     gap: 19px;
 }
 
 .profile-card,
 .career-card { width: 100%; border: 2px solid #316ad8; }
-.profile-card { height: 715px; min-height: 715px; max-height: none; padding: 0 106px 0 102px; }
-.profile-avatar-wrap { width: 410px; height: 535px; min-width: 410px; margin-right: 93px; }
-.profile-table { flex: 1; min-width: 0; width: 0; }
-.profile-table tr { height: 86px; }
-.profile-table tr.row-pos { height: 161px; }
-.profile-table th { width: 343px; min-width: 0; padding: 0 22px 0 66px; font-size: 35px; letter-spacing: 0; }
-.profile-table td { padding-right: 20px; font-size: 38px; line-height: 1.25; letter-spacing: 0; overflow-wrap: anywhere; }
-.profile-table tr.row-pos th, .profile-table tr.row-pos td { padding-top: 15px; }
+.profile-card { height: 715px; min-height: 715px; max-height: none; padding: 0 113px 0 101px; }
+.profile-avatar-wrap { width: 410px; height: 535px; min-width: 410px; margin-right: 90px; }
+.profile-table { flex: 1; min-width: 0; width: 0; transform: translateY(13px); }
+.profile-table tr { height: 85px; }
+.profile-table th { width: 346px; min-width: 0; padding: 0 22px 0 69px; font-size: 35px; letter-spacing: 0; }
+.profile-table td { padding-right: 20px; color: #373737; font-size: 38px; line-height: 1.25; letter-spacing: 0; overflow-wrap: anywhere; }
 .profile-table .val-name { font-size: 38px; font-weight: 600; }
-.sub-job-desc { font-size: 38px; margin-top: 11px; }
 
-.career-card { height: 427px; min-height: 427px; max-height: none; padding: 50px 46px 29px 135px; }
+.career-card { height: 549px; min-height: 549px; max-height: none; padding: 50px 46px 32px 137px; }
 .career-card .section-heading { font-size: 35px; font-weight: 600; gap: 18px; margin-bottom: 29px; }
 .career-card .section-icon { width: 43px; height: 43px; }
-.career-timeline-scroll { margin: 0; padding-right: 100px; }
-.career-card .career-timeline::before { left: 12px; top: 46px; bottom: 46px; }
-.career-card .timeline-item { height: auto; min-height: 94px; padding: 8px 0 8px 66px; }
-.career-card .timeline-dot { width: 25px; height: 25px; }
+.career-timeline-scroll { margin: 0; padding-right: 100px; overflow-y: scroll; }
+.career-card .career-timeline::before { left: 19px; top: 46px; bottom: 46px; }
+.career-card .timeline-item { height: auto; min-height: 94px; padding: 8px 0 8px 63px; border-bottom: 1px solid #cbd6e9; }
+.career-card .timeline-dot { left: 7px; width: 25px; height: 25px; }
 .career-card .timeline-date { width: 587px; min-width: 0; }
 .career-card .timeline-dept { width: 531px; min-width: 0; }
 .career-card .timeline-item > div { padding-right: 20px; font-size: 35px; overflow-wrap: anywhere; }
 
-.detail-actions-bar { position: absolute; top: 1499px; left: 131px; width: 1882px; height: 140px; margin: 0; }
-.btn-led-big, #weapon-enlarge { width: 620px; height: 140px; border: 1px solid #061633; font: 600 45px/1 scdream, sans-serif; box-shadow: 0 5px 8px #b4c6e5; }
-.btn-led-big { left: 639px; }
-.btn-back-list { width: 370px; height: 140px; gap: 36px; font-size: 45px; font-weight: 600; }
+.detail-actions-bar { position: absolute; top: 1751px; left: 131px; width: 1882px; height: 140px; margin: 0; }
+.btn-led-big, #weapon-enlarge { top: 0; left: 639px; width: 620px; height: 140px; border: 1px solid #061633; font: 600 45px/1 scdream, sans-serif; box-shadow: none; }
+.btn-back-list { width: 370px; height: 140px; gap: 25px; font-size: 45px; font-weight: 600; }
 .btn-return-icon { width: 85px; height: 85px; }
 
-/* Business introduction is based on the two portrait business compositions. */
+/* Weapon list and detail */
 #business-main { position: static; width: auto; height: auto; }
-#page-business:not(.showing-weapon) #business-main::before { top: 776px; background-image: url('../../images/portrait/business-card.webp'); }
-.business-guide p { text-align: center; }
-.business-sidebar { position: static; width: auto; }
+.showing-weapon #weapon-results,
+#page-business .detail-actions-bar { display: none; }
+#page-business.showing-weapon .detail-actions-bar,
+#page-business #weapon-enlarge { display: flex; }
+
 #weapon-list {
     position: absolute;
-    left: 161px;
-    top: 1592px;
-    width: 1850px;
-    height: 680px;
-    gap: 20px;
+    left: 251px;
+    top: 467px;
+    width: 1659px;
+    height: 1314px;
+    gap: 29px;
     text-align: center;
     font: 600 48px/1.25 scdream, sans-serif;
 }
 
-#weapon-list::before {
-    content: '';
-    position: absolute;
-    left: -22px;
-    top: -37px;
-    width: 1883px;
-    border-top: 1px solid var(--portrait-blue);
-}
-
 .weapon-row {
     display: grid;
-    grid-template-columns: 1fr 58px;
+    grid-template-columns: 1fr 64px;
     height: 120px;
     min-height: 120px;
-    padding: 0 18px 0 76px;
+    padding: 0 31px 0 95px;
     border: 3px solid #bcd0f6;
     color: #373737;
     text-align: center;
     font: 600 48px/1.2 scdream, sans-serif;
 }
 
-.weapon-row.selected { border: 4px solid #316ad8; background: #dfedfc; }
-.weapon-row img { width: 50px; height: 50px; }
-.weapon-pager { position: absolute; left: 155px; top: 2324px; margin: 0; }
+.weapon-pager { position: absolute; left: 251px; top: 1845px; width: 1659px; margin: 0; }
 
 #business-main .weapon-detail {
     position: absolute;
-    left: 161px;
-    top: 283px;
+    left: 157px;
+    top: 446px;
     width: 1847px;
-    height: 1047px;
+    height: 1217px;
     border: 2px solid #91b7ff;
     border-radius: 20px;
     background: #fcfdfe;
 }
 
-#business-main .weapon-detail h1 { left: 109px; top: 67px; right: 350px; font: 600 75px/1.25 scdream, sans-serif; }
-#business-main .weapon-branch { right: 73px; top: 104px; width: 226px; height: 75px; gap: 24px; padding: 0 18px; background: #d5e1f8; font: 600 34px/1 scdream, sans-serif; }
+#business-main .weapon-detail h1 { left: 109px; top: 101px; right: 350px; font: 600 85px/1.18 scdream, sans-serif; }
+#business-main .weapon-branch { right: 74px; top: 178px; width: 226px; height: 75px; gap: 24px; padding: 0 18px; background: #d5e1f8; font: 600 34px/1 scdream, sans-serif; }
 #business-main .weapon-branch img { width: 78px; height: 62px; }
-#business-main .weapon-body { left: 81px; top: 210px; gap: 44px; height: 758px; }
-#business-main .weapon-photo { width: 672px; height: 758px; border-radius: 8px; }
-#business-main .weapon-watermark { width: 390px; }
-#business-main .weapon-specs { width: 975px; height: 758px; border: 2px solid #a6bbdf; border-radius: 8px; overflow: auto; }
+#business-main .weapon-body { left: 81px; top: 297px; gap: 44px; height: 765px; }
+#business-main .weapon-photo { width: 672px; height: 765px; border-radius: 8px; }
+#business-main .weapon-photo .weapon-watermark { width: 390px; }
+#business-main .weapon-specs { width: 975px; height: 765px; border: 2px solid #a6bbdf; border-radius: 8px; overflow: auto; }
 #business-main .weapon-table { width: 100%; height: 100%; border: 0; border-radius: 0; font: 500 30px/1.35 scdream, sans-serif; }
 #business-main .weapon-table th { width: 267px; padding: 0 28px; background: #f2f5fc; }
 #business-main .weapon-table td { padding: 12px 48px; font-weight: 500; }
-#business-main .weapon-table tr:nth-child(-n+3) { height: 71px; }
-#business-main .weapon-table tr:nth-child(4) { height: 320px; }
-#business-main .weapon-table tr:nth-child(5) { height: 225px; }
+#business-main .weapon-table :is(th, td) { border-color: #a6bbdf; }
+#business-main .weapon-table tr:nth-child(-n+3) { height: 80px; }
+#business-main .weapon-table tr:nth-child(2) { height: 75px; }
+#business-main .weapon-table tr:nth-child(4) { height: 308px; }
+#business-main .weapon-table tr:nth-child(5) { height: 222px; }
 #business-main .weapon-table tr:nth-child(n+4) td { line-height: 1.55; }
-#weapon-enlarge { left: 770px; top: 1370px; }

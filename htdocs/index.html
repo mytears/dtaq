@@ -15,12 +15,12 @@
     <script src="include/js/lib/hangul.js"></script>
     <script src="include/js/lib/swiper-bundle.min.js"></script>
     <script src="include/js/comm.js"></script>
-    <script src="include/js/index.js?v=department-tree"></script>
-    <script src="include/js/business.js?v=initial-search"></script>
-    <script src="include/js/kiosk.js?v=instant-navigation"></script>
+    <script src="include/js/index.js?v=initial-consonants"></script>
+    <script src="include/js/business.js?v=xd-search"></script>
+    <script src="include/js/kiosk.js?v=xd-search"></script>
     <link rel="stylesheet" href="include/css/kiosk.css?v=kiosk-media">
     <link rel="stylesheet" href="include/css/business.css?v=employee-layout">
-    <link rel="stylesheet" href="include/css/portrait.css?v=employee-layout">
+    <link rel="stylesheet" href="include/css/portrait.css?v=xd-search">
     <script src="include/js/led-bridge.js?v=instant-navigation"></script>
 </head>
 <body>
@@ -128,8 +128,8 @@
                 <!-- Left Main Section (Search Guide + Keyboard) -->
                 <div class="main-section">
                     <div class="search-guide-box">
-                        <h2 class="search-guide-title" id="search-guide-title"><span>성명, 사번, 부서명</span>으로 검색하세요.</h2>
-                        <p class="search-guide-sub" id="search-guide-sub">부서를 선택하시면 <span>부서별 검색</span>을 하실 수 있습니다.</p>
+                        <p class="search-guide-title"><span>성명, 사번, 부서명</span>으로 검색하세요.</p>
+                        <p class="search-guide-sub">부서를 선택하시면 <span>부서별 검색</span>을 하실 수 있습니다.</p>
                     </div>
 
                     <!-- Floating Dark Virtual Keyboard -->
@@ -285,7 +285,7 @@
                     <div class="main-list-card">
                         <div class="list-top-bar">
                             <div class="list-dept-name" id="list-dept-heading">국방기술품질원</div>
-                            <div class="list-result-count">검색결과 (<span id="result-count">15</span>명)</div>
+                            <div class="list-result-count">검색결과 <span>(<span id="result-count">0</span>명)</span></div>
                         </div>
 
                         <!-- Table Header -->
@@ -297,23 +297,25 @@
                             <div class="col-arrow"></div>
                         </div>
 
-                        <!-- Swiper List Container (7 fixed slots) -->
+                        <!-- Swiper List Container -->
                         <div class="swiper-container-wrap">
                             <div class="swiper emp-swiper" id="emp-swiper">
                                 <div class="swiper-wrapper" id="emp-swiper-wrapper">
-                                    <!-- Dynamic Swiper Slides with 7 slots each -->
+                                    <!-- Dynamic Swiper Slides -->
                                 </div>
                             </div>
                         </div>
 
                         <!-- Swiper Pagination Controls -->
                         <div class="list-pagination-bar">
-                            <button class="pg-btn" id="btn-prev-page">
-                                <img src="images/ico_page_l.svg" alt="이전" class="pg-icon">
+                            <button type="button" class="pg-btn" id="btn-prev-page">
+                                <img src="images/ico_page_l.svg" alt="" class="pg-icon">
+                                이전
                             </button>
                             <div class="pg-indicator" id="page-indicator">1/2</div>
-                            <button class="pg-btn" id="btn-next-page">
-                                <img src="images/ico_page_r.svg" alt="다음" class="pg-icon">
+                            <button type="button" class="pg-btn" id="btn-next-page">
+                                다음
+                                <img src="images/ico_page_r.svg" alt="" class="pg-icon">
                             </button>
                         </div>
                     </div>
@@ -402,12 +404,13 @@
                                         <th>근무지</th>
                                         <td id="detail-dept">정책기획실</td>
                                     </tr>
-                                    <tr class="row-pos">
-                                        <th>직급(직책)</th>
-                                        <td>
-                                            <div id="detail-pos">선임연구원</div>
-                                            <div id="detail-job-desc" class="sub-job-desc">품질정책 및 품질기획 수립</div>
-                                        </td>
+                                    <tr>
+                                        <th>직급</th>
+                                        <td id="detail-pos">선임연구원</td>
+                                    </tr>
+                                    <tr>
+                                        <th>담당업무</th>
+                                        <td id="detail-job-desc">품질정책 및 품질기획 수립</td>
                                     </tr>
                                     <tr>
                                         <th>이메일</th>
@@ -471,17 +474,6 @@
                         </div>
                     </div>
 
-                    <!-- Organization Tree Card -->
-                    <div class="org-tree-card">
-                        <div class="org-tree-title">조직도</div>
-                        <div class="org-tree-content">
-                            <!-- Root Node -->
-                            <div class="tree-root-item active" data-dept="ALL">
-                                <img src="images/ico_org_1.svg" class="tree-root-icon" alt="">
-                                <span class="tree-root-text">국방기술품질원</span>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -521,7 +513,7 @@
                             <td id="led-dept">정책기획실</td>
                         </tr>
                         <tr>
-                            <th>직급(직책)</th>
+                            <th>직급</th>
                             <td>
                                 <div id="led-pos">선임연구원</div>
                                 <div id="led-job-desc" class="led-sub-desc">품질정책 및 품질기획 수립</div>

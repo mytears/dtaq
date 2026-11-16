@@ -97,10 +97,10 @@ function syncSearchQuery(query) {
 }
 
 // ============================================================
-// Swiper & Employee List Rendering (7 Fixed Slots per page)
+// Swiper & Employee List Rendering
 // ============================================================
 function renderEmployeeList(dataList) {
-    var itemsPerPage = 7;
+    var itemsPerPage = 5;
     var totalItems = dataList.length;
     var totalPages = Math.ceil(totalItems / itemsPerPage) || 1;
     var sameResults = g_resultsMode === g_searchMode && g_employeeResults.length === totalItems &&
@@ -161,19 +161,9 @@ function updateEmployeeSwiper(updateLayout = true) {
 }
 
 function updatePageIndicator(current, total) {
-    $('#page-indicator').text(current + '/' + total);
-
-    if (current <= 1) {
-        $('#btn-prev-page').addClass('disabled');
-    } else {
-        $('#btn-prev-page').removeClass('disabled');
-    }
-
-    if (current >= total) {
-        $('#btn-next-page').addClass('disabled');
-    } else {
-        $('#btn-next-page').removeClass('disabled');
-    }
+    $('#page-indicator').empty().append($('<span class="page-current">').text(current), '/' + total);
+    $('#btn-prev-page').prop('disabled', current <= 1);
+    $('#btn-next-page').prop('disabled', current >= total);
 }
 
 // ============================================================
@@ -195,9 +185,6 @@ function selectEmployee(empId) {
     $('#detail-email').text(emp.email || 'honggildong@dtaq.re.kr');
     $('#detail-phone').text(emp.phone || '055-111-1234');
     $('#detail-photo, #led-photo').attr('src', emp.photo || 'images/img_photo.png');
-    if (deptName) {
-        highlightDept(getDeptCode(emp), deptName).parents('.tree-folder-node').addClass('expanded');
-    }
 
     // Populate Timeline List
     var $timeline = $('#detail-timeline');
@@ -254,8 +241,8 @@ function selectEmployee(empId) {
     });
 
     showPage('page-detail');
-    $('#page-detail .sync-search-input').val(emp.name);
-    $('#page-detail .btn-search-clear').addClass('visible');
+    $('#page-detail .sync-search-input').val('');
+    $('#page-detail .btn-search-clear').removeClass('visible');
 }
 
 function showLedScreen(empId) {
@@ -320,9 +307,17 @@ function updateKeyboardLayout() {
     });
 }
 
+function syncSearchFromJamo() {
+    // Split standalone consonant clusters while keeping codas inside syllables.
+    var query = Hangul.assemble(g_jamoList).replace(/[ㄳㄵㄶㄺㄻㄼㄽㄾㄿㅀㅄ]/g, function (cluster) {
+        return Hangul.disassemble(cluster).join('');
+    });
+    syncSearchQuery(query);
+}
+
 function initVirtualKeyboard() {
     ['page-list', 'page-detail'].forEach(function (pageId) {
-        $('#page-search .virtual-keyboard-modal').clone().appendTo('#' + pageId);
+        $('#page-search').find('.virtual-keyboard-modal, .search-guide-box').clone().appendTo('#' + pageId);
     });
     // Virtual key click handler
     $(document).on('click', '.vk-key', function (e) {
@@ -344,16 +339,14 @@ function initVirtualKeyboard() {
 
         if (action === 'delete') {
             g_jamoList.pop();
-            var composed = Hangul.assemble(g_jamoList);
-            syncSearchQuery(composed);
+            syncSearchFromJamo();
         } else if (action === 'search') {
             executeSearch();
         } else if (action === 'clear') {
             clearSearchInput();
         } else if (typeof key !== 'undefined') {
             g_jamoList.push(key);
-            var assembledStr = Hangul.assemble(g_jamoList);
-            syncSearchQuery(assembledStr);
+            syncSearchFromJamo();
         }
     });
 
@@ -396,19 +389,21 @@ function initVirtualKeyboard() {
 function setSearchMode(mode) {
     g_searchMode = mode;
     g_activeDeptFilter = 'ALL';
+    $('#list-dept-heading').text('국방기술품질원');
     $('.dept-dropdown-selected').text('전체부서');
     $('.dept-dropdown-container').removeClass('open');
     $('.dept-dropdown-item, .tree-root-item, .tree-folder-header, .tree-leaf-item').removeClass('active');
     $('.dept-dropdown-item[data-dept="ALL"], .tree-root-item[data-dept="ALL"]').addClass('active');
     $('.org-tree-content').scrollTop(0);
+    $('.tree-folder-node').addClass('expanded');
     $('.vk-key').removeClass('active');
     g_jamoList = [];
     syncSearchQuery('');
 
     if (mode === 'project') {
         $('#page-search .header-title, #page-list .header-title, #page-detail .header-title').text('주요사업검색');
-        $('#search-guide-title').html('<span>사업명, 부서별</span>로 검색하세요');
-        $('#search-guide-sub').html('부서를 선택하시면 <span>부서별 검색</span>을 하실 수 있습니다.');
+        $('.search-guide-title').html('<span>사업명, 부서별</span>로 검색하세요');
+        $('.search-guide-sub').html('부서를 선택하시면 <span>부서별 검색</span>을 하실 수 있습니다.');
         $('#page-search .sync-search-input, #page-list .sync-search-input, #page-detail .sync-search-input').attr('placeholder', '사업명으로 검색');
 
         $('#th-col-1').text('사업명');
@@ -419,8 +414,8 @@ function setSearchMode(mode) {
         renderEmployeeList(g_projectData);
     } else if (mode === 'ai') {
         $('#page-search .header-title, #page-list .header-title, #page-detail .header-title').text('AI 검색');
-        $('#search-guide-title').html('<span>AI 질의 및 키워드</span>로 검색하세요');
-        $('#search-guide-sub').html('원하시는 키워드를 입력하시면 <span>AI 분석 결과</span>를 찾아드립니다.');
+        $('.search-guide-title').html('<span>AI 질의 및 키워드</span>로 검색하세요');
+        $('.search-guide-sub').html('원하시는 키워드를 입력하시면 <span>AI 분석 결과</span>를 찾아드립니다.');
         $('#page-search .sync-search-input, #page-list .sync-search-input, #page-detail .sync-search-input').attr('placeholder', 'AI 질의어 입력');
 
         $('#th-col-1').text('사업명');
@@ -431,8 +426,8 @@ function setSearchMode(mode) {
         renderEmployeeList(g_projectData);
     } else { // 'employee'
         $('#page-search .header-title, #page-list .header-title, #page-detail .header-title').text('직원 정보 검색');
-        $('#search-guide-title').html('<span>성명, 사번, 부서명</span>으로 검색하세요.');
-        $('#search-guide-sub').html('부서를 선택하시면 <span>부서별 검색</span>을 하실 수 있습니다.');
+        $('.search-guide-title').html('<span>성명, 사번, 부서명</span>으로 검색하세요.');
+        $('.search-guide-sub').html('부서를 선택하시면 <span>부서별 검색</span>을 하실 수 있습니다.');
         $('#page-search .sync-search-input, #page-list .sync-search-input, #page-detail .sync-search-input').attr('placeholder', '성명, 사번, 부서명으로 검색하세요');
 
         $('#th-col-1').text('성명');
@@ -520,8 +515,8 @@ function cancelDetailSearch() {
     g_jamoList = Hangul.disassemble(g_detailPreviousQuery);
     syncSearchQuery(g_detailPreviousQuery);
     g_detailPreviousQuery = null;
-    $('#page-detail .sync-search-input').val($('#detail-name').text());
-    $('#page-detail .btn-search-clear').addClass('visible');
+    $('#page-detail .sync-search-input').val('');
+    $('#page-detail .btn-search-clear').removeClass('visible');
 }
 
 function clearSearchInput() {
