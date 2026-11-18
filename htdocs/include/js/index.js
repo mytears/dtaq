@@ -130,7 +130,6 @@ function renderEmployeeList(dataList) {
 
         document.getElementById('emp-swiper-wrapper').replaceChildren(slides);
         $('#result-count').text(totalItems);
-        if (g_searchMode === 'employee') updateOrganizationCounts(dataList);
         g_employeeResults = dataList.slice();
         g_resultsMode = g_searchMode;
     }
@@ -437,7 +436,7 @@ function setSearchMode(mode) {
         $('#th-col-3').text('부서명');
         $('#th-col-4').text('직책');
 
-        renderEmployeeList(g_employeeData);
+        renderSearchResults('');
     }
 }
 
@@ -530,26 +529,14 @@ function clearSearchInput() {
     }
     g_jamoList = [];
     syncSearchQuery('');
-    var sourceData = (g_searchMode === 'project' || g_searchMode === 'ai') ? g_projectData : g_employeeData;
-    
-    // Filter by department if active
-    if (g_activeDeptFilter !== 'ALL') {
-        sourceData = sourceData.filter(function(item) {
-            return isDeptMatch(item, g_activeDeptFilter);
-        });
-    }
-    renderEmployeeList(sourceData);
+    renderSearchResults('');
 }
 
-function executeSearch() {
-    if (g_currentScreen === 'page-business') { searchWeapons(); return; }
-    var query = $('#global-search-input').val().trim();
+function renderSearchResults(query) {
     var initials = getInitialQuery(query);
     var sourceData = (g_searchMode === 'project' || g_searchMode === 'ai') ? g_projectData : g_employeeData;
 
-    var filtered = sourceData.filter(function(item) {
-        if (!isDeptMatch(item, g_activeDeptFilter)) return false;
-        if (!query) return true;
+    var matches = query ? sourceData.filter(function (item) {
         if (initials) return matchesInitials(item.name, initials);
 
         return isKoreanMatch(item.name, query) ||
@@ -557,9 +544,21 @@ function executeSearch() {
             isKoreanMatch(getCurrentDeptName(item), query) ||
             isKoreanMatch(item.pos, query) ||
             isKoreanMatch(item.email, query);
-    });
+    }) : sourceData;
 
-    renderEmployeeList(filtered);
+    if (g_searchMode === 'employee') updateOrganizationCounts(matches);
+
+    if (g_activeDeptFilter !== 'ALL') {
+        matches = matches.filter(function (item) {
+            return isDeptMatch(item, g_activeDeptFilter);
+        });
+    }
+    renderEmployeeList(matches);
+}
+
+function executeSearch() {
+    if (g_currentScreen === 'page-business') { searchWeapons(); return; }
+    renderSearchResults($('#global-search-input').val().trim());
     g_detailPreviousQuery = null;
     showPage('page-list');
 }

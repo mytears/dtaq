@@ -22,7 +22,7 @@ function findKioskWelcome(content, now) {
     var dayFormat = /^\d{8}$/;
     var timeFormat = /^((?:[01]\d|2[0-3])[0-5]\d)(?:[0-5]\d)?$/;
 
-    var ending = null;
+    var starting = null;
     for (var item of content.welcome_list) {
         if (!item || !dayFormat.test(item.sday) || !dayFormat.test(item.eday) ||
             today < item.sday || item.eday < today) continue;
@@ -31,14 +31,11 @@ function findKioskWelcome(content, now) {
         var end = timeFormat.exec(item.etime)?.[1];
         if (!start || !end || time < start || end < time) continue;
 
-        if (start === time) return item;
-        if (!ending) {
-            if (end !== time) return item;
-            // A reservation starting this minute takes priority over this one.
-            ending = item;
-        }
+        // Keep an earlier reservation through its entire end minute.
+        if (start < time && (end === time || !starting)) return item;
+        if (!starting) starting = item;
     }
-    return ending;
+    return starting;
 }
 
 function refreshKioskWelcome() {

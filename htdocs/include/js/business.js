@@ -78,7 +78,7 @@ function weaponCard(w) {
     [['개발형태',w.development],['제조업체',w.manufacturer],['사업기간 / 양산',w.period],['주요성능',w.performance],['기타',w.description]].forEach(function(row) {
         var tr = $('<tr>').append($('<th scope="row">').text(row[0])).appendTo(table);
         var td = $('<td>').appendTo(tr);
-        (Array.isArray(row[1]) ? row[1] : [row[1] || '자료 준비중']).forEach(function(v){ $('<div>').text(v).appendTo(td); });
+        (Array.isArray(row[1]) ? row[1] : [row[1] ?? '']).forEach(function(v){ $('<div>').text(v).appendTo(td); });
     });
     return card;
 }
