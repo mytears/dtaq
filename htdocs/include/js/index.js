@@ -56,6 +56,7 @@ function setinit() {
         if (!data) return;
         if (Array.isArray(data.employees_list)) g_employeeData = data.employees_list;
         if (Array.isArray(data.dept)) renderOrganization(data.dept);
+        updateOrganizationCounts(g_employeeData);
     });
 }
 
@@ -129,6 +130,7 @@ function renderEmployeeList(dataList) {
 
         document.getElementById('emp-swiper-wrapper').replaceChildren(slides);
         $('#result-count').text(totalItems);
+        if (g_searchMode === 'employee') updateOrganizationCounts(dataList);
         g_employeeResults = dataList.slice();
         g_resultsMode = g_searchMode;
     }
@@ -184,7 +186,7 @@ function selectEmployee(empId) {
     $('#detail-job-desc').text(emp.jobDesc || (emp.duties && emp.duties[0]) || '');
     $('#detail-email').text(emp.email || 'honggildong@dtaq.re.kr');
     $('#detail-phone').text(emp.phone || '055-111-1234');
-    $('#detail-photo, #led-photo').attr('src', emp.photo || 'images/img_photo.png');
+    $('#detail-photo, #led-photo').attr('src', resolveKioskMediaPath(emp.photo) || 'images/img_photo.png');
 
     // Populate Timeline List
     var $timeline = $('#detail-timeline');
@@ -620,6 +622,22 @@ function renderOrganization(departments) {
     $nodes.children().appendTo($trees);
 }
 
+function updateOrganizationCounts(employees) {
+    var countsByCode = Object.create(null);
+    employees.forEach(function (employee) {
+        var code = getDeptCode(employee);
+        countsByCode[code] = (countsByCode[code] || 0) + 1;
+    });
+
+    $('.org-tree-content .tree-count').each(function () {
+        var code = this.closest('[data-dept]').getAttribute('data-dept');
+        var count = code === 'ALL' ? employees.length : g_deptMatches[code].reduce(function (total, deptCode) {
+            return total + (countsByCode[deptCode] || 0);
+        }, 0);
+        this.textContent = ' (' + count + ')';
+    });
+}
+
 function renderDepartment(department, $options) {
     var name = typeof department === 'string' ? department : department.name;
     var code = department.deptCode || name;
@@ -631,7 +649,7 @@ function renderDepartment(department, $options) {
     $('<div class="dept-dropdown-item">').attr('data-dept', code).text(name)
         .toggleClass('active', active).appendTo($options);
 
-    var $label = $('<span class="tree-text">').text(name);
+    var $label = $('<span class="tree-text">').text(name).append('<span class="tree-count"></span>');
     var matches = [code];
     if (!children.length) {
         g_deptMatches[code] = matches;
@@ -695,7 +713,7 @@ function initOrgTree() {
         e.stopPropagation();
         var collapse = $(e.target).is('.tree-toggle-arrow') && $(this).parent().hasClass('expanded');
         var deptCode = $(this).attr('data-dept');
-        var deptText = $(this).find('.tree-text').text();
+        var deptText = g_deptNamesByCode[deptCode];
         syncDeptFilter(deptCode, deptText, !collapse);
     });
 
@@ -703,7 +721,7 @@ function initOrgTree() {
     $(document).on('click', '.tree-leaf-item', function(e) {
         e.stopPropagation();
         var deptCode = $(this).attr('data-dept');
-        var deptText = $(this).find('.tree-text').text();
+        var deptText = g_deptNamesByCode[deptCode];
         syncDeptFilter(deptCode, deptText);
     });
 }

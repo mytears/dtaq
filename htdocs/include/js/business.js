@@ -66,8 +66,12 @@ function weaponCard(w) {
     card.append($('<div class="weapon-branch">').append($('<img alt="">').attr('src', 'images/ico_army_' + branch[1] + '.svg')).append(document.createTextNode(branch[0])));
     var body = $('<div class="weapon-body">').appendTo(card);
     var photo = $('<div class="weapon-photo" role="img" aria-label="이미지 준비중">').append($('<img class="weapon-watermark" src="images/img_logo.png" alt="">')).appendTo(body);
-    if (w.image && /^(images\/)[^:]+$/.test(w.image)) {
-        $('<img class="weapon-image">').attr({src:w.image, alt:w.name}).on('load', function(){ photo.addClass('has-image').attr('aria-label', w.name); }).on('error', function(){ $(this).remove(); photo.removeClass('has-image'); }).appendTo(photo);
+    var image = resolveKioskMediaPath(w.image);
+    if (image) {
+        $('<img class="weapon-image">').attr('alt', w.name)
+            .on('load', function () { photo.addClass('has-image').attr('aria-label', w.name); })
+            .on('error', function () { $(this).remove(); photo.removeClass('has-image'); })
+            .attr('src', image).appendTo(photo);
     }
     var specs = $('<div class="weapon-specs">').appendTo(body);
     var table = $('<table class="weapon-table">').appendTo(specs);

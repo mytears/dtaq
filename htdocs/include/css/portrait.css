@@ -41,12 +41,16 @@ body {
     display: block;
 }
 
+/* Shared home and search background */
+.main_cont :is(#page-landing, #page-search, #page-list, #page-detail, #page-business) {
+    background: var(--portrait-surface) url('../../images/portrait/home.webp') center / 2278px var(--stage-height) no-repeat;
+    background-blend-mode: multiply;
+}
+
 /* Home */
 .main_cont #page-landing {
     width: var(--stage-width);
     height: var(--stage-height);
-    background: url('../../images/portrait/home.webp') center / 2278px 3840px no-repeat #edf2fb;
-    background-blend-mode: multiply;
 }
 
 .landing-header,
@@ -267,15 +271,6 @@ body {
 .welcome-schedule-text { margin-top: 16px; }
 
 /* Shared search controls and keyboard */
-.main_cont :is(#page-search, #page-list, #page-detail, #page-business) {
-    background: var(--portrait-surface) url('../../images/portrait/search-results.webp') center / 100% 100% no-repeat;
-}
-
-.main_cont #page-search {
-    background: linear-gradient(#eff5fd4d, #eff5fd4d),
-        #eff5fd url('../../images/portrait/search-start.webp') center / 100% 100% no-repeat;
-}
-
 .app-header .header-brand,
 #page-business .header-brand { left: 40px; top: 44px; }
 

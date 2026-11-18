@@ -10,6 +10,10 @@
 | `employees_list` | 배열 | 직원 검색과 상세 화면 |
 | `weapons_list` | 배열 | 무기체계 검색과 상세 화면 |
 
+## 파일 경로
+
+대기 화면, 환영 화면, 직원 사진, 무기체계 사진은 JSON에 지정된 경로로 불러옵니다. 키오스크 `index.html` 기준 상대 경로(`uploads/대기 화면.png`), 사이트 루트 기준 경로(`/media/k9.png`), 전체 URL을 사용할 수 있습니다. 파일 주소는 키오스크 브라우저에서 접근 가능해야 합니다.
+
 ## `welcome` · 방문객 환영 화면
 
 예약 한 건을 `welcome.welcome_list` 배열에 객체 하나로 넣습니다. 키오스크는 현지 날짜와 시각을 1초마다 확인해 대기 화면에 환영 화면을 자동으로 표시합니다. 날짜는 `sday`와 `eday`를 모두 포함하며, 해당 기간에는 매일 같은 시간대가 적용됩니다.
@@ -21,9 +25,9 @@
 | 키 | 형태 | 의미 |
 | --- | --- | --- |
 | `type` | 문자열 | 전경 미디어 종류. `IMG`는 이미지, `MOV`는 동영상 |
-| `file_path` | 문자열 | 배경 위에 표시할 미디어 경로. 예시 `commonfiles/welcome.mp4`. 빈 문자열이면 배경만 표시합니다. |
+| `file_path` | 문자열 | 배경 위에 표시할 미디어 경로. 예시 `uploads/welcome.mp4`. 빈 문자열이면 배경만 표시합니다. |
 | `bg_type` | 문자열 | 배경 미디어 종류. `IMG`는 이미지, `MOV`는 동영상 |
-| `bg_path` | 문자열 | 화면을 채울 배경 경로. 예시 `commonfiles/bg_welcome-1.png`, `commonfiles/welcome-bg.mp4`. 기존 예약의 `background`도 사용할 수 있습니다. |
+| `bg_path` | 문자열 | 화면을 채울 배경 경로. 예시 `images/portrait/welcome-1.webp`, `uploads/welcome-bg.mp4`. 기존 예약의 `background`도 사용할 수 있습니다. |
 | `visitor` | 문자열 | 전경 미디어가 없을 때 웰컴 화면에 표시할 방문단 이름 |
 | `schedule` | 문자열 | 방문단 이름과 함께 오른쪽 아래에 표시할 일정 문구 |
 | `sday` | 문자열 | 시작 날짜(`YYYYMMDD`) |
@@ -39,12 +43,12 @@ XD 세로형 웰컴 배경은 `images/portrait/welcome-1.webp`와 `images/portra
 | 키 | 형태 | 의미 |
 | --- | --- | --- |
 | `type` | 문자열 | `IMG`는 이미지, `MOV`는 동영상 |
-| `file_path` | 문자열 | 배경 미디어 경로. 예시 `commonfiles/bg_screen.png`, `commonfiles/standby.mp4`. 기존 `background`도 사용할 수 있습니다. |
+| `file_path` | 문자열 | 배경 미디어 경로. 예시 `images/portrait/standby.webp`, `uploads/standby.mp4`. 기존 `background`도 사용할 수 있습니다. |
 | `title` | 문자열 | 시작 버튼의 큰 문구 |
 | `subtitle` | 문자열 | 시작 버튼의 작은 문구 |
 | `idelTime` | 양수 | 마지막 조작 후 대기 화면으로 돌아갈 때까지의 시간(초). 기본값은 `180`입니다. |
 
-대기 화면과 환영 화면의 미디어 경로는 키오스크 `index.html` 기준으로 `commonfiles/` 또는 `images/`에서 시작합니다. `type`이나 `bg_type`을 생략하면 해당 미디어를 이미지로 표시합니다. `MOV`는 해당 화면이 보이는 동안 음소거 상태로 자동 재생되고 무한 반복됩니다. 대기 화면의 시작 버튼은 2초 주기로 깜빡입니다.
+`type`이나 `bg_type`을 생략하면 해당 미디어를 이미지로 표시합니다. `MOV`는 해당 화면이 보이는 동안 음소거 상태로 자동 재생되고 무한 반복됩니다. 대기 화면의 시작 버튼은 2초 주기로 깜빡입니다.
 
 ## `dept` · 조직도와 부서 선택
 
@@ -67,7 +71,7 @@ XD 세로형 웰컴 배경은 `images/portrait/welcome-1.webp`와 `images/portra
 | `pos` | 문자열 | 현재 직책 또는 직급 |
 | `email` | 문자열 | 업무 이메일 |
 | `phone` | 문자열 | 업무 전화번호 |
-| `photo` | 문자열 | 프로필 사진 경로. 예시 `images/employee.png` |
+| `photo` | 문자열 | 프로필 사진 경로. 예시 `uploads/staff/employee.png` |
 | `duties` | 문자열 배열 | 담당 업무 목록. 첫 항목을 직원 상세 화면과 LED 화면에 표시합니다. |
 | `history` | 객체 배열 | 상세 화면에 입력 순서대로 표시할 근무이력 |
 
@@ -84,7 +88,7 @@ XD 세로형 웰컴 배경은 `images/portrait/welcome-1.webp`와 `images/portra
 | `id` | 문자열 | 무기체계마다 고유한 ID |
 | `name` | 문자열 | 무기체계 이름 |
 | `branch` | 문자열 | `army`(육군), `navy`(해군), `air`(공군) 중 하나. 그 외 값은 기타로 표시합니다. |
-| `image` | 문자열 | 무기 사진 경로. `images/`로 시작하며 사진이 없으면 빈 문자열을 사용합니다. |
+| `image` | 문자열 | 무기 사진 경로. 예시 `uploads/weapons/k9.png`. 사진이 없으면 빈 문자열을 사용합니다. |
 | `development` | 문자열 | 개발형태 |
 | `manufacturer` | 문자열 | 제조업체 |
 | `period` | 문자열 | 사업기간 또는 양산 시기 |
@@ -103,7 +107,7 @@ XD 세로형 웰컴 배경은 `images/portrait/welcome-1.webp`와 `images/portra
         "type": "IMG",
         "file_path": "",
         "bg_type": "IMG",
-        "bg_path": "commonfiles/bg_welcome-1.png",
+        "bg_path": "images/portrait/welcome-1.webp",
         "sday": "20261110",
         "eday": "20261110",
         "stime": "0900",
@@ -113,7 +117,7 @@ XD 세로형 웰컴 배경은 `images/portrait/welcome-1.webp`와 `images/portra
   },
   "standby": {
     "type": "IMG",
-    "file_path": "commonfiles/bg_screen.png",
+    "file_path": "images/portrait/standby.webp",
     "title": "화면을 터치해주세요",
     "subtitle": "TOUCH TO START",
     "idelTime": 180
@@ -140,7 +144,7 @@ XD 세로형 웰컴 배경은 `images/portrait/welcome-1.webp`와 `images/portra
       "pos": "연구원",
       "email": "employee@example.com",
       "phone": "000-0000-0000",
-      "photo": "images/employee.png",
+      "photo": "uploads/staff/employee.png",
       "duties": ["항공기 품질 점검"],
       "history": [
         { "date": "2023.01 ~ 2024.12", "dept": "품질기획실", "pos": "연구원" }

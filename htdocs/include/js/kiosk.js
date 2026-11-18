@@ -49,11 +49,21 @@ function refreshKioskWelcome() {
     applyKioskWelcome(content);
 }
 
+function resolveKioskMediaPath(path) {
+    if (typeof path !== 'string' || !path.trim()) return '';
+
+    try {
+        return new URL(path, document.baseURI).href;
+    } catch {
+        return '';
+    }
+}
+
 function applyKioskMedia($layer, type, path) {
-    var media = typeof path === 'string' && /^(commonfiles|images)\/[\w./-]+$/.test(path) ? path : '';
+    var media = resolveKioskMediaPath(path);
     var image = !type || type === 'IMG' ? media : '';
     var source = type === 'MOV' ? media : '';
-    $layer.css('background-image', image ? 'url("' + image + '")' : '');
+    $layer.css('background-image', image ? 'url(' + JSON.stringify(image) + ')' : '');
 
     var video = $layer.children('.kiosk-video')[0];
     video.hidden = !source;
