@@ -56,6 +56,16 @@ function resolveKioskMediaPath(path) {
     }
 }
 
+function resolveKioskPhotoPath(path) {
+    var photoUrl = resolveKioskMediaPath(path);
+    var imagesDir = resolveKioskMediaPath('images/');
+    var fileUrl = photoUrl.split(/[?#]/, 1)[0];
+    var sampleImages = ['img_photo.png', 'img_photo111.png', 'weapon-k9-sample.png'];
+    return sampleImages.some(function (file) {
+        return fileUrl === imagesDir + file;
+    }) ? '' : photoUrl;
+}
+
 function applyKioskMedia($layer, type, path) {
     var media = resolveKioskMediaPath(path);
     var image = !type || type === 'IMG' ? media : '';

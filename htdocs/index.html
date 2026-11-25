@@ -8,18 +8,18 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="include/css/common.css">
-    <link rel="stylesheet" href="include/css/index.css?v=employee-layout">
+    <link rel="stylesheet" href="include/css/index.css?v=employee-photo-placeholder">
 
     <!-- JavaScript Libraries -->
     <script src="include/js/lib/jquery.min.js"></script>
     <script src="include/js/lib/hangul.js"></script>
     <script src="include/js/lib/swiper-bundle.min.js"></script>
     <script src="include/js/comm.js"></script>
-    <script src="include/js/index.js?v=organization-keyword-counts"></script>
-    <script src="include/js/business.js?v=weapon-image-field"></script>
-    <script src="include/js/kiosk.js?v=content-paths"></script>
+    <script src="include/js/index.js?v=kiosk-photo-sources"></script>
+    <script src="include/js/business.js?v=kiosk-photo-sources"></script>
+    <script src="include/js/kiosk.js?v=kiosk-photo-sources"></script>
     <link rel="stylesheet" href="include/css/kiosk.css?v=kiosk-media">
-    <link rel="stylesheet" href="include/css/business.css?v=employee-layout">
+    <link rel="stylesheet" href="include/css/business.css?v=weapon-image-contain">
     <link rel="stylesheet" href="include/css/portrait.css?v=shared-background">
     <script src="include/js/led-bridge.js?v=instant-navigation"></script>
 </head>
@@ -388,8 +388,8 @@
                         <!-- Top Profile Info Card -->
                         <div class="detail-card profile-card">
                             <div class="profile-info-grid">
-                                <div class="profile-avatar-wrap">
-                                    <img id="detail-photo" src="images/img_photo.png" alt="프로필 사진">
+                                <div class="profile-avatar-wrap employee-photo">
+                                    <img id="detail-photo" alt="프로필 사진" hidden>
                                 </div>
                                 <table class="profile-table">
                                     <tr>
@@ -496,8 +496,8 @@
             <div class="led-right-section">
                 <!-- Top Card: Profile Info -->
                 <div class="led-card led-profile-card">
-                    <div class="led-avatar-wrap">
-                        <img id="led-photo" src="images/img_photo.png" alt="사진">
+                    <div class="led-avatar-wrap employee-photo">
+                        <img id="led-photo" alt="사진" hidden>
                     </div>
                     <table class="led-profile-table">
                         <tr>

@@ -1207,6 +1207,24 @@ body {
     display: block;
 }
 
+.employee-photo > img[hidden] {
+    display: none;
+}
+
+.employee-photo:has(> img[hidden]) {
+    position: relative;
+    background-color: #f5f7fa;
+}
+
+.employee-photo:has(> img[hidden])::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url("../../images/img_logo.png") center / 60% auto no-repeat;
+    opacity: .18;
+    filter: blur(1px);
+}
+
 .profile-table {
     width: 640px;
     border-collapse: collapse;

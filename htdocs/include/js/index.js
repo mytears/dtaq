@@ -185,7 +185,23 @@ function selectEmployee(empId) {
     $('#detail-job-desc').text(emp.jobDesc || (emp.duties && emp.duties[0]) || '');
     $('#detail-email').text(emp.email || 'honggildong@dtaq.re.kr');
     $('#detail-phone').text(emp.phone || '055-111-1234');
-    $('#detail-photo, #led-photo').attr('src', resolveKioskMediaPath(emp.photo) || 'images/img_photo.png');
+    var photoUrl = resolveKioskPhotoPath(emp.photo);
+    $('#detail-photo, #led-photo').each(function () {
+        if (photoUrl && this.src === photoUrl && this.currentSrc === photoUrl && this.complete && this.naturalWidth > 0) return;
+
+        this.hidden = true;
+        if (!photoUrl) {
+            this.removeAttribute('src');
+            return;
+        }
+
+        this.onload = function () {
+            if (this.currentSrc === this.src && this.complete && this.naturalWidth > 0) {
+                this.hidden = false;
+            }
+        };
+        this.src = photoUrl;
+    });
 
     // Populate Timeline List
     var $timeline = $('#detail-timeline');

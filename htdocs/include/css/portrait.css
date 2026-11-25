@@ -672,8 +672,7 @@ body {
 }
 
 #business-main .weapon-detail h1 { left: 109px; top: 101px; right: 350px; font: 600 85px/1.18 scdream, sans-serif; }
-#business-main .weapon-branch { right: 74px; top: 178px; width: 226px; height: 75px; gap: 24px; padding: 0 18px; background: #d5e1f8; font: 600 34px/1 scdream, sans-serif; }
-#business-main .weapon-branch img { width: 78px; height: 62px; }
+#business-main .weapon-branch { right: 74px; top: 178px; min-width: 226px; height: 75px; padding: 0 18px; background: #d5e1f8; font: 600 34px/1 scdream, sans-serif; }
 #business-main .weapon-body { left: 81px; top: 297px; gap: 44px; height: 765px; }
 #business-main .weapon-photo { width: 672px; height: 765px; border-radius: 8px; }
 #business-main .weapon-photo .weapon-watermark { width: 390px; }

@@ -87,7 +87,7 @@ XD 세로형 웰컴 배경은 `images/portrait/welcome-1.webp`와 `images/portra
 | --- | --- | --- |
 | `id` | 문자열 | 무기체계마다 고유한 ID |
 | `name` | 문자열 | 무기체계 이름 |
-| `branch` | 문자열 | `army`(육군), `navy`(해군), `air`(공군) 중 하나. 그 외 값은 기타로 표시합니다. |
+| `branch` | 문자열 | 장비 상세 화면에 그대로 표시할 군 구분 문자열입니다. |
 | `image` | 문자열 | 무기 사진 경로. 예시 `uploads/weapons/k9.png`. 사진이 없으면 빈 문자열을 사용합니다. |
 | `development` | 문자열 | 개발형태 |
 | `manufacturer` | 문자열 | 제조업체 |

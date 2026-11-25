@@ -1,7 +1,7 @@
 /* Business introduction: list and detail content comes from kiosk_contents.json. */
 var businessState = { items: [], filtered: null, page: 0, selected: null, loaded: false, query: '' };
 var weaponsPerPage = 9;
-function openBusiness(reload) {
+function openBusiness() {
     g_searchMode = 'project';
     syncSearchQuery(''); g_jamoList = [];
     businessState.page = 0;
@@ -14,7 +14,7 @@ function openBusiness(reload) {
     showPage('page-business');
     if (businessState.loaded) { searchWeapons(); return; }
     $('#weapon-list').text('무기체계 정보를 불러오는 중입니다.');
-    loadKioskContents(reload === true).done(function(data) {
+    loadKioskContents().done(function(data) {
         var weapons = data && data.weapons_list;
         if (!Array.isArray(weapons) || !weapons.every(function(w) {
             return w && typeof w.id === 'string' && typeof w.name === 'string' && Array.isArray(w.performance);
@@ -26,8 +26,8 @@ function openBusiness(reload) {
 }
 function businessLoadError() {
     if (g_currentScreen !== 'page-business') return;
-    $('#weapon-list').empty().append($('<p>').text('무기체계 정보를 불러오지 못했습니다.'))
-        .append($('<button type="button">').text('다시 불러오기').on('click', function () { openBusiness(true); }));
+    businessState.filtered = [];
+    renderWeaponList();
 }
 function searchWeapons() {
     if (!businessState.loaded) return;
@@ -53,20 +53,19 @@ function renderWeaponList() {
         $('<button type="button" class="weapon-row">').append($('<span>').text(w.name)).data('weapon', w)
             .append($('<img src="images/icon_listarrow.svg" alt="">')).appendTo(rows);
     });
-    if (!s.filtered.length) rows.append('검색 결과가 없습니다.');
+    if (s.loaded && !s.filtered.length) rows.append('검색 결과가 없습니다.');
     document.getElementById('weapon-list').replaceChildren(rows);
     $('#weapon-pagination').empty().append($('<span class="page-current">').text(s.page + 1), '/' + pages);
     $('#weapon-prev').prop('disabled', s.page === 0);
     $('#weapon-next').prop('disabled', s.page + 1 >= pages);
 }
 function weaponCard(w) {
-    var branch = {army: ['육군', 1], navy: ['해군', 3], air: ['공군', 2]}[w.branch] || ['기타', 1];
     var card = $('<article class="weapon-detail">');
     card.append($('<h1>').text(w.name));
-    card.append($('<div class="weapon-branch">').append($('<img alt="">').attr('src', 'images/ico_army_' + branch[1] + '.svg')).append(document.createTextNode(branch[0])));
+    card.append($('<div class="weapon-branch">').text(w.branch ?? ''));
     var body = $('<div class="weapon-body">').appendTo(card);
     var photo = $('<div class="weapon-photo" role="img" aria-label="이미지 준비중">').append($('<img class="weapon-watermark" src="images/img_logo.png" alt="">')).appendTo(body);
-    var image = resolveKioskMediaPath(w.image);
+    var image = resolveKioskPhotoPath(w.image);
     if (image) {
         $('<img class="weapon-image">').attr('alt', w.name)
             .on('load', function () { photo.addClass('has-image').attr('aria-label', w.name); })
