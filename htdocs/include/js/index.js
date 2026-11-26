@@ -11,6 +11,7 @@ var g_resetResultPage = false;
 var g_currentScreen = 'page-standby';
 var g_jamoList = [];
 var g_detailPreviousQuery = null;
+var g_detailPreviousDept = null;
 var g_selectedEmpId = "261010"; // Default sample: 김진호
 var g_activeDeptFilter = 'ALL';
 var g_deptMatches = Object.create(null);
@@ -77,6 +78,7 @@ function showPage(pageId) {
     if (g_currentScreen === 'page-detail' && pageId === 'page-list') cancelDetailSearch();
     document.getElementById(g_currentScreen).classList.remove('active');
     g_detailPreviousQuery = null;
+    g_detailPreviousDept = null;
     g_currentScreen = pageId;
     document.getElementById(pageId).classList.add('active');
     syncSearchQuery($('#global-search-input').val());
@@ -170,6 +172,15 @@ function updatePageIndicator(current, total) {
 // ============================================================
 // Employee Detail View & LED Fullscreen
 // ============================================================
+function createTimelineItem(item) {
+    return $('<div class="timeline-item">').append(
+        '<img src="images/ico_career_dot.svg" class="timeline-dot" alt="">',
+        $('<div class="timeline-date">').text(item.date ?? ''),
+        $('<div class="timeline-dept">').text(item.dept ?? ''),
+        $('<div class="timeline-pos">').text(item.pos ?? '')
+    );
+}
+
 function selectEmployee(empId) {
     var emp = g_employeeData.find(function(item) { return item.id === empId; });
     if (!emp) return;
@@ -183,8 +194,10 @@ function selectEmployee(empId) {
     $('#detail-dept').text(deptName);
     $('#detail-pos').text(emp.pos);
     $('#detail-job-desc').text(emp.jobDesc || (emp.duties && emp.duties[0]) || '');
-    $('#detail-email').text(emp.email || 'honggildong@dtaq.re.kr');
-    $('#detail-phone').text(emp.phone || '055-111-1234');
+    var email = String(emp.email ?? '').trim();
+    $('#detail-email').text(email);
+    var phone = String(emp.phone ?? '').trim();
+    $('#detail-phone').text(phone);
     var photoUrl = resolveKioskPhotoPath(emp.photo);
     $('#detail-photo, #led-photo').each(function () {
         if (photoUrl && this.src === photoUrl && this.currentSrc === photoUrl && this.complete && this.naturalWidth > 0) return;
@@ -207,11 +220,7 @@ function selectEmployee(empId) {
     var $timeline = $('#detail-timeline');
     $timeline.empty();
     
-    var historyItems = (emp.history && emp.history.length > 0) ? emp.history : [
-        { date: "2021.01 ~ 현재", dept: "품질기획센터", pos: "선임연구원" },
-        { date: "2018.07 ~ 2020.12", dept: "시험평가센터", pos: "연구원" },
-        { date: "2016.01 ~ 2018.06", dept: "기술지원센터", pos: "연구원" }
-    ];
+    var historyItems = Array.isArray(emp.history) ? emp.history : [];
 
     if (historyItems.length <= 1) {
         $timeline.addClass('no-line');
@@ -220,14 +229,7 @@ function selectEmployee(empId) {
     }
 
     historyItems.forEach(function(item) {
-        $timeline.append(
-            '<div class="timeline-item">' +
-                '<img src="images/ico_career_dot.svg" class="timeline-dot" alt="">' +
-                '<div class="timeline-date">' + item.date + '</div>' +
-                '<div class="timeline-dept">' + item.dept + '</div>' +
-                '<div class="timeline-pos">' + item.pos + '</div>' +
-            '</div>'
-        );
+        $timeline.append(createTimelineItem(item));
     });
 
     // Sync LED Modal Data
@@ -236,8 +238,8 @@ function selectEmployee(empId) {
     $('#led-dept').text(deptName);
     $('#led-pos').text(emp.pos);
     $('#led-job-desc').text(emp.jobDesc || (emp.duties && emp.duties[0]) || '');
-    $('#led-email').text(emp.email || 'honggildong@dtaq.re.kr');
-    $('#led-phone').text(emp.phone || '055-111-1234');
+    $('#led-email').text(email);
+    $('#led-phone').text(phone);
     
     var $ledTimeline = $('#led-timeline');
     $ledTimeline.empty();
@@ -247,14 +249,7 @@ function selectEmployee(empId) {
         $ledTimeline.removeClass('no-line');
     }
     historyItems.forEach(function(item) {
-        $ledTimeline.append(
-            '<div class="timeline-item">' +
-                '<img src="images/ico_career_dot.svg" class="timeline-dot" alt="">' +
-                '<div class="timeline-date">' + item.date + '</div>' +
-                '<div class="timeline-dept">' + item.dept + '</div>' +
-                '<div class="timeline-pos">' + item.pos + '</div>' +
-            '</div>'
-        );
+        $ledTimeline.append(createTimelineItem(item));
     });
 
     showPage('page-detail');
@@ -355,8 +350,13 @@ function initVirtualKeyboard() {
         if (g_currentScreen === 'page-detail') beginDetailSearch();
 
         if (action === 'delete') {
+            var hadQuery = g_jamoList.length > 0;
             g_jamoList.pop();
             syncSearchFromJamo();
+            if (hadQuery && g_jamoList.length === 0 && g_currentScreen !== 'page-business') {
+                resetDeptFilter();
+                if (g_currentScreen === 'page-list') renderSearchResults('');
+            }
         } else if (action === 'search') {
             executeSearch();
         } else if (action === 'clear') {
@@ -377,6 +377,7 @@ function initVirtualKeyboard() {
 
     // Physical keyboard input listener & synchronization
     $(document).on('input', '.sync-search-input', function () {
+        var hadQuery = $('#global-search-input').val().length > 0;
         var val = $(this).val();
         $('#global-search-input').val(val);
         $('.sync-search-input').not(this).val(val);
@@ -387,6 +388,10 @@ function initVirtualKeyboard() {
         }
         if (typeof Hangul !== 'undefined' && Hangul.disassemble) {
             g_jamoList = Hangul.disassemble(val);
+        }
+        if (hadQuery && val.length === 0 && g_currentScreen !== 'page-business') {
+            resetDeptFilter();
+            if (g_currentScreen === 'page-list') renderSearchResults('');
         }
     });
 
@@ -520,9 +525,26 @@ function isDeptMatch(item, targetCode) {
     return code === targetCode || (g_deptMatches[targetCode] || []).includes(code);
 }
 
+function applyDeptFilterUI(deptCode) {
+    var isAll = !deptCode || deptCode === 'ALL';
+    var code = isAll ? 'ALL' : deptCode;
+    var deptText = isAll ? '국방기술품질원' : (g_deptNamesByCode[code] || code);
+    g_activeDeptFilter = code;
+    $('#list-dept-heading').text(deptText);
+    $('.dept-dropdown-container').removeClass('open');
+    $('.dept-dropdown-btn img').attr('src', 'images/ico_chevron_down.svg');
+    var $selected = highlightDept(code, deptText);
+    revealDepartment($selected.filter('#page-list .active')[0]);
+}
+
+function resetDeptFilter() {
+    applyDeptFilterUI('ALL');
+}
+
 function beginDetailSearch() {
     if (g_detailPreviousQuery !== null) return;
     g_detailPreviousQuery = $('#global-search-input').val();
+    g_detailPreviousDept = g_activeDeptFilter;
     g_jamoList = [];
     syncSearchQuery('');
 }
@@ -531,7 +553,9 @@ function cancelDetailSearch() {
     if (g_detailPreviousQuery === null) return;
     g_jamoList = Hangul.disassemble(g_detailPreviousQuery);
     syncSearchQuery(g_detailPreviousQuery);
+    if (g_detailPreviousDept !== null) applyDeptFilterUI(g_detailPreviousDept);
     g_detailPreviousQuery = null;
+    g_detailPreviousDept = null;
     $('#page-detail .sync-search-input').val('');
     $('#page-detail .btn-search-clear').removeClass('visible');
 }
@@ -539,13 +563,22 @@ function cancelDetailSearch() {
 function clearSearchInput() {
     if (g_currentScreen === 'page-detail') {
         beginDetailSearch();
+        resetDeptFilter();
         g_jamoList = [];
         syncSearchQuery('');
         return;
     }
+    resetDeptFilter();
     g_jamoList = [];
     syncSearchQuery('');
     renderSearchResults('');
+}
+
+function isDutyMatch(item, query) {
+    if (isKoreanMatch(item.jobDesc, query)) return true;
+    return Array.isArray(item.duties) && item.duties.some(function (duty) {
+        return isKoreanMatch(duty, query);
+    });
 }
 
 function renderSearchResults(query) {
@@ -559,7 +592,8 @@ function renderSearchResults(query) {
             isKoreanMatch(item.id, query) ||
             isKoreanMatch(getCurrentDeptName(item), query) ||
             isKoreanMatch(item.pos, query) ||
-            isKoreanMatch(item.email, query);
+            isKoreanMatch(item.email, query) ||
+            isDutyMatch(item, query);
     }) : sourceData;
 
     if (g_searchMode === 'employee') updateOrganizationCounts(matches);
@@ -576,6 +610,7 @@ function executeSearch() {
     if (g_currentScreen === 'page-business') { searchWeapons(); return; }
     renderSearchResults($('#global-search-input').val().trim());
     g_detailPreviousQuery = null;
+    g_detailPreviousDept = null;
     showPage('page-list');
 }
 
@@ -692,6 +727,7 @@ function highlightDept(deptCode, deptText) {
 }
 
 function syncDeptFilter(deptCode, deptText, expandFolder = true) {
+    if (g_currentScreen === 'page-detail') beginDetailSearch();
     g_activeDeptFilter = deptCode;
     $('#list-dept-heading').text(deptCode === 'ALL' ? '국방기술품질원' : deptText);
     var $selected = highlightDept(deptCode, deptText);
